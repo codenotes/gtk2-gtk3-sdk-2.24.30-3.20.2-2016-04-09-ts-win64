@@ -1,0 +1,19 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+includedir=${prefix}/include
+
+docdir=${datarootdir}/doc/gtksourceviewmm-2.0
+doxytagfile=${docdir}/reference/gtksourceviewmm-2.0.tag
+htmlrefdir=${docdir}/reference/html
+htmlrefpub=http://library.gnome.org/devel/gtksourceviewmm/unstable/
+
+Name: gtksourceviewmm
+Description: C++ binding for gtksourceview
+Version: 2.10.3
+URL: http://projects.gnome.org/gtksourceviewmm/
+Requires: gtkmm-2.4 >= 2.12 gtksourceview-2.0 >= 2.9.7
+Libs: -L${libdir} -lgtksourceviewmm-2.0
+Cflags: -I${includedir}/gtksourceviewmm-2.0 -I${libdir}/gtksourceviewmm-2.0/include

@@ -1,0 +1,40 @@
+# GTK+ Input Method Modules file
+# Automatically generated file, do not edit
+# Created by C:\msys\1.0\local\bin\gtk-query-immodules-2.0.exe from gtk+-2.24.30
+#
+# ModulesPath = C:\msys\1.0\home\schoon\.gtk-2.0\2.10.0\x86_64-w64-mingw32\immodules;C:\msys\1.0\home\schoon\.gtk-2.0\2.10.0\immodules;C:\msys\1.0\home\schoon\.gtk-2.0\x86_64-w64-mingw32\immodules;C:\msys\1.0\home\schoon\.gtk-2.0\immodules;C:\msys\1.0\local\lib\gtk-2.0\2.10.0\x86_64-w64-mingw32\immodules;C:\msys\1.0\local\lib\gtk-2.0\2.10.0\immodules;C:\msys\1.0\local\lib\gtk-2.0\x86_64-w64-mingw32\immodules;C:\msys\1.0\local\lib\gtk-2.0\immodules
+#
+"C:/msys/1.0/local/lib/gtk-2.0/2.10.0/immodules/im-am-et.dll" 
+"am_et" "Amharic (EZ+)" "gtk20" "/usr/local/share/locale" "am" 
+
+"C:/msys/1.0/local/lib/gtk-2.0/2.10.0/immodules/im-cedilla.dll" 
+"cedilla" "Cedilla" "gtk20" "/usr/local/share/locale" "az:ca:co:fr:gv:oc:pt:sq:tr:wa" 
+
+"C:/msys/1.0/local/lib/gtk-2.0/2.10.0/immodules/im-cyrillic-translit.dll" 
+"cyrillic_translit" "Cyrillic (Transliterated)" "gtk20" "/usr/local/share/locale" "" 
+
+"C:/msys/1.0/local/lib/gtk-2.0/2.10.0/immodules/im-ime.dll" 
+"ime" "Windows IME" "gtk+" "" "ja:ko:zh" 
+
+"C:/msys/1.0/local/lib/gtk-2.0/2.10.0/immodules/im-inuktitut.dll" 
+"inuktitut" "Inuktitut (Transliterated)" "gtk20" "/usr/local/share/locale" "iu" 
+
+"C:/msys/1.0/local/lib/gtk-2.0/2.10.0/immodules/im-ipa.dll" 
+"ipa" "IPA" "gtk20" "/usr/local/share/locale" "" 
+
+"C:/msys/1.0/local/lib/gtk-2.0/2.10.0/immodules/im-multipress.dll" 
+"multipress" "Multipress" "gtk20" "" "" 
+
+"C:/msys/1.0/local/lib/gtk-2.0/2.10.0/immodules/im-thai.dll" 
+"thai" "Thai-Lao" "gtk20" "/usr/local/share/locale" "lo:th" 
+
+"C:/msys/1.0/local/lib/gtk-2.0/2.10.0/immodules/im-ti-er.dll" 
+"ti_er" "Tigrigna-Eritrean (EZ+)" "gtk20" "/usr/local/share/locale" "ti" 
+
+"C:/msys/1.0/local/lib/gtk-2.0/2.10.0/immodules/im-ti-et.dll" 
+"ti_et" "Tigrigna-Ethiopian (EZ+)" "gtk20" "/usr/local/share/locale" "ti" 
+
+"C:/msys/1.0/local/lib/gtk-2.0/2.10.0/immodules/im-viqr.dll" 
+"viqr" "Vietnamese (VIQR)" "gtk20" "/usr/local/share/locale" "vi" 
+
+

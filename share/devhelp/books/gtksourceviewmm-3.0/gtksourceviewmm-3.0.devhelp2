@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns="http://www.devhelp.net/book" title="gtksourceviewmm Reference Manual" name="gtksourceviewmm-3.0" base="/usr/local/share/doc/gtksourceviewmm-3.0/reference/html" link="index.html" version="2" language="c++">
+  <chapters>
+    <sub name="Modules" link="modules.html">
+      <sub name="Adaptors" link="group__adaptors.html"/>
+      <sub name="Adaptors for pointers to functions" link="a01676.html"/>
+      <sub name="Adaptors for pointers to members" link="a01677.html"/>
+      <sub name="Algorithms" link="a01657.html"/>
+      <sub name="Allocators" link="a01667.html"/>
+      <sub name="Arithmetic Classes" link="a01672.html"/>
+      <sub name="Associative" link="a01638.html"/>
+      <sub name="atkmm Enums and Flags" link="group__atkmmEnums.html"/>
+      <sub name="Atomics" link="a01663.html"/>
+      <sub name="Base64 routines" link="group__Base64.html"/>
+      <sub name="Base and Implementation Classes" link="a01665.html"/>
+      <sub name="Base and Implementation Classes" link="a01669.html"/>
+      <sub name="Base and Policy Classes" link="a01688.html"/>
+      <sub name="Base and Policy Classes" link="a01690.html"/>
+      <sub name="Base and Policy Classes" link="a01694.html"/>
+      <sub name="Bernoulli Distributions" link="a01704.html"/>
+      <sub name="Binary Search" link="a01662.html"/>
+      <sub name="bind(), bind_return()" link="group__bind.html"/>
+      <sub name="Binder Classes" link="a01682.html"/>
+      <sub name="Boolean Operations Classes" link="a01674.html"/>
+      <sub name="Branch-Based" link="a01689.html"/>
+      <sub name="Character Set Conversion" link="group__CharsetConv.html"/>
+      <sub name="Comparison Classes" link="a01673.html"/>
+      <sub name="Complex Numbers" link="a01644.html"/>
+      <sub name="compose()" link="group__compose.html"/>
+      <sub name="Concurrency" link="a01641.html"/>
+      <sub name="Condition Variables" link="a01645.html"/>
+      <sub name="Containers" link="a01636.html"/>
+      <sub name="Containers" link="a01686.html"/>
+      <sub name="Container Widgets" link="group__Containers.html"/>
+      <sub name="Data Structure Type" link="a01698.html"/>
+      <sub name="D-Bus API" link="group__DBus.html"/>
+      <sub name="Decimal Floating-Point Arithmetic" link="a01685.html"/>
+      <sub name="Diagnostics" link="a01640.html"/>
+      <sub name="Dialogs" link="group__Dialogs.html"/>
+      <sub name="Event Controllers and Gestures" link="group__Gestures.html"/>
+      <sub name="exception_catch()" link="group__exception__catch.html"/>
+      <sub name="Exceptions" link="a01642.html"/>
+      <sub name="Exceptions" link="a01692.html"/>
+      <sub name="Extensions" link="a01634.html"/>
+      <sub name="File Utilities" link="group__FileUtils.html"/>
+      <sub name="Function Objects" link="a01671.html"/>
+      <sub name="Functors" link="group__sigcfunctors.html"/>
+      <sub name="Futures" link="a01646.html"/>
+      <sub name="gdkmm Enums and Flags" link="group__gdkmmEnums.html"/>
+      <sub name="Generic container converters" link="group__ContHandles.html"/>
+      <sub name="Generic Values" link="group__glibmmValue.html"/>
+      <sub name="giomm Enums and Flags" link="group__giommEnums.html"/>
+      <sub name="glibmm Enums and Flags" link="group__glibmmEnums.html"/>
+      <sub name="Glob-style Pattern Matching" link="group__PatternMatching.html"/>
+      <sub name="gtkmm Enums and Flags" link="group__gtkmmEnums.html"/>
+      <sub name="gtksourceviewmm Enums and Flags" link="group__gtksourceviewmmEnums.html"/>
+      <sub name="Hash-Based" link="a01687.html"/>
+      <sub name="Hashes" link="a01664.html"/>
+      <sub name="Heap" link="a01678.html"/>
+      <sub name="Heap-Based" link="a01693.html"/>
+      <sub name="Helper classes" link="group__ContHelpers.html"/>
+      <sub name="hide(), hide_return()" link="group__hide.html"/>
+      <sub name="Invalidation Guarantees" link="a01697.html"/>
+      <sub name="I/O" link="a01647.html"/>
+      <sub name="I/O operators for bitsets." link="a01684.html"/>
+      <sub name="Iterators" link="a01679.html"/>
+      <sub name="Iterator Tags" link="a01680.html"/>
+      <sub name="List-Based" link="a01691.html"/>
+      <sub name="Locales" link="a01666.html"/>
+      <sub name="Mathematical Special Functions" link="a01683.html"/>
+      <sub name="mem_fun()" link="group__mem__fun.html"/>
+      <sub name="Memory" link="a01648.html"/>
+      <sub name="Menu classes" link="group__Menus.html"/>
+      <sub name="Metaprogramming" link="a01654.html"/>
+      <sub name="Miscellaneous Utility Functions" link="group__MiscUtils.html"/>
+      <sub name="Mutating" link="a01658.html"/>
+      <sub name="Mutexes" link="a01650.html"/>
+      <sub name="Negators" link="a01675.html"/>
+      <sub name="Non-Mutating" link="a01659.html"/>
+      <sub name="Normal Distributions" link="a01703.html"/>
+      <sub name="Numeric Arrays" link="a01656.html"/>
+      <sub name="Numerics" link="a01651.html"/>
+      <sub name="pangomm Enums and Flags" link="group__pangommEnums.html"/>
+      <sub name="Platform-specific content typing" link="group__giommContentType.html"/>
+      <sub name="Pointer Abstractions" link="a01649.html"/>
+      <sub name="Poisson Distributions" link="a01705.html"/>
+      <sub name="Policy-Based Data Structures" link="a01695.html"/>
+      <sub name="Portable Network I/O Functionality" link="group__NetworkIO.html"/>
+      <sub name="Printing" link="group__Printing.html"/>
+      <sub name="ptr_fun()" link="group__ptr__fun.html"/>
+      <sub name="Random Number Distributions" link="a01701.html"/>
+      <sub name="Random Number Generation" link="a01668.html"/>
+      <sub name="Random Number Generators" link="a01700.html"/>
+      <sub name="Random Numbers" link="group__Random.html"/>
+      <sub name="Random Number Utilities" link="a01706.html"/>
+      <sub name="Rational Arithmetic" link="a01652.html"/>
+      <sub name="RecentFiles" link="group__RecentFiles.html"/>
+      <sub name="Regular Expressions" link="a01670.html"/>
+      <sub name="retype(), retype_return()" link="group__retype.html"/>
+      <sub name="Sequences" link="a01637.html"/>
+      <sub name="Set Operation" link="a01661.html"/>
+      <sub name="SGI" link="a01635.html"/>
+      <sub name="Shell-related Utilities" link="group__ShellUtils.html"/>
+      <sub name="Signals" link="group__signal.html"/>
+      <sub name="Simple XML Subset Parser" link="group__Markup.html"/>
+      <sub name="Slots" link="group__slot.html"/>
+      <sub name="Sorting" link="a01660.html"/>
+      <sub name="Spawning Processes" link="group__Spawn.html"/>
+      <sub name="Stream Classes" link="group__Streams.html"/>
+      <sub name="Strings" link="a01681.html"/>
+      <sub name="String Utility Functions" link="group__StringUtils.html"/>
+      <sub name="Tags" link="a01696.html"/>
+      <sub name="TextView Classes" link="group__TextView.html"/>
+      <sub name="The Main Event Loop" link="group__MainLoop.html"/>
+      <sub name="Thread Pools" link="group__ThreadPools.html"/>
+      <sub name="Threads" link="a01653.html"/>
+      <sub name="Threads" link="group__Threads.html"/>
+      <sub name="Time" link="a01643.html"/>
+      <sub name="track_obj()" link="group__track__obj.html"/>
+      <sub name="Traits" link="a01699.html"/>
+      <sub name="TreeView Classes" link="group__TreeView.html"/>
+      <sub name="Unicode Manipulation" link="group__Unicode.html"/>
+      <sub name="Uniform Distributions" link="a01702.html"/>
+      <sub name="Unordered Associative" link="a01639.html"/>
+      <sub name="URI Utilities" link="group__UriUtils.html"/>
+      <sub name="Utilities" link="a01655.html"/>
+      <sub name="Variant Data Types" link="group__Variant.html"/>
+      <sub name="Widgets" link="group__Widgets.html"/>
+    </sub>
+    <sub name="Namespaces" link="namespaces.html">
+      <sub name="abi" link="a01614.html"/>
+      <sub name="Atk" link="namespaceAtk.html"/>
+      <sub name="Cairo" link="namespaceCairo.html"/>
+      <sub name="__cxxabiv1" link="a00005.html"/>
+      <sub name="Gdk" link="namespaceGdk.html"/>
+      <sub name="Gdk::Cairo" link="namespaceGdk_1_1Cairo.html"/>
+      <sub name="Gio" link="namespaceGio.html"/>
+      <sub name="Gio::DBus" link="namespaceGio_1_1DBus.html"/>
+      <sub name="Gio::DBus::Address" link="namespaceGio_1_1DBus_1_1Address.html"/>
+      <sub name="Gio::DBus::ErrorUtils" link="namespaceGio_1_1DBus_1_1ErrorUtils.html"/>
+      <sub name="Glib" link="namespaceGlib.html"/>
+      <sub name="Glib::Ascii" link="namespaceGlib_1_1Ascii.html"/>
+      <sub name="Glib::Base64" link="namespaceGlib_1_1Base64.html"/>
+      <sub name="Glib::Container_Helpers" link="namespaceGlib_1_1Container__Helpers.html"/>
+      <sub name="Glib::Markup" link="namespaceGlib_1_1Markup.html"/>
+      <sub name="Glib::Threads" link="namespaceGlib_1_1Threads.html"/>
+      <sub name="Glib::Unicode" link="namespaceGlib_1_1Unicode.html"/>
+      <sub name="__gnu_cxx" link="a01601.html"/>
+      <sub name="__gnu_cxx::__detail" link="a01603.html"/>
+      <sub name="__gnu_cxx::typelist" link="a01605.html"/>
+      <sub name="__gnu_debug" link="a01607.html"/>
+      <sub name="__gnu_internal" link="a01608.html"/>
+      <sub name="__gnu_parallel" link="a01609.html"/>
+      <sub name="__gnu_pbds" link="a01610.html"/>
+      <sub name="__gnu_pbds::detail" link="a00213.html"/>
+      <sub name="__gnu_profile" link="a01612.html"/>
+      <sub name="__gnu_sequential" link="a01613.html"/>
+      <sub name="Gsv" link="namespaceGsv.html"/>
+      <sub name="Gtk" link="namespaceGtk.html"/>
+      <sub name="Gtk::AccelMap" link="namespaceGtk_1_1AccelMap.html"/>
+      <sub name="Gtk::Menu_Helpers" link="namespaceGtk_1_1Menu__Helpers.html"/>
+      <sub name="Gtk::Stock" link="namespaceGtk_1_1Stock.html"/>
+      <sub name="Pango" link="namespacePango.html"/>
+      <sub name="sigc" link="namespacesigc.html"/>
+      <sub name="sigc::internal" link="namespacesigc_1_1internal.html"/>
+      <sub name="std" link="a01616.html"/>
+      <sub name="std::chrono" link="a01623.html"/>
+      <sub name="std::chrono::_V2" link="a00650.html"/>
+      <sub name="std::__debug" link="a01617.html"/>
+      <sub name="std::decimal" link="a01625.html"/>
+      <sub name="std::__detail" link="a01618.html"/>
+      <sub name="std::__exception_ptr" link="a00529.html"/>
+      <sub name="std::__parallel" link="a01620.html"/>
+      <sub name="std::placeholders" link="a01626.html"/>
+      <sub name="std::__profile" link="a01621.html"/>
+      <sub name="std::regex_constants" link="a01627.html"/>
+      <sub name="std::rel_ops" link="a01628.html"/>
+      <sub name="std::this_thread" link="a01629.html"/>
+      <sub name="std::tr1" link="a01630.html"/>
+      <sub name="std::tr1::__detail" link="a01631.html"/>
+      <sub name="std::tr2" link="a01632.html"/>
+      <sub name="std::tr2::__detail" link="a01633.html"/>
+      <sub name="std::_V2" link="a00584.html"/>
+    </sub>
+    <sub name="Classes" link="classes.html">
+      <sub name="abi" link="a01614.html"/>
+      <sub name="Atk" link="namespaceAtk.html"/>
+      <sub name="Cairo" link="namespaceCairo.html"/>
+      <sub name="__cxxabiv1" link="a00005.html"/>
+      <sub name="Gdk" link="namespaceGdk.html"/>
+      <sub name="Gdk::Cairo" link="namespaceGdk_1_1Cairo.html"/>
+      <sub name="Gio" link="namespaceGio.html"/>
+      <sub name="Gio::DBus" link="namespaceGio_1_1DBus.html"/>
+      <sub name="Gio::DBus::Address" link="namespaceGio_1_1DBus_1_1Address.html"/>
+      <sub name="Gio::DBus::ErrorUtils" link="namespaceGio_1_1DBus_1_1ErrorUtils.html"/>
+      <sub name="Glib" link="namespaceGlib.html"/>
+      <sub name="Glib::Ascii" link="namespaceGlib_1_1Ascii.html"/>
+      <sub name="Glib::Base64" link="namespaceGlib_1_1Base64.html"/>
+      <sub name="Glib::Container_Helpers" link="namespaceGlib_1_1Container__Helpers.html"/>
+      <sub name="Glib::Markup" link="namespaceGlib_1_1Markup.html"/>
+      <sub name="Glib::Threads" link="namespaceGlib_1_1Threads.html"/>
+      <sub name="Glib::Unicode" link="namespaceGlib_1_1Unicode.html"/>
+      <sub name="__gnu_cxx" link="a01601.html"/>
+      <sub name="__gnu_cxx::__detail" link="a01603.html"/>
+      <sub name="__gnu_cxx::typelist" link="a01605.html"/>
+      <sub name="__gnu_debug" link="a01607.html"/>
+      <sub name="__gnu_internal" link="a01608.html"/>
+      <sub name="__gnu_parallel" link="a01609.html"/>
+      <sub name="__gnu_pbds" link="a01610.html"/>
+      <sub name="__gnu_pbds::detail" link="a00213.html"/>
+      <sub name="__gnu_profile" link="a01612.html"/>
+      <sub name="__gnu_sequential" link="a01613.html"/>
+      <sub name="Gsv" link="namespaceGsv.html">
+        <sub name="Buffer" link="classGsv_1_1Buffer.html"/>
+        <sub name="Completion" link="classGsv_1_1Completion.html"/>
+        <sub name="CompletionContext" link="classGsv_1_1CompletionContext.html"/>
+        <sub name="CompletionInfo" link="classGsv_1_1CompletionInfo.html"/>
+        <sub name="CompletionItem" link="classGsv_1_1CompletionItem.html"/>
+        <sub name="CompletionProposal" link="classGsv_1_1CompletionProposal.html"/>
+        <sub name="CompletionProvider" link="classGsv_1_1CompletionProvider.html"/>
+        <sub name="CompletionWords" link="classGsv_1_1CompletionWords.html"/>
+        <sub name="Gutter" link="classGsv_1_1Gutter.html"/>
+        <sub name="GutterRenderer" link="classGsv_1_1GutterRenderer.html"/>
+        <sub name="GutterRendererPixbuf" link="classGsv_1_1GutterRendererPixbuf.html"/>
+        <sub name="GutterRendererText" link="classGsv_1_1GutterRendererText.html"/>
+        <sub name="Language" link="classGsv_1_1Language.html"/>
+        <sub name="LanguageManager" link="classGsv_1_1LanguageManager.html"/>
+        <sub name="Mark" link="classGsv_1_1Mark.html"/>
+        <sub name="MarkAttributes" link="classGsv_1_1MarkAttributes.html"/>
+        <sub name="Markup" link="classGsv_1_1Markup.html"/>
+        <sub name="PrintCompositor" link="classGsv_1_1PrintCompositor.html"/>
+        <sub name="SourceCompletionError" link="classGsv_1_1SourceCompletionError.html"/>
+        <sub name="Style" link="classGsv_1_1Style.html"/>
+        <sub name="StyleScheme" link="classGsv_1_1StyleScheme.html"/>
+        <sub name="StyleSchemeManager" link="classGsv_1_1StyleSchemeManager.html"/>
+        <sub name="UndoManager" link="classGsv_1_1UndoManager.html"/>
+        <sub name="View" link="classGsv_1_1View.html"/>
+      </sub>
+      <sub name="Gtk" link="namespaceGtk.html"/>
+      <sub name="Gtk::AccelMap" link="namespaceGtk_1_1AccelMap.html"/>
+      <sub name="Gtk::Menu_Helpers" link="namespaceGtk_1_1Menu__Helpers.html"/>
+      <sub name="Gtk::Stock" link="namespaceGtk_1_1Stock.html"/>
+      <sub name="Pango" link="namespacePango.html"/>
+      <sub name="sigc" link="namespacesigc.html"/>
+      <sub name="sigc::internal" link="namespacesigc_1_1internal.html"/>
+      <sub name="std" link="a01616.html"/>
+      <sub name="std::chrono" link="a01623.html"/>
+      <sub name="std::chrono::_V2" link="a00650.html"/>
+      <sub name="std::__debug" link="a01617.html"/>
+      <sub name="std::decimal" link="a01625.html"/>
+      <sub name="std::__detail" link="a01618.html"/>
+      <sub name="std::__exception_ptr" link="a00529.html"/>
+      <sub name="std::__parallel" link="a01620.html"/>
+      <sub name="std::placeholders" link="a01626.html"/>
+      <sub name="std::__profile" link="a01621.html"/>
+      <sub name="std::regex_constants" link="a01627.html"/>
+      <sub name="std::rel_ops" link="a01628.html"/>
+      <sub name="std::this_thread" link="a01629.html"/>
+      <sub name="std::tr1" link="a01630.html"/>
+      <sub name="std::tr1::__detail" link="a01631.html"/>
+      <sub name="std::tr2" link="a01632.html"/>
+      <sub name="std::tr2::__detail" link="a01633.html"/>
+      <sub name="std::_V2" link="a00584.html"/>
+    </sub>
+  </chapters>
+  <functions>
+    <keyword type="struct" name="Gsv::Buffer" link="classGsv_1_1Buffer.html"/>
+    <keyword type="function" name="Gsv::Buffer::Buffer" link="classGsv_1_1Buffer.html#a39ecbda11d0cb6bee33806067da96417"/>
+    <keyword type="function" name="Gsv::Buffer::operator=" link="classGsv_1_1Buffer.html#a8ca84fc88ba6bcb60abe27c57f5c5b3f"/>
+    <keyword type="function" name="Gsv::Buffer::~Buffer" link="classGsv_1_1Buffer.html#a5f5bb83853fe65275338213413f72f25"/>
+    <keyword type="function" name="Gsv::Buffer::gobj" link="classGsv_1_1Buffer.html#a24938a39680b18f08bf6c6721fe353d5"/>
+    <keyword type="function" name="Gsv::Buffer::gobj" link="classGsv_1_1Buffer.html#a14bb577f1d9ea5f5619e4eb0a8a1b2d4"/>
+    <keyword type="function" name="Gsv::Buffer::gobj_copy" link="classGsv_1_1Buffer.html#ace8320a5bd7e3e3d3426a9e55b2ab2e6"/>
+    <keyword type="function" name="Gsv::Buffer::get_highlight_matching_brackets" link="classGsv_1_1Buffer.html#a4efdc60692f27af9518e3e5540be4c8a"/>
+    <keyword type="function" name="Gsv::Buffer::set_highlight_matching_brackets" link="classGsv_1_1Buffer.html#a5aca7aafeac540ed30f91b3c47a5d1a3"/>
+    <keyword type="function" name="Gsv::Buffer::get_highlight_syntax" link="classGsv_1_1Buffer.html#a06c3e3e579ced82c55296a74621e1f9f"/>
+    <keyword type="function" name="Gsv::Buffer::set_highlight_syntax" link="classGsv_1_1Buffer.html#a5dc35dabe91ef921b0d224a34be6c323"/>
+    <keyword type="function" name="Gsv::Buffer::get_max_undo_levels" link="classGsv_1_1Buffer.html#afaf2232bfbcc6a8959ecd04e4def2f05"/>
+    <keyword type="function" name="Gsv::Buffer::set_max_undo_levels" link="classGsv_1_1Buffer.html#a71c4bb2a0d48c725ca71034a4a7fe093"/>
+    <keyword type="function" name="Gsv::Buffer::get_language" link="classGsv_1_1Buffer.html#ae78a6996a1e5e998a2a1ccee20c2b90c"/>
+    <keyword type="function" name="Gsv::Buffer::get_language" link="classGsv_1_1Buffer.html#a9d34b85c9041da4b32d96a29e7203a72"/>
+    <keyword type="function" name="Gsv::Buffer::set_language" link="classGsv_1_1Buffer.html#a094b11544c3893c6c3aa8476b31f982c"/>
+    <keyword type="function" name="Gsv::Buffer::can_undo" link="classGsv_1_1Buffer.html#a903be8b0ab8764095412bcfbd5717195"/>
+    <keyword type="function" name="Gsv::Buffer::can_redo" link="classGsv_1_1Buffer.html#a202124d2a4c4d655f4eb664c21728263"/>
+    <keyword type="function" name="Gsv::Buffer::undo" link="classGsv_1_1Buffer.html#ab00652572f2c1555e72cbb9aedb28caf"/>
+    <keyword type="function" name="Gsv::Buffer::redo" link="classGsv_1_1Buffer.html#a9f89c2f17d628947b496e57333571c36"/>
+    <keyword type="function" name="Gsv::Buffer::begin_not_undoable_action" link="classGsv_1_1Buffer.html#a98a8b05c13f12b75105a69523b7665ee"/>
+    <keyword type="function" name="Gsv::Buffer::end_not_undoable_action" link="classGsv_1_1Buffer.html#a802da4b8cb51bb6a40a4defaab567526"/>
+    <keyword type="function" name="Gsv::Buffer::backward_iter_to_source_mark" link="classGsv_1_1Buffer.html#a1b42e54f73ea5c7b18346f851c0472dc"/>
+    <keyword type="function" name="Gsv::Buffer::backward_iter_to_source_mark" link="classGsv_1_1Buffer.html#a18aedabee278ab0e1e43f6bedfc33a17"/>
+    <keyword type="function" name="Gsv::Buffer::forward_iter_to_source_mark" link="classGsv_1_1Buffer.html#a667aea8104bb6bedb12f0fa4076fa38e"/>
+    <keyword type="function" name="Gsv::Buffer::forward_iter_to_source_mark" link="classGsv_1_1Buffer.html#ac5f694fe4f4d2bc6d308183132490f3b"/>
+    <keyword type="function" name="Gsv::Buffer::ensure_highlight" link="classGsv_1_1Buffer.html#a6f231823bae5d9653acb80183dd16864"/>
+    <keyword type="function" name="Gsv::Buffer::get_style_scheme" link="classGsv_1_1Buffer.html#ad50a0ab68b02735053e870d502f69232"/>
+    <keyword type="function" name="Gsv::Buffer::get_style_scheme" link="classGsv_1_1Buffer.html#a67760ca1f9bf07d18b4628f8a372ea3f"/>
+    <keyword type="function" name="Gsv::Buffer::set_style_scheme" link="classGsv_1_1Buffer.html#aadf64edd98a05e523c62b525bee8508f"/>
+    <keyword type="function" name="Gsv::Buffer::unset_style_scheme" link="classGsv_1_1Buffer.html#ad7206f5f78066d9821694937cdb71daf"/>
+    <keyword type="function" name="Gsv::Buffer::create_source_mark" link="classGsv_1_1Buffer.html#a4b53a20c20e3a1b48e2214c27c77fe01"/>
+    <keyword type="function" name="Gsv::Buffer::create_source_mark" link="classGsv_1_1Buffer.html#a7e9d18eeaa7dbf15a26ff78148d0a323"/>
+    <keyword type="function" name="Gsv::Buffer::get_source_marks_at_line" link="classGsv_1_1Buffer.html#a9f15695f071d4035c6e6066acc68444d"/>
+    <keyword type="function" name="Gsv::Buffer::get_source_marks_at_line" link="classGsv_1_1Buffer.html#a03388861307ae7563ffdf3cf052c4957"/>
+    <keyword type="function" name="Gsv::Buffer::get_source_marks_at_iter" link="classGsv_1_1Buffer.html#a54c3f01e507936f763bae73588397592"/>
+    <keyword type="function" name="Gsv::Buffer::get_source_marks_at_iter" link="classGsv_1_1Buffer.html#a196ff8a2f98914a204021a0567450da9"/>
+    <keyword type="function" name="Gsv::Buffer::remove_source_marks" link="classGsv_1_1Buffer.html#a7c02c673dd6cc341e10c9022b8915379"/>
+    <keyword type="function" name="Gsv::Buffer::remove_source_marks" link="classGsv_1_1Buffer.html#ad752a08d9ca22136ec3a6fb2ac042c9a"/>
+    <keyword type="function" name="Gsv::Buffer::iter_has_context_class" link="classGsv_1_1Buffer.html#a57a3c8a4e14091f7747f241295ca416a"/>
+    <keyword type="function" name="Gsv::Buffer::iter_backward_to_context_class_toggle" link="classGsv_1_1Buffer.html#a36170c1825ba89b315e93a46d031a8f1"/>
+    <keyword type="function" name="Gsv::Buffer::iter_forward_to_context_class_toggle" link="classGsv_1_1Buffer.html#ad31e337ba973b8ae84592f64fc7414ac"/>
+    <keyword type="function" name="Gsv::Buffer::get_context_classes_at_iter" link="classGsv_1_1Buffer.html#a4dcd97d6df6388179a3e5cdd101b8eaf"/>
+    <keyword type="function" name="Gsv::Buffer::get_undo_manager" link="classGsv_1_1Buffer.html#a259dcab1d6af088676d6423ee5df07ec"/>
+    <keyword type="function" name="Gsv::Buffer::get_undo_manager" link="classGsv_1_1Buffer.html#abd7eb2fbf0c2fb754f265b5741ed80e4"/>
+    <keyword type="function" name="Gsv::Buffer::set_undo_manager" link="classGsv_1_1Buffer.html#a269e9a8905cfda2b36cc7902fe915a5a"/>
+    <keyword type="function" name="Gsv::Buffer::set_default_undo_manager" link="classGsv_1_1Buffer.html#a4b0664e29b2bd0c3b7c3765609f01f9a"/>
+    <keyword type="function" name="Gsv::Buffer::property_highlight_syntax" link="classGsv_1_1Buffer.html#af80f2e414db60836e345e296bea35b35"/>
+    <keyword type="function" name="Gsv::Buffer::property_highlight_syntax" link="classGsv_1_1Buffer.html#aeac4c1ade8b2507ad298343dc5b623ee"/>
+    <keyword type="function" name="Gsv::Buffer::property_highlight_matching_brackets" link="classGsv_1_1Buffer.html#a3ba19dfc4c534355c17a69c97880521a"/>
+    <keyword type="function" name="Gsv::Buffer::property_highlight_matching_brackets" link="classGsv_1_1Buffer.html#a604c1ee86c62c03110643a8aca75117d"/>
+    <keyword type="function" name="Gsv::Buffer::property_max_undo_levels" link="classGsv_1_1Buffer.html#a18058bf1aed302fe75cfd738a102d16d"/>
+    <keyword type="function" name="Gsv::Buffer::property_max_undo_levels" link="classGsv_1_1Buffer.html#a9b054dc3da1973bdac11a1ee4b8c0f3e"/>
+    <keyword type="function" name="Gsv::Buffer::property_language" link="classGsv_1_1Buffer.html#af886d031d376a1b9bd258fc99f64daac"/>
+    <keyword type="function" name="Gsv::Buffer::property_language" link="classGsv_1_1Buffer.html#a17b6a9f35aa32a30e8fc40b729bd9149"/>
+    <keyword type="function" name="Gsv::Buffer::property_can_undo" link="classGsv_1_1Buffer.html#a92508bd7c4636e3c487d7d86fe8ff0e9"/>
+    <keyword type="function" name="Gsv::Buffer::property_can_redo" link="classGsv_1_1Buffer.html#afccb347b39e030107151a062a372a5ab"/>
+    <keyword type="function" name="Gsv::Buffer::property_style_scheme" link="classGsv_1_1Buffer.html#a5fe0dce45cb923381219702ad0caf202"/>
+    <keyword type="function" name="Gsv::Buffer::property_style_scheme" link="classGsv_1_1Buffer.html#adde5b35639089a4b280e5959d40c583d"/>
+    <keyword type="function" name="Gsv::Buffer::property_undo_manager" link="classGsv_1_1Buffer.html#a91d8de733770b23e8ca00de0dc8f6272"/>
+    <keyword type="function" name="Gsv::Buffer::property_undo_manager" link="classGsv_1_1Buffer.html#ac455f13be699fd7a61bfb659ea6c0ab8"/>
+    <keyword type="function" name="Gsv::Buffer::signal_highlight_updated" link="classGsv_1_1Buffer.html#a62e375fe7796704d1e4ff2b1da219346"/>
+    <keyword type="function" name="Gsv::Buffer::signal_source_mark_updated" link="classGsv_1_1Buffer.html#a43d9538ace6c42b2b331f3e990fcb6f4"/>
+    <keyword type="function" name="Gsv::Buffer::signal_undo" link="classGsv_1_1Buffer.html#ab2dd36fc9f22d313c7759d60454caf0a"/>
+    <keyword type="function" name="Gsv::Buffer::signal_redo" link="classGsv_1_1Buffer.html#a3c25a165cb122a2753682e2aca3642e9"/>
+    <keyword type="function" name="Gsv::Buffer::signal_bracket_matched" link="classGsv_1_1Buffer.html#ad56c29943b8879b499fc15d7c91fd724"/>
+    <keyword type="function" name="Gsv::Buffer::get_type" link="classGsv_1_1Buffer.html#ac349d8f8ecbea353bcabef8ecc6bcc61"/>
+    <keyword type="function" name="Gsv::Buffer::create" link="classGsv_1_1Buffer.html#a12f8871468e215e5b53761fa1e1654ae"/>
+    <keyword type="function" name="Gsv::Buffer::create" link="classGsv_1_1Buffer.html#a8dbe0d5aaea6b846f5a7f5b0aea114b5"/>
+    <keyword type="function" name="Gsv::Buffer::create" link="classGsv_1_1Buffer.html#aabdbd5216a416301e557655171373272"/>
+    <keyword type="function" name="Gsv::Buffer::Buffer" link="classGsv_1_1Buffer.html#a0388eef7b29b154e22052a4ba466ceaa"/>
+    <keyword type="function" name="Gsv::Buffer::Buffer" link="classGsv_1_1Buffer.html#a5b21c30023ce42e317c84300a831dd41"/>
+    <keyword type="function" name="Gsv::Buffer::Buffer" link="classGsv_1_1Buffer.html#ab81548c1e7a0c99160281f415e90256c"/>
+    <keyword type="function" name="Gsv::Buffer::on_undo" link="classGsv_1_1Buffer.html#a8b101785f6571dd432ab6825c2677c78"/>
+    <keyword type="function" name="Gsv::Buffer::on_redo" link="classGsv_1_1Buffer.html#a650d6aeafddeefe6a44ee86a2f2d799a"/>
+    <keyword type="function" name="Gsv::Buffer::on_bracket_matched" link="classGsv_1_1Buffer.html#a80fa52d8313d6b3487c99783b81674f1"/>
+    <keyword type="function" name="Gsv::Buffer::wrap" link="classGsv_1_1Buffer.html#a4f671057cca47edb3efabaa4b45238bb"/>
+    <keyword type="struct" name="Gsv::Completion" link="classGsv_1_1Completion.html"/>
+    <keyword type="function" name="Gsv::Completion::Completion" link="classGsv_1_1Completion.html#a7f6caab4dbcb764410c569e47cb97801"/>
+    <keyword type="function" name="Gsv::Completion::operator=" link="classGsv_1_1Completion.html#aa815ad84ba717b23b73aa0a34bcdee0d"/>
+    <keyword type="function" name="Gsv::Completion::~Completion" link="classGsv_1_1Completion.html#a6d140d93dc0626cc4e0080eafe11cb9f"/>
+    <keyword type="function" name="Gsv::Completion::gobj" link="classGsv_1_1Completion.html#acd680097f807ddbce58dc835a4d48670"/>
+    <keyword type="function" name="Gsv::Completion::gobj" link="classGsv_1_1Completion.html#afcd6aefdc5640d124ed75cd06d49181c"/>
+    <keyword type="function" name="Gsv::Completion::gobj_copy" link="classGsv_1_1Completion.html#acc9cb2b78ae380efd3b95a998613be9b"/>
+    <keyword type="function" name="Gsv::Completion::add_provider" link="classGsv_1_1Completion.html#a38eeef371c7880231a8c30bd9ed371e1"/>
+    <keyword type="function" name="Gsv::Completion::remove_provider" link="classGsv_1_1Completion.html#aa012843ff9c3805455c36ce648617011"/>
+    <keyword type="function" name="Gsv::Completion::get_providers" link="classGsv_1_1Completion.html#a91b2575d4b0255074df1aff469ce6ca7"/>
+    <keyword type="function" name="Gsv::Completion::show" link="classGsv_1_1Completion.html#a1e6d91624ab8e229db7f4fb921a61008"/>
+    <keyword type="function" name="Gsv::Completion::hide" link="classGsv_1_1Completion.html#a528eaaac9ac602679f68a4045ed50b76"/>
+    <keyword type="function" name="Gsv::Completion::get_info_window" link="classGsv_1_1Completion.html#a9ef90975e3c5a4f326d4309571ee0021"/>
+    <keyword type="function" name="Gsv::Completion::get_info_window" link="classGsv_1_1Completion.html#aa4ad56ba2454bf956abb5b3d115bd30e"/>
+    <keyword type="function" name="Gsv::Completion::get_view" link="classGsv_1_1Completion.html#a8dd00600587daca0414a672313edce87"/>
+    <keyword type="function" name="Gsv::Completion::get_view" link="classGsv_1_1Completion.html#adc91f0a19168756b373f5ffe5363c477"/>
+    <keyword type="function" name="Gsv::Completion::create_context" link="classGsv_1_1Completion.html#ad377bd7e85bb7c3018f1eb9463025160"/>
+    <keyword type="function" name="Gsv::Completion::create_context" link="classGsv_1_1Completion.html#ad18250a46f3680c2fa1d63549933647a"/>
+    <keyword type="function" name="Gsv::Completion::move_window" link="classGsv_1_1Completion.html#a38cfa831114c567988ab1c2f16db58d7"/>
+    <keyword type="function" name="Gsv::Completion::block_interactive" link="classGsv_1_1Completion.html#a60735267a353f3db3e5c26e45fafe90b"/>
+    <keyword type="function" name="Gsv::Completion::unblock_interactive" link="classGsv_1_1Completion.html#a92406e0eaa515fe4c19b10b2c7e2f8a0"/>
+    <keyword type="function" name="Gsv::Completion::signal_hide" link="classGsv_1_1Completion.html#ac0196ce730faf2493c022b5828880c5a"/>
+    <keyword type="function" name="Gsv::Completion::signal_populate_context" link="classGsv_1_1Completion.html#ab834d189383f43113c60224b470c35d6"/>
+    <keyword type="function" name="Gsv::Completion::signal_show" link="classGsv_1_1Completion.html#a51f3a395862a4ae62958b5eda2f6a884"/>
+    <keyword type="function" name="Gsv::Completion::property_accelerators" link="classGsv_1_1Completion.html#acd8de48beee2720a2d7a8f6cfc6da1c0"/>
+    <keyword type="function" name="Gsv::Completion::property_accelerators" link="classGsv_1_1Completion.html#abd57bea99c6eac0cbae846d042988b8d"/>
+    <keyword type="function" name="Gsv::Completion::property_auto_complete_delay" link="classGsv_1_1Completion.html#acf1b7c45ea93a1eda4186d15a7ffbebe"/>
+    <keyword type="function" name="Gsv::Completion::property_auto_complete_delay" link="classGsv_1_1Completion.html#a453dafd4072f11705f2f309fc00ebc87"/>
+    <keyword type="function" name="Gsv::Completion::property_proposal_page_size" link="classGsv_1_1Completion.html#a6b7ab301bf54e220cbaec54d93a5000a"/>
+    <keyword type="function" name="Gsv::Completion::property_proposal_page_size" link="classGsv_1_1Completion.html#aecc76c5fd34dad127f981acd81c27dad"/>
+    <keyword type="function" name="Gsv::Completion::property_provider_page_size" link="classGsv_1_1Completion.html#a3bd5ccb0c9c9ba318bf661b763bb1081"/>
+    <keyword type="function" name="Gsv::Completion::property_provider_page_size" link="classGsv_1_1Completion.html#a3ad0da1c1c42e493c274986879adb4f2"/>
+    <keyword type="function" name="Gsv::Completion::property_remember_info_visibility" link="classGsv_1_1Completion.html#a1caee7851f02e09443f712061659d225"/>
+    <keyword type="function" name="Gsv::Completion::property_remember_info_visibility" link="classGsv_1_1Completion.html#a5480507ebaad176610bb98707e2150ae"/>
+    <keyword type="function" name="Gsv::Completion::property_select_on_show" link="classGsv_1_1Completion.html#a1f1e6bfd2e6a1834c01aba5193ae6cff"/>
+    <keyword type="function" name="Gsv::Completion::property_select_on_show" link="classGsv_1_1Completion.html#ab306d324d9aa8c88f1fee0cab62235be"/>
+    <keyword type="function" name="Gsv::Completion::property_show_headers" link="classGsv_1_1Completion.html#af399c797a0593f3c5c845f6d79cc9814"/>
+    <keyword type="function" name="Gsv::Completion::property_show_headers" link="classGsv_1_1Completion.html#ae82e476ef85f5e50564c1c9a4a86ead8"/>
+    <keyword type="function" name="Gsv::Completion::property_show_icons" link="classGsv_1_1Completion.html#aee22d2e57743415317a378cc34488f2d"/>
+    <keyword type="function" name="Gsv::Completion::property_show_icons" link="classGsv_1_1Completion.html#ad56b147153ae552151e829c4325e25b8"/>
+    <keyword type="function" name="Gsv::Completion::property_view" link="classGsv_1_1Completion.html#a41fa0b276a24775591a558fcdbe0ce9f"/>
+    <keyword type="function" name="Gsv::Completion::get_type" link="classGsv_1_1Completion.html#a62507e1fe347811f851b68e51ea96951"/>
+    <keyword type="function" name="Gsv::Completion::on_hide" link="classGsv_1_1Completion.html#a8b19a2e5aa886a113a955e27c5ce15a5"/>
+    <keyword type="function" name="Gsv::Completion::on_populate_context" link="classGsv_1_1Completion.html#aeba79ca19d0d16d092eb7bf8154bef04"/>
+    <keyword type="function" name="Gsv::Completion::on_show" link="classGsv_1_1Completion.html#a96e3207164daf3dfa789930a664d1525"/>
+    <keyword type="function" name="Gsv::Completion::wrap" link="classGsv_1_1Completion.html#a77aa86e7ea840ce7b0d06541e2e533d1"/>
+    <keyword type="struct" name="Gsv::CompletionContext" link="classGsv_1_1CompletionContext.html"/>
+    <keyword type="function" name="Gsv::CompletionContext::CompletionContext" link="classGsv_1_1CompletionContext.html#a13deca3c47e26b2f527a9a58dc51ce37"/>
+    <keyword type="function" name="Gsv::CompletionContext::operator=" link="classGsv_1_1CompletionContext.html#ac5560d751e5a7fb64edbb151bc9914a8"/>
+    <keyword type="function" name="Gsv::CompletionContext::~CompletionContext" link="classGsv_1_1CompletionContext.html#abb5789771748864aeea80bc9c6877130"/>
+    <keyword type="function" name="Gsv::CompletionContext::gobj" link="classGsv_1_1CompletionContext.html#a3bc018a4dcf0b980f0c42f6ee5407d12"/>
+    <keyword type="function" name="Gsv::CompletionContext::gobj" link="classGsv_1_1CompletionContext.html#ad97e7b46fb635cd2ef06e8a0e2776d06"/>
+    <keyword type="function" name="Gsv::CompletionContext::gobj_copy" link="classGsv_1_1CompletionContext.html#aff158041ce28f9b2937f6b6f88429cbb"/>
+    <keyword type="function" name="Gsv::CompletionContext::add_proposals" link="classGsv_1_1CompletionContext.html#ab50b8b9871c61748b85f9a6a3c081009"/>
+    <keyword type="function" name="Gsv::CompletionContext::get_iter" link="classGsv_1_1CompletionContext.html#a698ea9bdc4d7686433fbd5d12092b6a5"/>
+    <keyword type="function" name="Gsv::CompletionContext::get_activation" link="classGsv_1_1CompletionContext.html#aa8a69266e241421fcf70e07dab527f4e"/>
+    <keyword type="function" name="Gsv::CompletionContext::property_activation" link="classGsv_1_1CompletionContext.html#a7a2d6c7c77646424a1b65a1397c0d68d"/>
+    <keyword type="function" name="Gsv::CompletionContext::property_activation" link="classGsv_1_1CompletionContext.html#a14279fb00c855d06d7a5bf96ef593707"/>
+    <keyword type="function" name="Gsv::CompletionContext::property_completion" link="classGsv_1_1CompletionContext.html#a79671dfb73deb7b8da083f3745f9a32d"/>
+    <keyword type="function" name="Gsv::CompletionContext::property_iter" link="classGsv_1_1CompletionContext.html#a4b15f9ebe8fa6e6b3684cbca71ed9a6f"/>
+    <keyword type="function" name="Gsv::CompletionContext::property_iter" link="classGsv_1_1CompletionContext.html#a7939618269a8ff38098cd311b7e24239"/>
+    <keyword type="function" name="Gsv::CompletionContext::signal_cancelled" link="classGsv_1_1CompletionContext.html#a0f69bf270567393d9456ddbcf792bf20"/>
+    <keyword type="function" name="Gsv::CompletionContext::get_type" link="classGsv_1_1CompletionContext.html#a983c43e3445c41841445059d34ef22e7"/>
+    <keyword type="function" name="Gsv::CompletionContext::on_cancelled" link="classGsv_1_1CompletionContext.html#af78713ec46d7f1d55c77c203a2ddcf1f"/>
+    <keyword type="function" name="Gsv::CompletionContext::wrap" link="classGsv_1_1CompletionContext.html#aadf045e041f803422000cb31bb50ff71"/>
+    <keyword type="struct" name="Gsv::CompletionInfo" link="classGsv_1_1CompletionInfo.html"/>
+    <keyword type="function" name="Gsv::CompletionInfo::CompletionInfo" link="classGsv_1_1CompletionInfo.html#af142cd6828f3998d31523a352122621a"/>
+    <keyword type="function" name="Gsv::CompletionInfo::operator=" link="classGsv_1_1CompletionInfo.html#af9ec471c9ca946fb72fbebec4ea3f1b9"/>
+    <keyword type="function" name="Gsv::CompletionInfo::CompletionInfo" link="classGsv_1_1CompletionInfo.html#a3312bd0b1eb62655d28866d70f7ac1f8"/>
+    <keyword type="function" name="Gsv::CompletionInfo::operator=" link="classGsv_1_1CompletionInfo.html#a7b3c438ae0480b61a4fb94ce458a0a9b"/>
+    <keyword type="function" name="Gsv::CompletionInfo::~CompletionInfo" link="classGsv_1_1CompletionInfo.html#aef6d2c4a7adc37e1b46932294cdba950"/>
+    <keyword type="function" name="Gsv::CompletionInfo::gobj" link="classGsv_1_1CompletionInfo.html#af69565eb15e04a9b9d51c2acee1747fc"/>
+    <keyword type="function" name="Gsv::CompletionInfo::gobj" link="classGsv_1_1CompletionInfo.html#a0abf91486393030bfa7ef34de7469c97"/>
+    <keyword type="function" name="Gsv::CompletionInfo::CompletionInfo" link="classGsv_1_1CompletionInfo.html#a5431a4e73dbb3dc215a47c865e6add14"/>
+    <keyword type="function" name="Gsv::CompletionInfo::move_to_iter" link="classGsv_1_1CompletionInfo.html#a4c46ef7ccc017f9bf1d3cb41fbc7f6ea"/>
+    <keyword type="function" name="Gsv::CompletionInfo::move_to_iter" link="classGsv_1_1CompletionInfo.html#a6455d88efb299fdd89a80b06070b3ffc"/>
+    <keyword type="function" name="Gsv::CompletionInfo::set_widget" link="classGsv_1_1CompletionInfo.html#ae80194198459c2fd8ad729e7e0acbeac"/>
+    <keyword type="function" name="Gsv::CompletionInfo::get_widget" link="classGsv_1_1CompletionInfo.html#ace491878de7a9151530fb081a4cc032e"/>
+    <keyword type="function" name="Gsv::CompletionInfo::get_widget" link="classGsv_1_1CompletionInfo.html#a4a4786d60d8347f3b956cbe9d45e04cb"/>
+    <keyword type="function" name="Gsv::CompletionInfo::signal_before_show" link="classGsv_1_1CompletionInfo.html#a4e26326f96a609d6f8f506ccd06999e0"/>
+    <keyword type="function" name="Gsv::CompletionInfo::get_type" link="classGsv_1_1CompletionInfo.html#a414119a93a1d278b53f5d238d3400d50"/>
+    <keyword type="function" name="Gsv::CompletionInfo::on_before_show" link="classGsv_1_1CompletionInfo.html#a2c35f0d73983a2ba22cf46245ddd08f2"/>
+    <keyword type="function" name="Gsv::CompletionInfo::wrap" link="classGsv_1_1CompletionInfo.html#a385b472be44982a2be2667d0d194feae"/>
+    <keyword type="struct" name="Gsv::CompletionItem" link="classGsv_1_1CompletionItem.html"/>
+    <keyword type="function" name="Gsv::CompletionItem::CompletionItem" link="classGsv_1_1CompletionItem.html#a6e9dcdfca2113514fad3f4e4380acc58"/>
+    <keyword type="function" name="Gsv::CompletionItem::operator=" link="classGsv_1_1CompletionItem.html#a84f414f0d1d1ec1b7bda7496bb3521f5"/>
+    <keyword type="function" name="Gsv::CompletionItem::~CompletionItem" link="classGsv_1_1CompletionItem.html#a7b3bb8368af06fd05398d3b9647f8e7f"/>
+    <keyword type="function" name="Gsv::CompletionItem::gobj" link="classGsv_1_1CompletionItem.html#a69db3ae48e3be83a608329e180bc6f98"/>
+    <keyword type="function" name="Gsv::CompletionItem::gobj" link="classGsv_1_1CompletionItem.html#a0afaafdaec84db6d93ef86f5037c6a53"/>
+    <keyword type="function" name="Gsv::CompletionItem::gobj_copy" link="classGsv_1_1CompletionItem.html#a11ec9691cb20194fb6dc81d371d9d380"/>
+    <keyword type="function" name="Gsv::CompletionItem::property_icon" link="classGsv_1_1CompletionItem.html#a2c2ecd015d782e35a4c3ffa64fdb0389"/>
+    <keyword type="function" name="Gsv::CompletionItem::property_icon" link="classGsv_1_1CompletionItem.html#adcda0cc9b94d22c9dc8390833fb4eb8b"/>
+    <keyword type="function" name="Gsv::CompletionItem::property_info" link="classGsv_1_1CompletionItem.html#a8053b87a084ad8405f1242a379649ec2"/>
+    <keyword type="function" name="Gsv::CompletionItem::property_info" link="classGsv_1_1CompletionItem.html#ac0a0a7f6084bcc435508b3c479b24fa1"/>
+    <keyword type="function" name="Gsv::CompletionItem::property_label" link="classGsv_1_1CompletionItem.html#aa17bca9514ad18e742ba11e7fe2b479f"/>
+    <keyword type="function" name="Gsv::CompletionItem::property_label" link="classGsv_1_1CompletionItem.html#a0365e21d241a97b080cc906fdc329a3d"/>
+    <keyword type="function" name="Gsv::CompletionItem::property_markup" link="classGsv_1_1CompletionItem.html#ae363bb13eb3d3667bb9e6378c751b1d0"/>
+    <keyword type="function" name="Gsv::CompletionItem::property_markup" link="classGsv_1_1CompletionItem.html#aca929b60125c49aae6c9fe7231614d65"/>
+    <keyword type="function" name="Gsv::CompletionItem::property_text" link="classGsv_1_1CompletionItem.html#a408b39a950f552e7e57c04fb51cf484b"/>
+    <keyword type="function" name="Gsv::CompletionItem::property_text" link="classGsv_1_1CompletionItem.html#adaf819bc23765d5de9074a9c6538cadc"/>
+    <keyword type="function" name="Gsv::CompletionItem::get_type" link="classGsv_1_1CompletionItem.html#a8d5b460e3443d1268b4a84591efbac1b"/>
+    <keyword type="function" name="Gsv::CompletionItem::create" link="classGsv_1_1CompletionItem.html#a011586888845fd46f164427bd253f0ec"/>
+    <keyword type="function" name="Gsv::CompletionItem::create" link="classGsv_1_1CompletionItem.html#a4c352cbd6819528601744bad5e31eede"/>
+    <keyword type="function" name="Gsv::CompletionItem::create" link="classGsv_1_1CompletionItem.html#abef62954bb54c1bb14936fc21dffc2c9"/>
+    <keyword type="function" name="Gsv::CompletionItem::CompletionItem" link="classGsv_1_1CompletionItem.html#ad4c20dd2c0ce309cb9f266f6b1b4c159"/>
+    <keyword type="function" name="Gsv::CompletionItem::CompletionItem" link="classGsv_1_1CompletionItem.html#a1b17771f75271e5cd3b7831479603681"/>
+    <keyword type="function" name="Gsv::CompletionItem::CompletionItem" link="classGsv_1_1CompletionItem.html#a254c04907b8c1a43152b1c1c9615b3af"/>
+    <keyword type="function" name="Gsv::CompletionItem::wrap" link="classGsv_1_1CompletionItem.html#a197f04717cb1c46859b9ce49bf8c865e"/>
+    <keyword type="struct" name="Gsv::CompletionProposal" link="classGsv_1_1CompletionProposal.html"/>
+    <keyword type="function" name="Gsv::CompletionProposal::CompletionProposal" link="classGsv_1_1CompletionProposal.html#a7ec95c3bc801ff9db21afe2d87fe4049"/>
+    <keyword type="function" name="Gsv::CompletionProposal::operator=" link="classGsv_1_1CompletionProposal.html#a1f31d9ad85dce6eb4b3a73f1708f1642"/>
+    <keyword type="function" name="Gsv::CompletionProposal::~CompletionProposal" link="classGsv_1_1CompletionProposal.html#aab9339440f7c324a3bef94a0fc8a81fd"/>
+    <keyword type="function" name="Gsv::CompletionProposal::gobj" link="classGsv_1_1CompletionProposal.html#abc115c136d752a25882387378f234d97"/>
+    <keyword type="function" name="Gsv::CompletionProposal::gobj" link="classGsv_1_1CompletionProposal.html#a2c3f5c986bd41e7095c40dbe8906d7ea"/>
+    <keyword type="function" name="Gsv::CompletionProposal::get_label" link="classGsv_1_1CompletionProposal.html#a900005a1dfc5c2a819aebb4cb6b7bb17"/>
+    <keyword type="function" name="Gsv::CompletionProposal::get_markup" link="classGsv_1_1CompletionProposal.html#a87acb8234a716319a2d736922323cb1e"/>
+    <keyword type="function" name="Gsv::CompletionProposal::get_text" link="classGsv_1_1CompletionProposal.html#ad4794a02d01e3694d4349c87eb619759"/>
+    <keyword type="function" name="Gsv::CompletionProposal::get_icon" link="classGsv_1_1CompletionProposal.html#a9dcf9384b23700ed2a26c71b89fdabcd"/>
+    <keyword type="function" name="Gsv::CompletionProposal::get_icon" link="classGsv_1_1CompletionProposal.html#a38577f76caee8a71cee401cb1db54b2e"/>
+    <keyword type="function" name="Gsv::CompletionProposal::get_info" link="classGsv_1_1CompletionProposal.html#a181f7cd2ac53d4331710c557bf2961a4"/>
+    <keyword type="function" name="Gsv::CompletionProposal::changed" link="classGsv_1_1CompletionProposal.html#ab93dfc12392ee8fc08f11d74b30d16fe"/>
+    <keyword type="function" name="Gsv::CompletionProposal::hash" link="classGsv_1_1CompletionProposal.html#aebe3990f114be67b983f596ab9ab793b"/>
+    <keyword type="function" name="Gsv::CompletionProposal::equal" link="classGsv_1_1CompletionProposal.html#a18d8fe29297a3431c2207d492d7ced04"/>
+    <keyword type="function" name="Gsv::CompletionProposal::signal_changed" link="classGsv_1_1CompletionProposal.html#a44f10b6f5c1a0a15e18982585fbb5a3e"/>
+    <keyword type="function" name="Gsv::CompletionProposal::add_interface" link="classGsv_1_1CompletionProposal.html#a973c29a1cd0986db7d1d161481d84ecb"/>
+    <keyword type="function" name="Gsv::CompletionProposal::get_type" link="classGsv_1_1CompletionProposal.html#ad3742c7c96c51152c857b20693ebcec8"/>
+    <keyword type="function" name="Gsv::CompletionProposal::CompletionProposal" link="classGsv_1_1CompletionProposal.html#a6949074530dda468e81d07908ca58c90"/>
+    <keyword type="function" name="Gsv::CompletionProposal::on_changed" link="classGsv_1_1CompletionProposal.html#a8a41215df37df5c3170e055527798b34"/>
+    <keyword type="function" name="Gsv::CompletionProposal::wrap" link="classGsv_1_1CompletionProposal.html#a262ce2693669c6a97f5f3d0847f973e9"/>
+    <keyword type="struct" name="Gsv::CompletionProvider" link="classGsv_1_1CompletionProvider.html"/>
+    <keyword type="function" name="Gsv::CompletionProvider::CompletionProvider" link="classGsv_1_1CompletionProvider.html#a2255cec5484f16e9fb0e6f31a1908335"/>
+    <keyword type="function" name="Gsv::CompletionProvider::operator=" link="classGsv_1_1CompletionProvider.html#a94914d03830b6f6687918c1bb9a43786"/>
+    <keyword type="function" name="Gsv::CompletionProvider::~CompletionProvider" link="classGsv_1_1CompletionProvider.html#a640e017a2e7937b26944440531b251b9"/>
+    <keyword type="function" name="Gsv::CompletionProvider::gobj" link="classGsv_1_1CompletionProvider.html#aa039ff0ce39e0895bef4ea2db257afcb"/>
+    <keyword type="function" name="Gsv::CompletionProvider::gobj" link="classGsv_1_1CompletionProvider.html#a911cc304a6cdfe3cc4bb6661ca4944b2"/>
+    <keyword type="function" name="Gsv::CompletionProvider::get_name" link="classGsv_1_1CompletionProvider.html#ada7a738f452b8258b0daa26dc14f8762"/>
+    <keyword type="function" name="Gsv::CompletionProvider::get_icon" link="classGsv_1_1CompletionProvider.html#ab1da2e829d5577a0639460b856d90e88"/>
+    <keyword type="function" name="Gsv::CompletionProvider::get_icon" link="classGsv_1_1CompletionProvider.html#acbc1992fc31122a31dfeb100dc1bd6cd"/>
+    <keyword type="function" name="Gsv::CompletionProvider::populate" link="classGsv_1_1CompletionProvider.html#ab2e06790da6ebe24c2e5f810b1478084"/>
+    <keyword type="function" name="Gsv::CompletionProvider::match" link="classGsv_1_1CompletionProvider.html#a74f99e2e78550b77e4ba6245d8521048"/>
+    <keyword type="function" name="Gsv::CompletionProvider::get_info_widget" link="classGsv_1_1CompletionProvider.html#ae4e44827f3809c746c7a5c45b32a49c8"/>
+    <keyword type="function" name="Gsv::CompletionProvider::get_info_widget" link="classGsv_1_1CompletionProvider.html#a85e18c30fdb0c1c06637f7dd675dddce"/>
+    <keyword type="function" name="Gsv::CompletionProvider::update_info" link="classGsv_1_1CompletionProvider.html#adaa232e02478b13f49d78356bc4ee471"/>
+    <keyword type="function" name="Gsv::CompletionProvider::get_start_iter" link="classGsv_1_1CompletionProvider.html#abda9107cb44dc6701bdd449ce6135859"/>
+    <keyword type="function" name="Gsv::CompletionProvider::activate_proposal" link="classGsv_1_1CompletionProvider.html#a854f0390e1ca54a6481470eca48df63f"/>
+    <keyword type="function" name="Gsv::CompletionProvider::get_activation" link="classGsv_1_1CompletionProvider.html#a7f39497276a1a75c1ffd7aecb54fdb28"/>
+    <keyword type="function" name="Gsv::CompletionProvider::get_interactive_delay" link="classGsv_1_1CompletionProvider.html#ab688ca69c8d738fcf789ea873e21d617"/>
+    <keyword type="function" name="Gsv::CompletionProvider::get_priority" link="classGsv_1_1CompletionProvider.html#a1bec73a7288a3e2230c0aca90dfd57e3"/>
+    <keyword type="function" name="Gsv::CompletionProvider::add_interface" link="classGsv_1_1CompletionProvider.html#a5144f5c23a315eb45c91aa9be143a93c"/>
+    <keyword type="function" name="Gsv::CompletionProvider::get_type" link="classGsv_1_1CompletionProvider.html#a079b2857a60d1b7f8ebd3b1f440f15e9"/>
+    <keyword type="function" name="Gsv::CompletionProvider::CompletionProvider" link="classGsv_1_1CompletionProvider.html#ab6e7c7863d67d01438418f4a1169b280"/>
+    <keyword type="function" name="Gsv::CompletionProvider::wrap" link="classGsv_1_1CompletionProvider.html#a59da4f3d56f3217c4bed5bf91112c90c"/>
+    <keyword type="struct" name="Gsv::CompletionWords" link="classGsv_1_1CompletionWords.html"/>
+    <keyword type="function" name="Gsv::CompletionWords::CompletionWords" link="classGsv_1_1CompletionWords.html#ad070502675e5efb9faa8d332091ea30d"/>
+    <keyword type="function" name="Gsv::CompletionWords::operator=" link="classGsv_1_1CompletionWords.html#a17752aa351189c69dd672504e8387e79"/>
+    <keyword type="function" name="Gsv::CompletionWords::~CompletionWords" link="classGsv_1_1CompletionWords.html#a1473a7633b910728ea2a285b760d8325"/>
+    <keyword type="function" name="Gsv::CompletionWords::gobj" link="classGsv_1_1CompletionWords.html#aefc5b617a5ab6db7566104e1c6551f79"/>
+    <keyword type="function" name="Gsv::CompletionWords::gobj" link="classGsv_1_1CompletionWords.html#a3846bda5cd11e0968d357ceef787ef5e"/>
+    <keyword type="function" name="Gsv::CompletionWords::gobj_copy" link="classGsv_1_1CompletionWords.html#a5ddc40bccd5d466ae09c53a62c7158cb"/>
+    <keyword type="function" name="Gsv::CompletionWords::register_provider" link="classGsv_1_1CompletionWords.html#a568981235391f9cfad5728e6adf12e06"/>
+    <keyword type="function" name="Gsv::CompletionWords::unregister_provider" link="classGsv_1_1CompletionWords.html#a9665b50e0feef53bbc3317c814d1e143"/>
+    <keyword type="function" name="Gsv::CompletionWords::property_name" link="classGsv_1_1CompletionWords.html#a8f45ecf89466d74c26d256f1ebfdf1d8"/>
+    <keyword type="function" name="Gsv::CompletionWords::property_name" link="classGsv_1_1CompletionWords.html#ace2e36cd55b0585f28a6c33f3d3e0e25"/>
+    <keyword type="function" name="Gsv::CompletionWords::property_icon" link="classGsv_1_1CompletionWords.html#abc190a2ae38330ae4a9d9bf48e8fa709"/>
+    <keyword type="function" name="Gsv::CompletionWords::property_icon" link="classGsv_1_1CompletionWords.html#a712765cb1c614fa2e474b6e46141fa3a"/>
+    <keyword type="function" name="Gsv::CompletionWords::property_proposals_batch_size" link="classGsv_1_1CompletionWords.html#a26cc0d0b000600ebbc6c96a5c0609fa7"/>
+    <keyword type="function" name="Gsv::CompletionWords::property_proposals_batch_size" link="classGsv_1_1CompletionWords.html#a7c170056529f2a2aaaefa0e559ebeff8"/>
+    <keyword type="function" name="Gsv::CompletionWords::property_scan_batch_size" link="classGsv_1_1CompletionWords.html#af7f3a7396d2c584b922665c9043bf6b9"/>
+    <keyword type="function" name="Gsv::CompletionWords::property_scan_batch_size" link="classGsv_1_1CompletionWords.html#a46366af296534aad4e57bf1a38a614df"/>
+    <keyword type="function" name="Gsv::CompletionWords::property_minimum_word_size" link="classGsv_1_1CompletionWords.html#a7863f03ea2a5d423c0a020f37172823b"/>
+    <keyword type="function" name="Gsv::CompletionWords::property_minimum_word_size" link="classGsv_1_1CompletionWords.html#a4df9d7b108e566ada31ff11a99c89694"/>
+    <keyword type="function" name="Gsv::CompletionWords::property_interactive_delay" link="classGsv_1_1CompletionWords.html#a7f2174b899458e4b04eb07adc2bd66f3"/>
+    <keyword type="function" name="Gsv::CompletionWords::property_interactive_delay" link="classGsv_1_1CompletionWords.html#a0e6aca6cf7e53e5e7e1b5745ffefab5d"/>
+    <keyword type="function" name="Gsv::CompletionWords::property_priority" link="classGsv_1_1CompletionWords.html#ae522d73f6d6891dfc519d2838ed804fe"/>
+    <keyword type="function" name="Gsv::CompletionWords::property_priority" link="classGsv_1_1CompletionWords.html#a1811dafbe51d6237319fc29f01d0c293"/>
+    <keyword type="function" name="Gsv::CompletionWords::get_type" link="classGsv_1_1CompletionWords.html#a00e8c7a42b28980065bef82edd7e7f07"/>
+    <keyword type="function" name="Gsv::CompletionWords::create" link="classGsv_1_1CompletionWords.html#a1e60f467700096ee7cd91872a758220f"/>
+    <keyword type="function" name="Gsv::CompletionWords::CompletionWords" link="classGsv_1_1CompletionWords.html#ae49c17b4ccb5b20c15add867cf368b0e"/>
+    <keyword type="function" name="Gsv::CompletionWords::wrap" link="classGsv_1_1CompletionWords.html#a2eb42b984f998405467af6e10f7ee86b"/>
+    <keyword type="struct" name="Gsv::Gutter" link="classGsv_1_1Gutter.html"/>
+    <keyword type="function" name="Gsv::Gutter::Gutter" link="classGsv_1_1Gutter.html#afed9664412e656e8d1042eeceeda5549"/>
+    <keyword type="function" name="Gsv::Gutter::operator=" link="classGsv_1_1Gutter.html#aa55e5f1fc792a09e12d4ec026149c498"/>
+    <keyword type="function" name="Gsv::Gutter::~Gutter" link="classGsv_1_1Gutter.html#ad1da9ff819c6daa9c31e5580fbf2f69d"/>
+    <keyword type="function" name="Gsv::Gutter::gobj" link="classGsv_1_1Gutter.html#a7ad6910d62f3970d105e75e508af000a"/>
+    <keyword type="function" name="Gsv::Gutter::gobj" link="classGsv_1_1Gutter.html#ae3cbb9805198cf9dd92de894dd673a37"/>
+    <keyword type="function" name="Gsv::Gutter::gobj_copy" link="classGsv_1_1Gutter.html#a0f58ad0c24800b2d8e2043cef5f33275"/>
+    <keyword type="function" name="Gsv::Gutter::get_window" link="classGsv_1_1Gutter.html#a2e3762412eff48fbfc328481d94a72ad"/>
+    <keyword type="function" name="Gsv::Gutter::get_window" link="classGsv_1_1Gutter.html#abd0c8fe088441a00a6414fe947a3caba"/>
+    <keyword type="function" name="Gsv::Gutter::insert" link="classGsv_1_1Gutter.html#af386d0ae4b05ec5096468bbb1b4f7f87"/>
+    <keyword type="function" name="Gsv::Gutter::remove" link="classGsv_1_1Gutter.html#aa9af09ba41b93b74d24b6acc0f17b615"/>
+    <keyword type="function" name="Gsv::Gutter::reorder" link="classGsv_1_1Gutter.html#ac5d1460106ec305685a1b1afa1f24a53"/>
+    <keyword type="function" name="Gsv::Gutter::queue_draw" link="classGsv_1_1Gutter.html#ae8e6e48e149ab2a5b75e56f8c40b89f5"/>
+    <keyword type="function" name="Gsv::Gutter::set_padding" link="classGsv_1_1Gutter.html#a66b73fb62427aa53ee139fdc2ffc0f99"/>
+    <keyword type="function" name="Gsv::Gutter::get_padding" link="classGsv_1_1Gutter.html#acd8f2d746e4b90628c904de57fbc91ed"/>
+    <keyword type="function" name="Gsv::Gutter::get_renderer_at_pos" link="classGsv_1_1Gutter.html#a74ad7512e18f6a5a2ccb6cdca160bdf3"/>
+    <keyword type="function" name="Gsv::Gutter::get_renderer_at_pos" link="classGsv_1_1Gutter.html#afb00c1d13b71b832be92539f046df885"/>
+    <keyword type="function" name="Gsv::Gutter::property_view" link="classGsv_1_1Gutter.html#ae61e2b84e3800028954e7f7c13a604d2"/>
+    <keyword type="function" name="Gsv::Gutter::property_window_type" link="classGsv_1_1Gutter.html#a2c5fc67ae891c62ee3d2bb9706217b46"/>
+    <keyword type="function" name="Gsv::Gutter::property_xpad" link="classGsv_1_1Gutter.html#a8b997838dedc8ce56b9f2c5adb9a9a21"/>
+    <keyword type="function" name="Gsv::Gutter::property_xpad" link="classGsv_1_1Gutter.html#a40def42d642e3df2b52c3cbce7038805"/>
+    <keyword type="function" name="Gsv::Gutter::property_ypad" link="classGsv_1_1Gutter.html#a1b479ae3d5dabeb8ad807a3f2fac6a70"/>
+    <keyword type="function" name="Gsv::Gutter::property_ypad" link="classGsv_1_1Gutter.html#a37efa5e36d6494f9a0c1e695ce7767cf"/>
+    <keyword type="function" name="Gsv::Gutter::get_type" link="classGsv_1_1Gutter.html#a6b3e8f0e20ce094ae8ed7cd116e697b6"/>
+    <keyword type="function" name="Gsv::Gutter::wrap" link="classGsv_1_1Gutter.html#a32a2627932fc5b237811cfedeff4138b"/>
+    <keyword type="struct" name="Gsv::GutterRenderer" link="classGsv_1_1GutterRenderer.html"/>
+    <keyword type="function" name="Gsv::GutterRenderer::GutterRenderer" link="classGsv_1_1GutterRenderer.html#a0a141d38ae848b9cc7591169cffbcb9b"/>
+    <keyword type="function" name="Gsv::GutterRenderer::operator=" link="classGsv_1_1GutterRenderer.html#a3bb7afdcf542f39122c90f8b4f80b480"/>
+    <keyword type="function" name="Gsv::GutterRenderer::GutterRenderer" link="classGsv_1_1GutterRenderer.html#aa4f7efa34c4602c993ae4f8666f4aeeb"/>
+    <keyword type="function" name="Gsv::GutterRenderer::operator=" link="classGsv_1_1GutterRenderer.html#ab1d9b108351c5d336ce08ca153e4dc52"/>
+    <keyword type="function" name="Gsv::GutterRenderer::~GutterRenderer" link="classGsv_1_1GutterRenderer.html#a533e0cd1b888781f78718545bc0b57e3"/>
+    <keyword type="function" name="Gsv::GutterRenderer::gobj" link="classGsv_1_1GutterRenderer.html#add99e57b59f10ffebf75e8fc47a17b91"/>
+    <keyword type="function" name="Gsv::GutterRenderer::gobj" link="classGsv_1_1GutterRenderer.html#adfa6094eb8167ef591c3e1b3f261e425"/>
+    <keyword type="function" name="Gsv::GutterRenderer::begin" link="classGsv_1_1GutterRenderer.html#a18f4ef6ff512cc6f0e585d4661a4054c"/>
+    <keyword type="function" name="Gsv::GutterRenderer::draw" link="classGsv_1_1GutterRenderer.html#a1247707dc84b396998de2cd21b67b012"/>
+    <keyword type="function" name="Gsv::GutterRenderer::end" link="classGsv_1_1GutterRenderer.html#a5146aaa203e77be4bb5eb9e644008148"/>
+    <keyword type="function" name="Gsv::GutterRenderer::get_size" link="classGsv_1_1GutterRenderer.html#a791ab24aa5fbc927450fdbeb92c3c842"/>
+    <keyword type="function" name="Gsv::GutterRenderer::set_size" link="classGsv_1_1GutterRenderer.html#a77d34404d5a892f26f05c51cb8e31b1e"/>
+    <keyword type="function" name="Gsv::GutterRenderer::get_visible" link="classGsv_1_1GutterRenderer.html#a55029ddb19db253ea862d9386c654d01"/>
+    <keyword type="function" name="Gsv::GutterRenderer::set_visible" link="classGsv_1_1GutterRenderer.html#a97fea283482aa1999ab8c5a59f14d52e"/>
+    <keyword type="function" name="Gsv::GutterRenderer::get_padding" link="classGsv_1_1GutterRenderer.html#a945316fc5e930845ec222e3bb3bbdd6f"/>
+    <keyword type="function" name="Gsv::GutterRenderer::set_padding" link="classGsv_1_1GutterRenderer.html#a372910cedb9fc2d5551aa731a5fdb8c3"/>
+    <keyword type="function" name="Gsv::GutterRenderer::get_alignment" link="classGsv_1_1GutterRenderer.html#aa1896388cb2aa452b0e1bd725cc2610d"/>
+    <keyword type="function" name="Gsv::GutterRenderer::set_alignment" link="classGsv_1_1GutterRenderer.html#adac7d9b841450a2f8a230e731c41b1bb"/>
+    <keyword type="function" name="Gsv::GutterRenderer::get_alignment_mode" link="classGsv_1_1GutterRenderer.html#a8729f4a7ad404a879b8dab8ab0020510"/>
+    <keyword type="function" name="Gsv::GutterRenderer::set_alignment_mode" link="classGsv_1_1GutterRenderer.html#a4d662880ef54645d3163ace113707b87"/>
+    <keyword type="function" name="Gsv::GutterRenderer::get_window_type" link="classGsv_1_1GutterRenderer.html#a750e31a7017ffc170af7c12047933853"/>
+    <keyword type="function" name="Gsv::GutterRenderer::get_view" link="classGsv_1_1GutterRenderer.html#acba357e9966b28438e786f0ec766c13f"/>
+    <keyword type="function" name="Gsv::GutterRenderer::get_view" link="classGsv_1_1GutterRenderer.html#a47fd94502bc2524d29fd168fcab3775f"/>
+    <keyword type="function" name="Gsv::GutterRenderer::get_background" link="classGsv_1_1GutterRenderer.html#abdf8ea4e09acff70eebe1a1255c16830"/>
+    <keyword type="function" name="Gsv::GutterRenderer::is_background_set" link="classGsv_1_1GutterRenderer.html#ad9e6485d755bd2be31934ee88ac39fe3"/>
+    <keyword type="function" name="Gsv::GutterRenderer::set_background" link="classGsv_1_1GutterRenderer.html#ac70512eb6c1116f4353fc13250df7007"/>
+    <keyword type="function" name="Gsv::GutterRenderer::queue_draw" link="classGsv_1_1GutterRenderer.html#a6e9ce26445d9cceead4b3427d768f87d"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_visible" link="classGsv_1_1GutterRenderer.html#aa4d6908f53bcc38d042f777f5e42d13a"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_visible" link="classGsv_1_1GutterRenderer.html#a506c4cfc095e06c8fee25803e9491e74"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_xpad" link="classGsv_1_1GutterRenderer.html#affdc36ac89ddded6eac23fe2c58f1203"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_xpad" link="classGsv_1_1GutterRenderer.html#a2fec9647ddfec1e678a75fb9aef47e70"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_ypad" link="classGsv_1_1GutterRenderer.html#a0669ffc5fa9b24f68ab8260788df37b9"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_ypad" link="classGsv_1_1GutterRenderer.html#a77cc2065e35dd11a2172f33d3b4f02bf"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_xalign" link="classGsv_1_1GutterRenderer.html#a0ecbdc4afbbaa0d9d37a6bf130e163b1"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_xalign" link="classGsv_1_1GutterRenderer.html#a16d05a89d11ac414ef60b6cad9479a8e"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_yalign" link="classGsv_1_1GutterRenderer.html#a68dc4d460cdbc5fdb581e8e4a759dd16"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_yalign" link="classGsv_1_1GutterRenderer.html#ad542164e1a62a44c233eaaff160a36b9"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_view" link="classGsv_1_1GutterRenderer.html#acbac4506ceaf5e8f6b3477d14453be00"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_alignment_mode" link="classGsv_1_1GutterRenderer.html#a63291553723b1303a03479fc0b1a8603"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_alignment_mode" link="classGsv_1_1GutterRenderer.html#a5767feebf58c8e4e673aa382545afb02"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_window_type" link="classGsv_1_1GutterRenderer.html#a3c1b7f374577026c2034b14e9413f539"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_size" link="classGsv_1_1GutterRenderer.html#af6adeb3583bd45dfe5fe27465e1f649d"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_size" link="classGsv_1_1GutterRenderer.html#aa952deb019586082ea7e861612cae52a"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_background_rgba" link="classGsv_1_1GutterRenderer.html#aea6d554c2807e574acc3c3f03415a298"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_background_rgba" link="classGsv_1_1GutterRenderer.html#af73b9def6140721a191da64ba08e7907"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_background_set" link="classGsv_1_1GutterRenderer.html#abe2b87c890c04b9f1c6136d4a211ba7a"/>
+    <keyword type="function" name="Gsv::GutterRenderer::property_background_set" link="classGsv_1_1GutterRenderer.html#af4c6d747f921f7d09fed7fc9d850ba5a"/>
+    <keyword type="function" name="Gsv::GutterRenderer::signal_query_tooltip" link="classGsv_1_1GutterRenderer.html#acfa741b58fdaf609794eb4a49acf3d7c"/>
+    <keyword type="function" name="Gsv::GutterRenderer::signal_activate" link="classGsv_1_1GutterRenderer.html#a9a4adadc30f1c2dd9b198c442be2b153"/>
+    <keyword type="function" name="Gsv::GutterRenderer::signal_queue_draw" link="classGsv_1_1GutterRenderer.html#a10097740729818e1d16fcad1493a785c"/>
+    <keyword type="function" name="Gsv::GutterRenderer::signal_query_data" link="classGsv_1_1GutterRenderer.html#ae1b41a3dc9ba7b089d78db75e8912a72"/>
+    <keyword type="function" name="Gsv::GutterRenderer::signal_query_activatable" link="classGsv_1_1GutterRenderer.html#acb21cf37a279d6bc44645d9eff921903"/>
+    <keyword type="function" name="Gsv::GutterRenderer::get_type" link="classGsv_1_1GutterRenderer.html#ad57c5b673fbd2926d689061d3403b7b6"/>
+    <keyword type="function" name="Gsv::GutterRenderer::on_query_tooltip" link="classGsv_1_1GutterRenderer.html#a3d4fcd53ccdc4dfeb48a79037197d1ee"/>
+    <keyword type="function" name="Gsv::GutterRenderer::on_activate" link="classGsv_1_1GutterRenderer.html#abb51a18e8661f07b5247088024b02e3e"/>
+    <keyword type="function" name="Gsv::GutterRenderer::on_queue_draw" link="classGsv_1_1GutterRenderer.html#a03d8b61cb02df8f23ce9ca9bdbb5c7ec"/>
+    <keyword type="function" name="Gsv::GutterRenderer::on_query_data" link="classGsv_1_1GutterRenderer.html#a92fdcc614ec7ddfb72f846c162794799"/>
+    <keyword type="function" name="Gsv::GutterRenderer::on_query_activatable" link="classGsv_1_1GutterRenderer.html#abda272ddc3633ef2b791df2f5276683c"/>
+    <keyword type="function" name="Gsv::GutterRenderer::GutterRenderer" link="classGsv_1_1GutterRenderer.html#a415c0852a32b4d28c9a4c52e16e6c174"/>
+    <keyword type="function" name="Gsv::GutterRenderer::begin_vfunc" link="classGsv_1_1GutterRenderer.html#ac65986634056f46e83e80f653eb2c183"/>
+    <keyword type="function" name="Gsv::GutterRenderer::draw_vfunc" link="classGsv_1_1GutterRenderer.html#ab1e0d46d9819cea3d19397b6768699db"/>
+    <keyword type="function" name="Gsv::GutterRenderer::end_vfunc" link="classGsv_1_1GutterRenderer.html#a45f0df5a555c3e81e7aae8f8371111eb"/>
+    <keyword type="function" name="Gsv::GutterRenderer::change_view_vfunc" link="classGsv_1_1GutterRenderer.html#af31461a70930296fadbdba44cf917284"/>
+    <keyword type="function" name="Gsv::GutterRenderer::change_buffer_vfunc" link="classGsv_1_1GutterRenderer.html#a7f5067cc4fabd621a1cbedb2c3085ef3"/>
+    <keyword type="function" name="Gsv::GutterRenderer::wrap" link="classGsv_1_1GutterRenderer.html#a2c73906210645ed6d5cb4ce7dd42f965"/>
+    <keyword type="struct" name="Gsv::GutterRendererPixbuf" link="classGsv_1_1GutterRendererPixbuf.html"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::GutterRendererPixbuf" link="classGsv_1_1GutterRendererPixbuf.html#a9bfb17912c6136958d774c226b23a439"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::operator=" link="classGsv_1_1GutterRendererPixbuf.html#a3e17f759a3ffc22d1c559255c4eac4ba"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::GutterRendererPixbuf" link="classGsv_1_1GutterRendererPixbuf.html#ae74555a499d017ee0c36c19aef321da2"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::operator=" link="classGsv_1_1GutterRendererPixbuf.html#a04191f7b87be213b2e035ee2eacbbad4"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::~GutterRendererPixbuf" link="classGsv_1_1GutterRendererPixbuf.html#a7f1d48cc12f8f6883ffc3a151dd2685c"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::gobj" link="classGsv_1_1GutterRendererPixbuf.html#a2913c653dd279da9258793e9a32d9f34"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::gobj" link="classGsv_1_1GutterRendererPixbuf.html#a8649407529fcd5a4af94f5403652c9e1"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::GutterRendererPixbuf" link="classGsv_1_1GutterRendererPixbuf.html#a71bee6cd47198676baa51fbab12cff92"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::get_pixbuf" link="classGsv_1_1GutterRendererPixbuf.html#ab51b971cf39f46cc37aa5fc4d7beb081"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::get_pixbuf" link="classGsv_1_1GutterRendererPixbuf.html#aca041273cd4a222679d8acbce6d60fe4"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::set_pixbuf" link="classGsv_1_1GutterRendererPixbuf.html#ab1297bd763af3ec1ba7af49ef278913f"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::get_stock_id" link="classGsv_1_1GutterRendererPixbuf.html#ab6e361448ad77da1a8ee444639e84e4a"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::set_stock_id" link="classGsv_1_1GutterRendererPixbuf.html#a3e6194aa1d3640176cdee555b93b7481"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::get_icon" link="classGsv_1_1GutterRendererPixbuf.html#a02779f372e8409469d04e44399f4bf70"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::get_icon" link="classGsv_1_1GutterRendererPixbuf.html#a5817bb7219390b7438d657ebb73c6dcc"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::set_icon" link="classGsv_1_1GutterRendererPixbuf.html#a90d2f62704f9ba361d9059e4673b5a36"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::get_icon_name" link="classGsv_1_1GutterRendererPixbuf.html#afa2c63f810c1f8f9a2d61e60729eeeb9"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::set_icon_name" link="classGsv_1_1GutterRendererPixbuf.html#a1fadeaf8eb5bf6f8a38c6f5cdd5e35d6"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::property_pixbuf" link="classGsv_1_1GutterRendererPixbuf.html#a1023f38e3818f85254e286c1f2de686f"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::property_pixbuf" link="classGsv_1_1GutterRendererPixbuf.html#a5b4235183fc0d8e47d8e58a88c1ee222"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::property_stock_id" link="classGsv_1_1GutterRendererPixbuf.html#a0dcf6d2647f68a2c090c85e279179981"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::property_stock_id" link="classGsv_1_1GutterRendererPixbuf.html#a06aa79b09e227e904a38b5fb45de9a29"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::property_icon_name" link="classGsv_1_1GutterRendererPixbuf.html#a884440c75ad6531c1c7b9a04f0a48bbe"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::property_icon_name" link="classGsv_1_1GutterRendererPixbuf.html#a5b6aa2b55f69c72403c49b36da408f45"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::property_gicon" link="classGsv_1_1GutterRendererPixbuf.html#a5c5388341706934e1913c6447a1bc869"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::property_gicon" link="classGsv_1_1GutterRendererPixbuf.html#ad7490bc5f0f006d41ab45645e2e667f8"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::get_type" link="classGsv_1_1GutterRendererPixbuf.html#aa978860c559bf012b0b05f597bb8ff4a"/>
+    <keyword type="function" name="Gsv::GutterRendererPixbuf::wrap" link="classGsv_1_1GutterRendererPixbuf.html#a7da585afbe9adc4b8d8d24a72ed715ce"/>
+    <keyword type="struct" name="Gsv::GutterRendererText" link="classGsv_1_1GutterRendererText.html"/>
+    <keyword type="function" name="Gsv::GutterRendererText::GutterRendererText" link="classGsv_1_1GutterRendererText.html#ac4440f0408ec7f1a5d4bbd377bf280db"/>
+    <keyword type="function" name="Gsv::GutterRendererText::operator=" link="classGsv_1_1GutterRendererText.html#addd0975ce9bd6825f3c86f4be3e66977"/>
+    <keyword type="function" name="Gsv::GutterRendererText::GutterRendererText" link="classGsv_1_1GutterRendererText.html#a9ece05176bc195d95e8541aad46221ab"/>
+    <keyword type="function" name="Gsv::GutterRendererText::operator=" link="classGsv_1_1GutterRendererText.html#af1d4843502faf8c52b8a2d00d77759e1"/>
+    <keyword type="function" name="Gsv::GutterRendererText::~GutterRendererText" link="classGsv_1_1GutterRendererText.html#a695adc606246acd9240876f9a4a4056c"/>
+    <keyword type="function" name="Gsv::GutterRendererText::gobj" link="classGsv_1_1GutterRendererText.html#ac765575a2cbeab3073b41486d37eeebc"/>
+    <keyword type="function" name="Gsv::GutterRendererText::gobj" link="classGsv_1_1GutterRendererText.html#a739e768b7e188a844f1dbfe22279ce28"/>
+    <keyword type="function" name="Gsv::GutterRendererText::GutterRendererText" link="classGsv_1_1GutterRendererText.html#adea6ada6c19f2a2583e89598ea6964c3"/>
+    <keyword type="function" name="Gsv::GutterRendererText::set_text" link="classGsv_1_1GutterRendererText.html#a0aaeacda48992bf46378e8acd45efb73"/>
+    <keyword type="function" name="Gsv::GutterRendererText::set_text" link="classGsv_1_1GutterRendererText.html#aefe8779db2841e7bde1c006ebe940901"/>
+    <keyword type="function" name="Gsv::GutterRendererText::measure" link="classGsv_1_1GutterRendererText.html#ab3017ca49df1e113bd80ff026e59c243"/>
+    <keyword type="function" name="Gsv::GutterRendererText::measure" link="classGsv_1_1GutterRendererText.html#a9e685f9f333f51316015c4e21608f5af"/>
+    <keyword type="function" name="Gsv::GutterRendererText::property_text" link="classGsv_1_1GutterRendererText.html#af4d07b2d56f51cfe51f3c7b3b50dec86"/>
+    <keyword type="function" name="Gsv::GutterRendererText::property_text" link="classGsv_1_1GutterRendererText.html#a2e7b2855915e073698f4e2c1dfd64ee6"/>
+    <keyword type="function" name="Gsv::GutterRendererText::property_markup" link="classGsv_1_1GutterRendererText.html#a57e0f43fdbc805ca92973d0fca3c7caa"/>
+    <keyword type="function" name="Gsv::GutterRendererText::property_markup" link="classGsv_1_1GutterRendererText.html#ac23796ade54a008a0be9d75d978257ae"/>
+    <keyword type="function" name="Gsv::GutterRendererText::get_type" link="classGsv_1_1GutterRendererText.html#aa27afbdbdd9ad6ea1e9cd23c38086423"/>
+    <keyword type="function" name="Gsv::GutterRendererText::wrap" link="classGsv_1_1GutterRendererText.html#a1f75a6d1fe43b40889edaf749706249e"/>
+    <keyword type="struct" name="Gsv::Language" link="classGsv_1_1Language.html"/>
+    <keyword type="function" name="Gsv::Language::Language" link="classGsv_1_1Language.html#ab0772bf038df588b893a906aea6ae2f6"/>
+    <keyword type="function" name="Gsv::Language::operator=" link="classGsv_1_1Language.html#a22d7bb22bb4e42a4c35497d22c0ecd2a"/>
+    <keyword type="function" name="Gsv::Language::~Language" link="classGsv_1_1Language.html#a14a14fcec77c6c804004246e9d88b6dc"/>
+    <keyword type="function" name="Gsv::Language::gobj" link="classGsv_1_1Language.html#ae84dced6bedfbef47376c10d04807d35"/>
+    <keyword type="function" name="Gsv::Language::gobj" link="classGsv_1_1Language.html#ac45a76c9eb1fd05714fc63dca05151b6"/>
+    <keyword type="function" name="Gsv::Language::gobj_copy" link="classGsv_1_1Language.html#acadfa07f16f61028833852be27670871"/>
+    <keyword type="function" name="Gsv::Language::get_id" link="classGsv_1_1Language.html#aa0202ead2b541179132a87451cc30a8e"/>
+    <keyword type="function" name="Gsv::Language::get_name" link="classGsv_1_1Language.html#a91881e6ea610605bf02b18515919da82"/>
+    <keyword type="function" name="Gsv::Language::get_section" link="classGsv_1_1Language.html#a3ae7b70006d87439b50d97f72de19cb3"/>
+    <keyword type="function" name="Gsv::Language::get_hidden" link="classGsv_1_1Language.html#a97d3ad8c2a192306e823fa09f0b07b8b"/>
+    <keyword type="function" name="Gsv::Language::get_mime_types" link="classGsv_1_1Language.html#a3161fa1dce4f0af4fd4fdd6c598421a1"/>
+    <keyword type="function" name="Gsv::Language::get_globs" link="classGsv_1_1Language.html#a5b6dea625ec414f1000a33d5a38f2bde"/>
+    <keyword type="function" name="Gsv::Language::get_style_ids" link="classGsv_1_1Language.html#a6b41ff4541ca063760001d7db0d6a662"/>
+    <keyword type="function" name="Gsv::Language::get_style_name" link="classGsv_1_1Language.html#a8612d6491103676b5c2bff6837ae00fc"/>
+    <keyword type="function" name="Gsv::Language::get_metadata" link="classGsv_1_1Language.html#a1b23675434934519cd8c0d0f99f66ca7"/>
+    <keyword type="function" name="Gsv::Language::property_id" link="classGsv_1_1Language.html#ae3e7af195ede343d59b2791cd01d469f"/>
+    <keyword type="function" name="Gsv::Language::property_name" link="classGsv_1_1Language.html#a266043128c63b9ae5a412b6b2ffcef89"/>
+    <keyword type="function" name="Gsv::Language::property_section" link="classGsv_1_1Language.html#a39c92026baf82ea8aa72a3b1920cc515"/>
+    <keyword type="function" name="Gsv::Language::property_hidden" link="classGsv_1_1Language.html#ae233a5ee3ee6bd46bac0aae733f622ba"/>
+    <keyword type="function" name="Gsv::Language::get_type" link="classGsv_1_1Language.html#a1206271f0f054d88d4225e4c18c84488"/>
+    <keyword type="function" name="Gsv::Language::wrap" link="classGsv_1_1Language.html#a734620969d27dacf95f9b4d74eefd08d"/>
+    <keyword type="struct" name="Gsv::LanguageManager" link="classGsv_1_1LanguageManager.html"/>
+    <keyword type="function" name="Gsv::LanguageManager::LanguageManager" link="classGsv_1_1LanguageManager.html#a861a35c572f390d5dca789273d0fdfa0"/>
+    <keyword type="function" name="Gsv::LanguageManager::operator=" link="classGsv_1_1LanguageManager.html#a0ed379fa1e4401cb1ebf36c2c51e2335"/>
+    <keyword type="function" name="Gsv::LanguageManager::~LanguageManager" link="classGsv_1_1LanguageManager.html#a1cc6dc153dbb96de236575edc8b8fceb"/>
+    <keyword type="function" name="Gsv::LanguageManager::gobj" link="classGsv_1_1LanguageManager.html#a2d701b9c36114e9926cb810fa2c935b1"/>
+    <keyword type="function" name="Gsv::LanguageManager::gobj" link="classGsv_1_1LanguageManager.html#a7c38c9b7bdead90df6ef3638e7d895b9"/>
+    <keyword type="function" name="Gsv::LanguageManager::gobj_copy" link="classGsv_1_1LanguageManager.html#a13acdf425c93895c62b3617150f0a6cd"/>
+    <keyword type="function" name="Gsv::LanguageManager::get_search_path" link="classGsv_1_1LanguageManager.html#a7ca7ee1059f086a01ef805ef5931486b"/>
+    <keyword type="function" name="Gsv::LanguageManager::set_search_path" link="classGsv_1_1LanguageManager.html#ac524730cff2f25a747f18deaf5e621f9"/>
+    <keyword type="function" name="Gsv::LanguageManager::reset_search_path" link="classGsv_1_1LanguageManager.html#a73430928a536177d98346c682273695e"/>
+    <keyword type="function" name="Gsv::LanguageManager::get_language_ids" link="classGsv_1_1LanguageManager.html#ae691cb6f6d331677225894641db360b0"/>
+    <keyword type="function" name="Gsv::LanguageManager::get_language" link="classGsv_1_1LanguageManager.html#a6bb00efcb29d98e69d8c70ca83e8dddf"/>
+    <keyword type="function" name="Gsv::LanguageManager::get_language" link="classGsv_1_1LanguageManager.html#a1c0f13eceaa54a90e11de832d99547f4"/>
+    <keyword type="function" name="Gsv::LanguageManager::guess_language" link="classGsv_1_1LanguageManager.html#adf16d8729a9a604d0bac606cf058da0a"/>
+    <keyword type="function" name="Gsv::LanguageManager::guess_language" link="classGsv_1_1LanguageManager.html#a0569da20b7268bd6b8ded1d8e50f4966"/>
+    <keyword type="function" name="Gsv::LanguageManager::property_search_path" link="classGsv_1_1LanguageManager.html#af1982da1aa1ef937119956733fe5c3a0"/>
+    <keyword type="function" name="Gsv::LanguageManager::property_search_path" link="classGsv_1_1LanguageManager.html#abfbebf438ba49f855be6b9b1d6cf1dab"/>
+    <keyword type="function" name="Gsv::LanguageManager::property_language_ids" link="classGsv_1_1LanguageManager.html#ac9cde382ed72922ff297ab6b8173838b"/>
+    <keyword type="function" name="Gsv::LanguageManager::get_type" link="classGsv_1_1LanguageManager.html#afe86869f66fb83aec4f1f71de06b4a53"/>
+    <keyword type="function" name="Gsv::LanguageManager::create" link="classGsv_1_1LanguageManager.html#ad51cb7640cbb930f01ecb9f292325d0a"/>
+    <keyword type="function" name="Gsv::LanguageManager::get_default" link="classGsv_1_1LanguageManager.html#ac8c4832c34275d492de2a87e2a6cb61c"/>
+    <keyword type="function" name="Gsv::LanguageManager::LanguageManager" link="classGsv_1_1LanguageManager.html#a859971ab1a282ce111de08d40b3270fe"/>
+    <keyword type="function" name="Gsv::LanguageManager::wrap" link="classGsv_1_1LanguageManager.html#a43aa40c3d44bd5ce39151dd182ad587d"/>
+    <keyword type="struct" name="Gsv::Mark" link="classGsv_1_1Mark.html"/>
+    <keyword type="function" name="Gsv::Mark::Mark" link="classGsv_1_1Mark.html#ad71a5e736da1543f1c3eeb8d5bf507b7"/>
+    <keyword type="function" name="Gsv::Mark::operator=" link="classGsv_1_1Mark.html#a9a135aedfb8a2a5da0eee80ee785b574"/>
+    <keyword type="function" name="Gsv::Mark::~Mark" link="classGsv_1_1Mark.html#a1a39eef3f0c0bbd93f02398db85c95e8"/>
+    <keyword type="function" name="Gsv::Mark::gobj" link="classGsv_1_1Mark.html#a81757a8ae136f3ca63f73d3e0ea606a1"/>
+    <keyword type="function" name="Gsv::Mark::gobj" link="classGsv_1_1Mark.html#a09142553f8bd5a2102ad6b23f1b3e7c2"/>
+    <keyword type="function" name="Gsv::Mark::gobj_copy" link="classGsv_1_1Mark.html#a9c246d655cae333a3d1efb1d0c3b200d"/>
+    <keyword type="function" name="Gsv::Mark::get_category" link="classGsv_1_1Mark.html#afcafa4972652f9d3a30322f8999af890"/>
+    <keyword type="function" name="Gsv::Mark::next" link="classGsv_1_1Mark.html#acc539e278d5492724659705838fe8ed3"/>
+    <keyword type="function" name="Gsv::Mark::next" link="classGsv_1_1Mark.html#aa4a4387560fc0245239cb2cf53f137c4"/>
+    <keyword type="function" name="Gsv::Mark::next" link="classGsv_1_1Mark.html#ab8586556e9d5b076f49d714388981682"/>
+    <keyword type="function" name="Gsv::Mark::next" link="classGsv_1_1Mark.html#adb20f5bd17c56639def7b202764fefc5"/>
+    <keyword type="function" name="Gsv::Mark::prev" link="classGsv_1_1Mark.html#af4a564d467d40c9c38fa0ecf77f4f35b"/>
+    <keyword type="function" name="Gsv::Mark::prev" link="classGsv_1_1Mark.html#a0085bd2358490922ed2d223c721f80a2"/>
+    <keyword type="function" name="Gsv::Mark::prev" link="classGsv_1_1Mark.html#a1be9ae0275b46e27b21b8452ec099381"/>
+    <keyword type="function" name="Gsv::Mark::prev" link="classGsv_1_1Mark.html#a14aa6b59f6fd99ec6ceb82af1aa2cc5e"/>
+    <keyword type="function" name="Gsv::Mark::property_category" link="classGsv_1_1Mark.html#ac9f53cf796c1080275b28976b0f1a37e"/>
+    <keyword type="function" name="Gsv::Mark::get_type" link="classGsv_1_1Mark.html#aaa00f582308f808f314645eea14d8141"/>
+    <keyword type="function" name="Gsv::Mark::create" link="classGsv_1_1Mark.html#a8c554f25d8051ef306770ed5376f1094"/>
+    <keyword type="function" name="Gsv::Mark::create" link="classGsv_1_1Mark.html#a9883cf7c4203be11d4047434186b5059"/>
+    <keyword type="function" name="Gsv::Mark::Mark" link="classGsv_1_1Mark.html#a84ecab4bbcbbb9868c8d2d42a27af7bb"/>
+    <keyword type="function" name="Gsv::Mark::Mark" link="classGsv_1_1Mark.html#abae8a5c5443aa259c6ce2dcfede503f8"/>
+    <keyword type="function" name="Gsv::Mark::wrap" link="classGsv_1_1Mark.html#a7b54b9a883f628eb3940eb56140a9790"/>
+    <keyword type="struct" name="Gsv::MarkAttributes" link="classGsv_1_1MarkAttributes.html"/>
+    <keyword type="function" name="Gsv::MarkAttributes::MarkAttributes" link="classGsv_1_1MarkAttributes.html#a1896abb500eaa0cf75a2f2017f985e4d"/>
+    <keyword type="function" name="Gsv::MarkAttributes::operator=" link="classGsv_1_1MarkAttributes.html#ab961e046091d4444fac95143ffeb4e73"/>
+    <keyword type="function" name="Gsv::MarkAttributes::~MarkAttributes" link="classGsv_1_1MarkAttributes.html#aa08bacc5ee96f471d7933c75a5a5001d"/>
+    <keyword type="function" name="Gsv::MarkAttributes::gobj" link="classGsv_1_1MarkAttributes.html#ae6ba21aff7f4d45be155e463099cad31"/>
+    <keyword type="function" name="Gsv::MarkAttributes::gobj" link="classGsv_1_1MarkAttributes.html#a5bc5f240890e8da1de0afec3dd0c9639"/>
+    <keyword type="function" name="Gsv::MarkAttributes::gobj_copy" link="classGsv_1_1MarkAttributes.html#ae12feb9c6e84adbec06ff755343fd048"/>
+    <keyword type="function" name="Gsv::MarkAttributes::get_background" link="classGsv_1_1MarkAttributes.html#a3e3f1d021e11855d1e427333cbe60b38"/>
+    <keyword type="function" name="Gsv::MarkAttributes::is_background_set" link="classGsv_1_1MarkAttributes.html#a83e8b583770c31fb35b776d721f86253"/>
+    <keyword type="function" name="Gsv::MarkAttributes::set_background" link="classGsv_1_1MarkAttributes.html#a4cd7b7d7c89a86af933f4418d379e5b3"/>
+    <keyword type="function" name="Gsv::MarkAttributes::get_stock_id" link="classGsv_1_1MarkAttributes.html#a9c63b88eee5300d8c56ed841f0e9bdab"/>
+    <keyword type="function" name="Gsv::MarkAttributes::set_stock_id" link="classGsv_1_1MarkAttributes.html#aa0373adda9cd76c568162ff3f7776e72"/>
+    <keyword type="function" name="Gsv::MarkAttributes::set_icon_name" link="classGsv_1_1MarkAttributes.html#aa3d098276c6ee583f352620409f13c2c"/>
+    <keyword type="function" name="Gsv::MarkAttributes::get_icon_name" link="classGsv_1_1MarkAttributes.html#a616119b40a82bc5cc2eb40c563a1d993"/>
+    <keyword type="function" name="Gsv::MarkAttributes::get_icon" link="classGsv_1_1MarkAttributes.html#a95fcdf9315d75c0e7ff053e16b3e6b7f"/>
+    <keyword type="function" name="Gsv::MarkAttributes::get_icon" link="classGsv_1_1MarkAttributes.html#a07a8968f79d14b7e08343d2b90d296d2"/>
+    <keyword type="function" name="Gsv::MarkAttributes::set_icon" link="classGsv_1_1MarkAttributes.html#a5b44d4869c1e310a12be7b1add815961"/>
+    <keyword type="function" name="Gsv::MarkAttributes::get_pixbuf" link="classGsv_1_1MarkAttributes.html#a8948db9a66c91a97725f2a6e8d013998"/>
+    <keyword type="function" name="Gsv::MarkAttributes::set_pixbuf" link="classGsv_1_1MarkAttributes.html#a8f1ea045c659081cea23ee030558232e"/>
+    <keyword type="function" name="Gsv::MarkAttributes::render_icon" link="classGsv_1_1MarkAttributes.html#a0c05e3e3d7beb041353807fe66535ba8"/>
+    <keyword type="function" name="Gsv::MarkAttributes::get_tooltip_text" link="classGsv_1_1MarkAttributes.html#a30f105a0ffaf80691af5838fae4114dd"/>
+    <keyword type="function" name="Gsv::MarkAttributes::get_tooltip_markup" link="classGsv_1_1MarkAttributes.html#a8f68d3bb32c4ec3699d64c7211158ade"/>
+    <keyword type="function" name="Gsv::MarkAttributes::property_background" link="classGsv_1_1MarkAttributes.html#af0f97a0f1bec2c9d9a0f60124a86d815"/>
+    <keyword type="function" name="Gsv::MarkAttributes::property_background" link="classGsv_1_1MarkAttributes.html#a29ee76900be833e4306e551632818e3f"/>
+    <keyword type="function" name="Gsv::MarkAttributes::property_stock_id" link="classGsv_1_1MarkAttributes.html#a085bedeee8b69457c4ec5e8b72a5e4c4"/>
+    <keyword type="function" name="Gsv::MarkAttributes::property_stock_id" link="classGsv_1_1MarkAttributes.html#a97519c9802f1a35d02bf3e2d8e6b4a38"/>
+    <keyword type="function" name="Gsv::MarkAttributes::property_pixbuf" link="classGsv_1_1MarkAttributes.html#a2032a2d533381998b72f2acc1e4ef1d1"/>
+    <keyword type="function" name="Gsv::MarkAttributes::property_pixbuf" link="classGsv_1_1MarkAttributes.html#aaf86a1a20d24ccb55b3399e96e224f1b"/>
+    <keyword type="function" name="Gsv::MarkAttributes::property_icon_name" link="classGsv_1_1MarkAttributes.html#a9e8b7642f54c3069c69c5121459fc0f5"/>
+    <keyword type="function" name="Gsv::MarkAttributes::property_icon_name" link="classGsv_1_1MarkAttributes.html#a0b3323b9811b493d78b4bb67b73a4b0a"/>
+    <keyword type="function" name="Gsv::MarkAttributes::property_gicon" link="classGsv_1_1MarkAttributes.html#a099d0185b55484231389dcb1091eb7a1"/>
+    <keyword type="function" name="Gsv::MarkAttributes::property_gicon" link="classGsv_1_1MarkAttributes.html#a32b59cce1463ec659d574933323a39fb"/>
+    <keyword type="function" name="Gsv::MarkAttributes::signal_query_tooltip_text" link="classGsv_1_1MarkAttributes.html#af086b02fa256e74e1cb30abab22e64c7"/>
+    <keyword type="function" name="Gsv::MarkAttributes::signal_query_tooltip_markup" link="classGsv_1_1MarkAttributes.html#a7d22ab90ef79f05ebb4ed813ab392305"/>
+    <keyword type="function" name="Gsv::MarkAttributes::get_type" link="classGsv_1_1MarkAttributes.html#adda9d9d288f07cd6d0c9e44fe4984984"/>
+    <keyword type="function" name="Gsv::MarkAttributes::create" link="classGsv_1_1MarkAttributes.html#a25d98bfa236da0e4653e8447318a162f"/>
+    <keyword type="function" name="Gsv::MarkAttributes::MarkAttributes" link="classGsv_1_1MarkAttributes.html#a811bba2c0b6164d34cbdb3a0db408356"/>
+    <keyword type="function" name="Gsv::MarkAttributes::wrap" link="classGsv_1_1MarkAttributes.html#a6b859631008d035d159da602f3675d42"/>
+    <keyword type="struct" name="Gsv::Markup" link="classGsv_1_1Markup.html"/>
+    <keyword type="typedef" name="Gsv::Markup::BoolExpr" link="classGsv_1_1Markup.html#a95c77c0f5d565194635d1afdf3246d4c"/>
+    <keyword type="function" name="Gsv::Markup::Markup" link="classGsv_1_1Markup.html#a17cad1685165667f1834f61df2427f1b"/>
+    <keyword type="function" name="Gsv::Markup::Markup" link="classGsv_1_1Markup.html#a40910d70ffce71e01e38f967546ceab1"/>
+    <keyword type="function" name="Gsv::Markup::Markup" link="classGsv_1_1Markup.html#acab441a0420e0d014926f3486970549e"/>
+    <keyword type="function" name="Gsv::Markup::~Markup" link="classGsv_1_1Markup.html#aea4037abc49a8dab1ecacb39986373da"/>
+    <keyword type="function" name="Gsv::Markup::Markup" link="classGsv_1_1Markup.html#a90455194c0090c0253183fdec65034d2"/>
+    <keyword type="function" name="Gsv::Markup::operator=" link="classGsv_1_1Markup.html#a92b94fa569a9e6ff90b8814742adaadd"/>
+    <keyword type="function" name="Gsv::Markup::operator BoolExpr" link="classGsv_1_1Markup.html#a0d0a8da6c0cfd8c984f93ddbc5929324"/>
+    <keyword type="function" name="Gsv::Markup::equal" link="classGsv_1_1Markup.html#a3a0e5527abc9b6b9e934f0f66d56baa4"/>
+    <keyword type="function" name="Gsv::Markup::get_string" link="classGsv_1_1Markup.html#a22634267623ad4551b59d732a6404b5b"/>
+    <keyword type="function" name="Gsv::Markup::get_c_str" link="classGsv_1_1Markup.html#a85b10c91a22373f660e7eeda9ab8d75f"/>
+    <keyword type="function" name="Gsv::Markup::operator==" link="classGsv_1_1Markup.html#ad086f4292e8be2f0e9acca5b7e00df0b"/>
+    <keyword type="function" name="Gsv::Markup::operator!=" link="classGsv_1_1Markup.html#aafcd036e26a4366d6a7d15526ba9d0d9"/>
+    <keyword type="struct" name="Gsv::PrintCompositor" link="classGsv_1_1PrintCompositor.html"/>
+    <keyword type="function" name="Gsv::PrintCompositor::PrintCompositor" link="classGsv_1_1PrintCompositor.html#a8d2cab85989bd4d36d509a19062ad6a9"/>
+    <keyword type="function" name="Gsv::PrintCompositor::operator=" link="classGsv_1_1PrintCompositor.html#a1d03a184109d143372b1532bcd9eed02"/>
+    <keyword type="function" name="Gsv::PrintCompositor::~PrintCompositor" link="classGsv_1_1PrintCompositor.html#a997acdb5ec3838f716dde860380caf5c"/>
+    <keyword type="function" name="Gsv::PrintCompositor::gobj" link="classGsv_1_1PrintCompositor.html#ac27d05504e1c224584c453089b864429"/>
+    <keyword type="function" name="Gsv::PrintCompositor::gobj" link="classGsv_1_1PrintCompositor.html#a25c9419919bdb8581a82efe5550a2ae4"/>
+    <keyword type="function" name="Gsv::PrintCompositor::gobj_copy" link="classGsv_1_1PrintCompositor.html#a465cdb9107f7fe62d0809b41e93da64c"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_buffer" link="classGsv_1_1PrintCompositor.html#a18486f78ba03f45e4a266395fb80ac4e"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_buffer" link="classGsv_1_1PrintCompositor.html#a99b2a8b76921a50d7258012282b865cc"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_tab_width" link="classGsv_1_1PrintCompositor.html#aada012f080cde2e2e5929b65de59dbf7"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_tab_width" link="classGsv_1_1PrintCompositor.html#a93d18ff10ef715c88b3c4b95167ab4c5"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_wrap_mode" link="classGsv_1_1PrintCompositor.html#ac016bc3fae49f06affb3a7f840e04783"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_wrap_mode" link="classGsv_1_1PrintCompositor.html#a011ee0665650cbb167231b918f935a03"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_highlight_syntax" link="classGsv_1_1PrintCompositor.html#a5204099f6ef566d939f0843d2cd63d33"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_highlight_syntax" link="classGsv_1_1PrintCompositor.html#a0a00cfd7ddf80de48c812a85f2214f71"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_print_line_numbers" link="classGsv_1_1PrintCompositor.html#ab3c8451d11d3aa5dd32af3f884adb7bf"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_print_line_numbers" link="classGsv_1_1PrintCompositor.html#acb76459acf64644e053d49ae013f49c9"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_body_font_name" link="classGsv_1_1PrintCompositor.html#a944d5e189f64a8a42a315d271243b2d9"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_body_font_name" link="classGsv_1_1PrintCompositor.html#a62a2baddc2a61d22d7aebdd5d0522318"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_line_numbers_font_name" link="classGsv_1_1PrintCompositor.html#a4d26ad154feecdb5ca73f87ecd08e211"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_default_line_numbers_font_name" link="classGsv_1_1PrintCompositor.html#a978adf1eae7a29b1b8d54c2a01c36cb4"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_line_numbers_font_name" link="classGsv_1_1PrintCompositor.html#a2da0ca853e56282c981799ab7dac6311"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_header_font_name" link="classGsv_1_1PrintCompositor.html#a607afe41c1b6cb252685e1abe2549ac1"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_default_header_font_name" link="classGsv_1_1PrintCompositor.html#a7be32d56f5658aa7918cbf1a950ac1ef"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_header_font_name" link="classGsv_1_1PrintCompositor.html#ae4f5fe0ed646197cf607c7bb656274f5"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_footer_font_name" link="classGsv_1_1PrintCompositor.html#a0dcd773d2f65fbfb12d17ea5225d2dda"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_default_footer_font_name" link="classGsv_1_1PrintCompositor.html#a77f5e7dcfca9a5878fda7a8d56b28f74"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_footer_font_name" link="classGsv_1_1PrintCompositor.html#a74e2172886e458581befaf1ebfa1f149"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_top_margin" link="classGsv_1_1PrintCompositor.html#a6dac30d9c4763ce8c96283d0c79c02a5"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_top_margin" link="classGsv_1_1PrintCompositor.html#ad1b8c8a1a2bd0586e67e596b99aec078"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_bottom_margin" link="classGsv_1_1PrintCompositor.html#a4f3a0fd1b1d624aeb16ade422ad1a518"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_bottom_margin" link="classGsv_1_1PrintCompositor.html#ae54a69092b83f07c40f8dd5e958eb800"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_left_margin" link="classGsv_1_1PrintCompositor.html#a04948d8b292b30297552b247b4fd5971"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_left_margin" link="classGsv_1_1PrintCompositor.html#a344c808c87e9349986a542cc817a1081"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_right_margin" link="classGsv_1_1PrintCompositor.html#a5d2355953a91910b055f89ba3c3c0a7b"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_right_margin" link="classGsv_1_1PrintCompositor.html#aa46e1ae269dcde90ac4e708012465ea9"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_print_header" link="classGsv_1_1PrintCompositor.html#a076f46dfc781e9660c90daa9705dfe6e"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_print_header" link="classGsv_1_1PrintCompositor.html#a107ff7a9f5698bc57ff9fba887212ca4"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_print_footer" link="classGsv_1_1PrintCompositor.html#a1757d5f01d622f38910056da11cde930"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_print_footer" link="classGsv_1_1PrintCompositor.html#a9a481de44e6b4cef397fb2225f771e80"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_header_format" link="classGsv_1_1PrintCompositor.html#ad65feb124ee573667972815c643ee323"/>
+    <keyword type="function" name="Gsv::PrintCompositor::set_footer_format" link="classGsv_1_1PrintCompositor.html#ab6eb033f25b2a80b6863a3be8b56994e"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_n_pages" link="classGsv_1_1PrintCompositor.html#ae8140f8eb62de5f1090ebd7c290eb0eb"/>
+    <keyword type="function" name="Gsv::PrintCompositor::paginate" link="classGsv_1_1PrintCompositor.html#a98bfa00e3272adfc07ba2653b51a030e"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_pagination_process" link="classGsv_1_1PrintCompositor.html#a77397d5a8a08211cebba1e00d8a7e7fd"/>
+    <keyword type="function" name="Gsv::PrintCompositor::draw_page" link="classGsv_1_1PrintCompositor.html#a7a7891e850ffdd102a72638de6d746e3"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_body_font_name" link="classGsv_1_1PrintCompositor.html#ac7f8eecb8e674316b44e1dbe2b4ab59b"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_body_font_name" link="classGsv_1_1PrintCompositor.html#abf4149eb2f491d3767c525123782d751"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_buffer" link="classGsv_1_1PrintCompositor.html#a3b0dbcbf117b8bc707c02e075e259113"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_footer_font_name" link="classGsv_1_1PrintCompositor.html#a0be7f637257b18117c85f67b7cb47682"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_footer_font_name" link="classGsv_1_1PrintCompositor.html#a0790608b7dce58691ee3d35d0a2e637a"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_header_font_name" link="classGsv_1_1PrintCompositor.html#a29d1281486113ef82fb41dbe6d992163"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_header_font_name" link="classGsv_1_1PrintCompositor.html#adcd4f56f292784c91b4dee1142160091"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_highlight_syntax" link="classGsv_1_1PrintCompositor.html#a5bca4d97071c985ebb21fba9d599f986"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_highlight_syntax" link="classGsv_1_1PrintCompositor.html#a6c3c09be1be2d6d41845060092142be9"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_line_numbers_font_name" link="classGsv_1_1PrintCompositor.html#abf712ff734f3bed6198dacd095f7a3bf"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_line_numbers_font_name" link="classGsv_1_1PrintCompositor.html#a2142237343f5e4aedda0f651c0c97622"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_n_pages" link="classGsv_1_1PrintCompositor.html#a0ca4ea8498c056bbecdb31271425ae4e"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_print_footer" link="classGsv_1_1PrintCompositor.html#ab479ad06939f63fcbb267e9f816e32e0"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_print_footer" link="classGsv_1_1PrintCompositor.html#a3a3b64c732f454c4b1da40be61e96ad0"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_print_header" link="classGsv_1_1PrintCompositor.html#a771f69ff5b9a13e7d8138188ac325592"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_print_header" link="classGsv_1_1PrintCompositor.html#a31a3180db466f0e7b4ea519f453749f9"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_print_line_numbers" link="classGsv_1_1PrintCompositor.html#a14f999d90c55786fcb1d87e1e089b1c0"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_print_line_numbers" link="classGsv_1_1PrintCompositor.html#ace5e445a3191a1e78dca981e21a01720"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_tab_width" link="classGsv_1_1PrintCompositor.html#ade79c9288ef3500d3a9f6d288b31394d"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_tab_width" link="classGsv_1_1PrintCompositor.html#adccfad95f61749db7ea4b8a9a590256d"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_wrap_mode" link="classGsv_1_1PrintCompositor.html#aea3895a83aedf8f3b7d2b30656a25983"/>
+    <keyword type="function" name="Gsv::PrintCompositor::property_wrap_mode" link="classGsv_1_1PrintCompositor.html#a4a9f7f08f48502ebe7917c33b0a3f795"/>
+    <keyword type="function" name="Gsv::PrintCompositor::get_type" link="classGsv_1_1PrintCompositor.html#a2d86ae2b78f6abb200ad0701edf89ca2"/>
+    <keyword type="function" name="Gsv::PrintCompositor::create" link="classGsv_1_1PrintCompositor.html#a064e278bfceeadc9484b9e539f08eec5"/>
+    <keyword type="function" name="Gsv::PrintCompositor::create" link="classGsv_1_1PrintCompositor.html#ab923fedcd93bed1fbfdca1f5613cd4c5"/>
+    <keyword type="function" name="Gsv::PrintCompositor::PrintCompositor" link="classGsv_1_1PrintCompositor.html#a387cc4a9a04102d1454abafbdfff7b2c"/>
+    <keyword type="function" name="Gsv::PrintCompositor::PrintCompositor" link="classGsv_1_1PrintCompositor.html#aa193dc53bcc40c5005ac6c3c67e1a65c"/>
+    <keyword type="function" name="Gsv::PrintCompositor::wrap" link="classGsv_1_1PrintCompositor.html#a7791769b8d2326fabd23c02396ff92b5"/>
+    <keyword type="struct" name="Gsv::SourceCompletionError" link="classGsv_1_1SourceCompletionError.html"/>
+    <keyword type="enum" name="Gsv::SourceCompletionError::Code" link="classGsv_1_1SourceCompletionError.html#a11218c961e7d4ff44ad1691645501c04"/>
+    <keyword type="macro" name="Gsv::SourceCompletionError::ALREADY_BOUND" link="classGsv_1_1SourceCompletionError.html#a11218c961e7d4ff44ad1691645501c04ad1f454b401aa574b1cde67b00912c392"/>
+    <keyword type="macro" name="Gsv::SourceCompletionError::NOT_BOUND" link="classGsv_1_1SourceCompletionError.html#a11218c961e7d4ff44ad1691645501c04a7c59e643ce25cb7dc3355d3c2d1a7736"/>
+    <keyword type="function" name="Gsv::SourceCompletionError::SourceCompletionError" link="classGsv_1_1SourceCompletionError.html#a3a97787f7e8b0de609660905ae7cfbe1"/>
+    <keyword type="function" name="Gsv::SourceCompletionError::SourceCompletionError" link="classGsv_1_1SourceCompletionError.html#aaaf152426332c94fd496a9235ad6e574"/>
+    <keyword type="function" name="Gsv::SourceCompletionError::code" link="classGsv_1_1SourceCompletionError.html#a1876514875527b812e45898ee9ea2457"/>
+    <keyword type="struct" name="Gsv::Style" link="classGsv_1_1Style.html"/>
+    <keyword type="function" name="Gsv::Style::Style" link="classGsv_1_1Style.html#aaff39db35d8587fcfba8156cb522b712"/>
+    <keyword type="function" name="Gsv::Style::operator=" link="classGsv_1_1Style.html#a8899e397a198972d278f1b9f89a788eb"/>
+    <keyword type="function" name="Gsv::Style::~Style" link="classGsv_1_1Style.html#a40835986a7b9771604ffb26be91b5034"/>
+    <keyword type="function" name="Gsv::Style::gobj" link="classGsv_1_1Style.html#a885095fd4468a22ba0546fdcb6f75b03"/>
+    <keyword type="function" name="Gsv::Style::gobj" link="classGsv_1_1Style.html#a9dea25a01c2d1753f2acd129646c235f"/>
+    <keyword type="function" name="Gsv::Style::gobj_copy" link="classGsv_1_1Style.html#a86333d3ffd1a1f58c80fca24df32b0b6"/>
+    <keyword type="function" name="Gsv::Style::copy" link="classGsv_1_1Style.html#abfa9bb93e1fc968ee57e9296c122aa4e"/>
+    <keyword type="function" name="Gsv::Style::property_background" link="classGsv_1_1Style.html#a0de61c3caf0afaa4e3bc5532f8e20957"/>
+    <keyword type="function" name="Gsv::Style::property_background_set" link="classGsv_1_1Style.html#ab340ca785d111ca3a9820efa5fe6db86"/>
+    <keyword type="function" name="Gsv::Style::property_bold" link="classGsv_1_1Style.html#a8fb18c901157eda0c89fa5a2edfbf0a0"/>
+    <keyword type="function" name="Gsv::Style::property_bold_set" link="classGsv_1_1Style.html#a2d350f43d5248d9266c04ba187f74cb0"/>
+    <keyword type="function" name="Gsv::Style::property_foreground" link="classGsv_1_1Style.html#ab578c758e1df2991a767bcbde7cab612"/>
+    <keyword type="function" name="Gsv::Style::property_foreground_set" link="classGsv_1_1Style.html#a31f112863285d249fe4135b7d15b6bd7"/>
+    <keyword type="function" name="Gsv::Style::property_italic" link="classGsv_1_1Style.html#a400fb161936cf0606c979f6a9b842610"/>
+    <keyword type="function" name="Gsv::Style::property_italic_set" link="classGsv_1_1Style.html#a97e4e7f9f500fd23eec88468599cf56a"/>
+    <keyword type="function" name="Gsv::Style::property_line_background" link="classGsv_1_1Style.html#a60fc086d94f48d9c2c6ce6faef3eb871"/>
+    <keyword type="function" name="Gsv::Style::property_line_background_set" link="classGsv_1_1Style.html#a8b643c214c4633e5f2d1f12d553a00df"/>
+    <keyword type="function" name="Gsv::Style::property_strikethrough" link="classGsv_1_1Style.html#ab30a8dff78cf0199b55be701d57781bc"/>
+    <keyword type="function" name="Gsv::Style::property_strikethrough_set" link="classGsv_1_1Style.html#a3661fffae047cd17ea02151a28d909e4"/>
+    <keyword type="function" name="Gsv::Style::property_underline" link="classGsv_1_1Style.html#a13fb0a92104f9133206cb771fa923d45"/>
+    <keyword type="function" name="Gsv::Style::property_underline_set" link="classGsv_1_1Style.html#a91318e1635183bf55bc45eaca022adc5"/>
+    <keyword type="function" name="Gsv::Style::get_type" link="classGsv_1_1Style.html#acbc2bbb32de5c076a961d5cb3bb8b6e7"/>
+    <keyword type="function" name="Gsv::Style::wrap" link="classGsv_1_1Style.html#a4449efe374f1e131b7dc19a712ccb46f"/>
+    <keyword type="struct" name="Gsv::StyleScheme" link="classGsv_1_1StyleScheme.html"/>
+    <keyword type="function" name="Gsv::StyleScheme::StyleScheme" link="classGsv_1_1StyleScheme.html#a90a7ad39a1acab5f2dfbd5aef040d75c"/>
+    <keyword type="function" name="Gsv::StyleScheme::operator=" link="classGsv_1_1StyleScheme.html#a1bb6723544e61e0c56357c46c79fe24f"/>
+    <keyword type="function" name="Gsv::StyleScheme::~StyleScheme" link="classGsv_1_1StyleScheme.html#adeb57de6e6aa561e12bf877b3dd00079"/>
+    <keyword type="function" name="Gsv::StyleScheme::gobj" link="classGsv_1_1StyleScheme.html#ab30a1eeb8771bbbfc463ec0af67e0257"/>
+    <keyword type="function" name="Gsv::StyleScheme::gobj" link="classGsv_1_1StyleScheme.html#a6ceb2c8c50bd560a26cbfa743fcea780"/>
+    <keyword type="function" name="Gsv::StyleScheme::gobj_copy" link="classGsv_1_1StyleScheme.html#aaa305e016095cb8f46d3809edc4eb450"/>
+    <keyword type="function" name="Gsv::StyleScheme::get_id" link="classGsv_1_1StyleScheme.html#a8b8c012ca587a183a6aecf4d74ff7676"/>
+    <keyword type="function" name="Gsv::StyleScheme::get_name" link="classGsv_1_1StyleScheme.html#aa822232ffcb94fdabd6561cb1becfda8"/>
+    <keyword type="function" name="Gsv::StyleScheme::get_description" link="classGsv_1_1StyleScheme.html#a5c4071f709ca9e83fda0cf249540d94f"/>
+    <keyword type="function" name="Gsv::StyleScheme::get_authors" link="classGsv_1_1StyleScheme.html#a01e6a247249fb4c0b7919b049beaf518"/>
+    <keyword type="function" name="Gsv::StyleScheme::get_filename" link="classGsv_1_1StyleScheme.html#ad981f5f8f31f93e5981c1918d81e133a"/>
+    <keyword type="function" name="Gsv::StyleScheme::get_style" link="classGsv_1_1StyleScheme.html#af382a48478aba1d00c7365bd731177de"/>
+    <keyword type="function" name="Gsv::StyleScheme::get_style" link="classGsv_1_1StyleScheme.html#abe1cd16ad120cba0d601cac5d80e2a4a"/>
+    <keyword type="function" name="Gsv::StyleScheme::property_id" link="classGsv_1_1StyleScheme.html#a5107780d5b08e4a4c7fe39f21e3d522e"/>
+    <keyword type="function" name="Gsv::StyleScheme::property_name" link="classGsv_1_1StyleScheme.html#abceb9ec5562c9e8a665ac68f57c57282"/>
+    <keyword type="function" name="Gsv::StyleScheme::property_description" link="classGsv_1_1StyleScheme.html#a55f4ed232692b413201275624e71840c"/>
+    <keyword type="function" name="Gsv::StyleScheme::property_filename" link="classGsv_1_1StyleScheme.html#a31aae6faeecb6c3b19d601d30dbc6959"/>
+    <keyword type="function" name="Gsv::StyleScheme::get_type" link="classGsv_1_1StyleScheme.html#afa47ee3274d93ae9f3dba280125e717d"/>
+    <keyword type="function" name="Gsv::StyleScheme::wrap" link="classGsv_1_1StyleScheme.html#abb250c77690acf80e86a2a0d758238e6"/>
+    <keyword type="struct" name="Gsv::StyleSchemeManager" link="classGsv_1_1StyleSchemeManager.html"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::StyleSchemeManager" link="classGsv_1_1StyleSchemeManager.html#aede69105fb9d90086f14e094ab1fe604"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::operator=" link="classGsv_1_1StyleSchemeManager.html#a5b80e38c43af9159ce1d834e0d5ea105"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::~StyleSchemeManager" link="classGsv_1_1StyleSchemeManager.html#a6c993dd097ca02a85ce312a2f4aae543"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::gobj" link="classGsv_1_1StyleSchemeManager.html#a541b99c5e1ab4a9691236fd33bd22524"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::gobj" link="classGsv_1_1StyleSchemeManager.html#af0b0f7c9e232e71596c034e9e546a86b"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::gobj_copy" link="classGsv_1_1StyleSchemeManager.html#a3757bacbce15929f69256316361a51e4"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::get_search_path" link="classGsv_1_1StyleSchemeManager.html#a1137bd67ce073bc2768600b69c83b75c"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::set_search_path" link="classGsv_1_1StyleSchemeManager.html#abba091f6530fc57678a8dc1003bd9c0a"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::reset_search_path" link="classGsv_1_1StyleSchemeManager.html#aff9d46aa969a298cd10f9e57f78cb14f"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::append_search_path" link="classGsv_1_1StyleSchemeManager.html#aefc03f29d856154e2b05c2e077908618"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::prepend_search_path" link="classGsv_1_1StyleSchemeManager.html#a3f7174b9d3baa1b6765b9b2be5c84f1f"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::get_scheme" link="classGsv_1_1StyleSchemeManager.html#ab193fb63b61b64e2a88be1c87493a3dc"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::get_scheme" link="classGsv_1_1StyleSchemeManager.html#a835bb9095a337995f710a96c140d779b"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::force_rescan" link="classGsv_1_1StyleSchemeManager.html#adabefe2030d4e920f36a6b9626c136c3"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::get_scheme_ids" link="classGsv_1_1StyleSchemeManager.html#ae6fd9e8fa78bf322b24436ac0d89957f"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::property_search_path" link="classGsv_1_1StyleSchemeManager.html#a360cee8ceb9b3733d1aa9af0df3921aa"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::property_search_path" link="classGsv_1_1StyleSchemeManager.html#af9676cb0cdf2b94d17214e469bb1cb86"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::property_scheme_ids" link="classGsv_1_1StyleSchemeManager.html#a9c13103b7261b32e52528b0326338fb3"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::get_type" link="classGsv_1_1StyleSchemeManager.html#a8e4a89b979ca488be9ae87f5e72b7c01"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::create" link="classGsv_1_1StyleSchemeManager.html#ac0376964a1083b9c7f597e6ba04ae830"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::get_default" link="classGsv_1_1StyleSchemeManager.html#aa2a16605ec386dff410bc4db2a4d393b"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::StyleSchemeManager" link="classGsv_1_1StyleSchemeManager.html#a7cf97e796e8e4aa3d48b94ffade86db1"/>
+    <keyword type="function" name="Gsv::StyleSchemeManager::wrap" link="classGsv_1_1StyleSchemeManager.html#a5c7fec536bbde6affd4b8d2931172930"/>
+    <keyword type="struct" name="Gsv::UndoManager" link="classGsv_1_1UndoManager.html"/>
+    <keyword type="function" name="Gsv::UndoManager::UndoManager" link="classGsv_1_1UndoManager.html#a4b7c0609bcf1651b5afadd1d69a24cb1"/>
+    <keyword type="function" name="Gsv::UndoManager::operator=" link="classGsv_1_1UndoManager.html#aad8de962184bec60e4075f3942755318"/>
+    <keyword type="function" name="Gsv::UndoManager::~UndoManager" link="classGsv_1_1UndoManager.html#aa0239b3c1ba8a551e70b33236d049495"/>
+    <keyword type="function" name="Gsv::UndoManager::gobj" link="classGsv_1_1UndoManager.html#a0a0d538bd2ee18e9199287b29ff6f53c"/>
+    <keyword type="function" name="Gsv::UndoManager::gobj" link="classGsv_1_1UndoManager.html#a27d277546e04e5b8ebf9593e8589e6c9"/>
+    <keyword type="function" name="Gsv::UndoManager::can_undo" link="classGsv_1_1UndoManager.html#a26883730bc645374dbdcce4e8106816f"/>
+    <keyword type="function" name="Gsv::UndoManager::can_redo" link="classGsv_1_1UndoManager.html#a6c9f287a3d6d6c7d456f56805fda358b"/>
+    <keyword type="function" name="Gsv::UndoManager::undo" link="classGsv_1_1UndoManager.html#a769d4171c425fec8b2e6ff0eaad90abb"/>
+    <keyword type="function" name="Gsv::UndoManager::redo" link="classGsv_1_1UndoManager.html#ae468cadba33cab9efa7d2ecd459beba9"/>
+    <keyword type="function" name="Gsv::UndoManager::begin_not_undoable_action" link="classGsv_1_1UndoManager.html#ad0ee2a367696446fa157d506f87c3ef9"/>
+    <keyword type="function" name="Gsv::UndoManager::end_not_undoable_action" link="classGsv_1_1UndoManager.html#a3a878e07760e0c0992bcd9241357f99d"/>
+    <keyword type="function" name="Gsv::UndoManager::can_undo_changed" link="classGsv_1_1UndoManager.html#a2d8b14233d10859074077dfb8c7d9333"/>
+    <keyword type="function" name="Gsv::UndoManager::can_redo_changed" link="classGsv_1_1UndoManager.html#a928e414cd81b3ddac159722444b1e482"/>
+    <keyword type="function" name="Gsv::UndoManager::signal_can_undo_changed" link="classGsv_1_1UndoManager.html#a2e6f5d626bc69a99ee9b465eb0dd3a08"/>
+    <keyword type="function" name="Gsv::UndoManager::signal_can_redo_changed" link="classGsv_1_1UndoManager.html#a5415aaa49a6d8b9bba57723547d6b9ac"/>
+    <keyword type="function" name="Gsv::UndoManager::add_interface" link="classGsv_1_1UndoManager.html#a8612f11342f532b942cb7861f5cea10f"/>
+    <keyword type="function" name="Gsv::UndoManager::get_type" link="classGsv_1_1UndoManager.html#abc122d34f5ea713819be4a5b4e33e5f5"/>
+    <keyword type="function" name="Gsv::UndoManager::UndoManager" link="classGsv_1_1UndoManager.html#ab56f9487b0ebe21e445927bc7dafd3bc"/>
+    <keyword type="function" name="Gsv::UndoManager::on_can_undo_changed" link="classGsv_1_1UndoManager.html#aadfcb304decc1814a7f2ae70628b6a89"/>
+    <keyword type="function" name="Gsv::UndoManager::on_can_redo_changed" link="classGsv_1_1UndoManager.html#a889e0e993e45865c8baef2d3e7794362"/>
+    <keyword type="function" name="Gsv::UndoManager::wrap" link="classGsv_1_1UndoManager.html#a64abf8bc4eaccad2c65682bedf9d8468"/>
+    <keyword type="struct" name="Gsv::View" link="classGsv_1_1View.html"/>
+    <keyword type="function" name="Gsv::View::View" link="classGsv_1_1View.html#a7218333664cc088cddd309ee70332e6f"/>
+    <keyword type="function" name="Gsv::View::operator=" link="classGsv_1_1View.html#a57743e0bdb53a7debdb2a4a7129360af"/>
+    <keyword type="function" name="Gsv::View::View" link="classGsv_1_1View.html#acb8cc768489802925c61d1b6570b4edd"/>
+    <keyword type="function" name="Gsv::View::operator=" link="classGsv_1_1View.html#a72ce0cf175744a3928b6c5800ae38799"/>
+    <keyword type="function" name="Gsv::View::~View" link="classGsv_1_1View.html#ad60fb38f53e6cb5ce697d80420176776"/>
+    <keyword type="function" name="Gsv::View::gobj" link="classGsv_1_1View.html#ab80fae28c29795d1d60a35a9ac424f63"/>
+    <keyword type="function" name="Gsv::View::gobj" link="classGsv_1_1View.html#acc328aaba4c1c060a560480eb46217ec"/>
+    <keyword type="function" name="Gsv::View::View" link="classGsv_1_1View.html#a7ed4e37c50bce5fb6f2c481f3d857b6f"/>
+    <keyword type="function" name="Gsv::View::View" link="classGsv_1_1View.html#ab071083dcffc383dbf38d51d1a8cbe8d"/>
+    <keyword type="function" name="Gsv::View::get_source_buffer" link="classGsv_1_1View.html#a3f5b9926446f30a913ebc3277d00a22d"/>
+    <keyword type="function" name="Gsv::View::get_source_buffer" link="classGsv_1_1View.html#a062622d7081f5c47a03da2f001e35e45"/>
+    <keyword type="function" name="Gsv::View::set_source_buffer" link="classGsv_1_1View.html#a9440a52d7b897db2ac155d59b2a69387"/>
+    <keyword type="function" name="Gsv::View::set_show_line_numbers" link="classGsv_1_1View.html#a740fe71a0ed69173196f4f82b69a72e1"/>
+    <keyword type="function" name="Gsv::View::get_show_line_numbers" link="classGsv_1_1View.html#acc708e9eacf6be3da16ee2b9c48134c3"/>
+    <keyword type="function" name="Gsv::View::set_tab_width" link="classGsv_1_1View.html#a8159bfa18c76a6fa548aebe7ea8300be"/>
+    <keyword type="function" name="Gsv::View::get_tab_width" link="classGsv_1_1View.html#ae3ad53b9f8ef606f4861c136b725cb09"/>
+    <keyword type="function" name="Gsv::View::set_auto_indent" link="classGsv_1_1View.html#a191267523a362b917ca23fea7a4d2dcb"/>
+    <keyword type="function" name="Gsv::View::get_auto_indent" link="classGsv_1_1View.html#a17dbc2d0e7986b71a12684288cd2087e"/>
+    <keyword type="function" name="Gsv::View::set_insert_spaces_instead_of_tabs" link="classGsv_1_1View.html#a8f5882905497166a524148b7f4148373"/>
+    <keyword type="function" name="Gsv::View::get_insert_spaces_instead_of_tabs" link="classGsv_1_1View.html#a615afbdfb0058b89c2dcc6a74dd3a860"/>
+    <keyword type="function" name="Gsv::View::set_show_right_margin" link="classGsv_1_1View.html#aeeea8331a54ebbece914ec9d70ec33c2"/>
+    <keyword type="function" name="Gsv::View::get_show_right_margin" link="classGsv_1_1View.html#a591345e388db4b46f43b61b12128935a"/>
+    <keyword type="function" name="Gsv::View::set_highlight_current_line" link="classGsv_1_1View.html#ae89283881e988dfae1ad119505959ba5"/>
+    <keyword type="function" name="Gsv::View::get_highlight_current_line" link="classGsv_1_1View.html#a49ea51370ac7bb2f8a36655d4c45832f"/>
+    <keyword type="function" name="Gsv::View::set_right_margin_position" link="classGsv_1_1View.html#a2ff4acefc5bbebfe0e40eae39d8fb232"/>
+    <keyword type="function" name="Gsv::View::get_right_margin_position" link="classGsv_1_1View.html#aca2e7449c7e8f2fcc20f364612dccf1e"/>
+    <keyword type="function" name="Gsv::View::set_smart_home_end" link="classGsv_1_1View.html#ab48296b76084aeabfc4a56fbb8d5bace"/>
+    <keyword type="function" name="Gsv::View::get_smart_home_end" link="classGsv_1_1View.html#aaa97a2b558593a3a202a9587b691116b"/>
+    <keyword type="function" name="Gsv::View::set_show_line_marks" link="classGsv_1_1View.html#a62c07827cdaab74385ae3062b65397fa"/>
+    <keyword type="function" name="Gsv::View::get_show_line_marks" link="classGsv_1_1View.html#abb1d85cc127a0f11de8b2790474fd97c"/>
+    <keyword type="function" name="Gsv::View::set_indent_on_tab" link="classGsv_1_1View.html#aa58a4e1ad0e241cd65d86ac3efedae4a"/>
+    <keyword type="function" name="Gsv::View::get_indent_on_tab" link="classGsv_1_1View.html#a0a2b116db7d74b199d17e70f0faafefd"/>
+    <keyword type="function" name="Gsv::View::set_indent_width" link="classGsv_1_1View.html#ad28ba9e567c6187f40c0d7b81f0e9198"/>
+    <keyword type="function" name="Gsv::View::get_indent_width" link="classGsv_1_1View.html#a307d2695694bb80cece373fdb7498bca"/>
+    <keyword type="function" name="Gsv::View::set_draw_spaces" link="classGsv_1_1View.html#afc4b4c8159d8b07934149e2d55faf403"/>
+    <keyword type="function" name="Gsv::View::get_draw_spaces" link="classGsv_1_1View.html#aaa6ceb54a56713781fb98d60360d1aee"/>
+    <keyword type="function" name="Gsv::View::get_visual_column" link="classGsv_1_1View.html#a84ca29bc119238f36ea585be0c993b9d"/>
+    <keyword type="function" name="Gsv::View::get_gutter" link="classGsv_1_1View.html#a1c41f875441b162de4cba3619bc3aebf"/>
+    <keyword type="function" name="Gsv::View::get_gutter" link="classGsv_1_1View.html#a8bf4213a4c712e4a89be5636375d279b"/>
+    <keyword type="function" name="Gsv::View::get_completion" link="classGsv_1_1View.html#a0e34bb0b5a27c97c4b736882834abb2f"/>
+    <keyword type="function" name="Gsv::View::get_completion" link="classGsv_1_1View.html#abc43a3a62a03d4576c9650be77ad572d"/>
+    <keyword type="function" name="Gsv::View::set_mark_attributes" link="classGsv_1_1View.html#acd321656a5f51ab2cc43035c5c5c9dfe"/>
+    <keyword type="function" name="Gsv::View::get_mark_attributes" link="classGsv_1_1View.html#af5acae64f593768802ed6dd92ab7eee7"/>
+    <keyword type="function" name="Gsv::View::get_mark_attributes" link="classGsv_1_1View.html#af5e72701c7a9b37c4fad3e9f27daebaf"/>
+    <keyword type="function" name="Gsv::View::signal_redo" link="classGsv_1_1View.html#a3c22aceafd2ae16efd5f1124a3a48bf2"/>
+    <keyword type="function" name="Gsv::View::signal_undo" link="classGsv_1_1View.html#a8330b05e365fcec7ed78ef5dbfc71e75"/>
+    <keyword type="function" name="Gsv::View::signal_line_mark_activated" link="classGsv_1_1View.html#a1689b4f0291408005a330af7c2ce91ab"/>
+    <keyword type="function" name="Gsv::View::signal_smart_home_end" link="classGsv_1_1View.html#a1798199b317cb6bbdb0d8e1654167d02"/>
+    <keyword type="function" name="Gsv::View::property_show_line_numbers" link="classGsv_1_1View.html#a19503847426973814fdd53a114344de6"/>
+    <keyword type="function" name="Gsv::View::property_show_line_numbers" link="classGsv_1_1View.html#a69e06962c2b1e8645bc032462c216eb2"/>
+    <keyword type="function" name="Gsv::View::property_show_line_marks" link="classGsv_1_1View.html#aceba0deec206ee0a1462f91ba6df27b8"/>
+    <keyword type="function" name="Gsv::View::property_show_line_marks" link="classGsv_1_1View.html#ad78a7b1a09cc5539d6ed783ccfcdba21"/>
+    <keyword type="function" name="Gsv::View::property_tab_width" link="classGsv_1_1View.html#a9e102cc2c42a00c9549ad963e1180e35"/>
+    <keyword type="function" name="Gsv::View::property_tab_width" link="classGsv_1_1View.html#a58587f083764d5b4f917ecda283f78e9"/>
+    <keyword type="function" name="Gsv::View::property_indent_width" link="classGsv_1_1View.html#a9bf55c84d6254139516dee7146ca5e40"/>
+    <keyword type="function" name="Gsv::View::property_indent_width" link="classGsv_1_1View.html#a1a3cc48be7b2942b7d513d624b8ababe"/>
+    <keyword type="function" name="Gsv::View::property_auto_indent" link="classGsv_1_1View.html#ac2c894d68a7365d693dd42a51cac4bc7"/>
+    <keyword type="function" name="Gsv::View::property_auto_indent" link="classGsv_1_1View.html#aef8c48ce29a5c5df5566b575e94dfb04"/>
+    <keyword type="function" name="Gsv::View::property_insert_spaces_instead_of_tabs" link="classGsv_1_1View.html#aaac2b5053561911fbc86a0c2b97cc21e"/>
+    <keyword type="function" name="Gsv::View::property_insert_spaces_instead_of_tabs" link="classGsv_1_1View.html#a1d63af77c483fbc6ade69bb6c1e7f772"/>
+    <keyword type="function" name="Gsv::View::property_show_right_margin" link="classGsv_1_1View.html#ace54f0891b356a2165431b9aa87150db"/>
+    <keyword type="function" name="Gsv::View::property_show_right_margin" link="classGsv_1_1View.html#ade2ad2bbde079ce97083756f94cff403"/>
+    <keyword type="function" name="Gsv::View::property_right_margin_position" link="classGsv_1_1View.html#af96dc37e5276226e23b9012e15e2fdf8"/>
+    <keyword type="function" name="Gsv::View::property_right_margin_position" link="classGsv_1_1View.html#a89230b7bf6da277bd382fba27fbb911c"/>
+    <keyword type="function" name="Gsv::View::property_smart_home_end" link="classGsv_1_1View.html#a9a7a3e31638b7540e86d2c9c922995ab"/>
+    <keyword type="function" name="Gsv::View::property_smart_home_end" link="classGsv_1_1View.html#a08ed8729306e62bac2ff4e55a02b7d98"/>
+    <keyword type="function" name="Gsv::View::property_highlight_current_line" link="classGsv_1_1View.html#a401294045f8965eb36d08e0e5bc14575"/>
+    <keyword type="function" name="Gsv::View::property_highlight_current_line" link="classGsv_1_1View.html#a058dd5a55abd9e8e249fa873060fd770"/>
+    <keyword type="function" name="Gsv::View::property_indent_on_tab" link="classGsv_1_1View.html#a0cc12bdb05ebd66ad5721c8400aa211f"/>
+    <keyword type="function" name="Gsv::View::property_indent_on_tab" link="classGsv_1_1View.html#a2382263afc8dad7efac57aa20b1a5b1e"/>
+    <keyword type="function" name="Gsv::View::property_draw_spaces" link="classGsv_1_1View.html#a8fb6fe7a8d170ea4264746ac9516358a"/>
+    <keyword type="function" name="Gsv::View::property_draw_spaces" link="classGsv_1_1View.html#a5427ca3872ce6d6fb2b6c95855d3c1dd"/>
+    <keyword type="function" name="Gsv::View::property_completion" link="classGsv_1_1View.html#a3605e1701ea94952473bf224b3ba9fc3"/>
+    <keyword type="function" name="Gsv::View::get_type" link="classGsv_1_1View.html#afb2a5e88fc57b669d8abca99cc8f7b71"/>
+    <keyword type="function" name="Gsv::View::on_redo" link="classGsv_1_1View.html#af1e8239f1a7046648a88c7f6171f296c"/>
+    <keyword type="function" name="Gsv::View::on_undo" link="classGsv_1_1View.html#a06bf6b08cf7efd50875753ebfed9e4df"/>
+    <keyword type="function" name="Gsv::View::on_line_mark_activated" link="classGsv_1_1View.html#a5002cf21c292da90b7d3493d84e559ef"/>
+    <keyword type="function" name="Gsv::View::wrap" link="classGsv_1_1View.html#a948bc87b940b479cab928a568d0baa5d"/>
+    <keyword type="enum" name="Gsv::BracketMatchType" link="group__gtksourceviewmmEnums.html#gac8ee02f9828ba9081be32aafd000b251"/>
+    <keyword type="enum" name="Gsv::CompletionActivation" link="group__gtksourceviewmmEnums.html#ga10c5ee01cc0071a387973f16757b0a53"/>
+    <keyword type="enum" name="Gsv::GutterRendererState" link="group__gtksourceviewmmEnums.html#gac47d69307ad2fc5f3f88f5df711e85fc"/>
+    <keyword type="enum" name="Gsv::GutterRendererAlignmentMode" link="group__gtksourceviewmmEnums.html#gac83ab96d81fda9ed6b0035c38a1748e9"/>
+    <keyword type="enum" name="Gsv::SmartHomeEndType" link="group__gtksourceviewmmEnums.html#ga369186e661472b1f3cce28a2b05bb60c"/>
+    <keyword type="enum" name="Gsv::DrawSpacesFlags" link="group__gtksourceviewmmEnums.html#ga194ec76bd3cf5a87381bc2da400830b6"/>
+    <keyword type="function" name="Gsv::operator|" link="group__gtksourceviewmmEnums.html#gabf2b344346f086a79f275f470e6c7b80"/>
+    <keyword type="function" name="Gsv::operator&amp;" link="group__gtksourceviewmmEnums.html#ga5997a8b5086a87789bd1c589a15a198b"/>
+    <keyword type="function" name="Gsv::operator^" link="group__gtksourceviewmmEnums.html#ga207c5fa8e30f15d47c8012ad063da427"/>
+    <keyword type="function" name="Gsv::operator~" link="group__gtksourceviewmmEnums.html#ga2d498c869e4b68d690c73ec8d98f787d"/>
+    <keyword type="function" name="Gsv::operator|=" link="group__gtksourceviewmmEnums.html#ga6633b60a6146fb5c4fc12efb75ef1d53"/>
+    <keyword type="function" name="Gsv::operator&amp;=" link="group__gtksourceviewmmEnums.html#ga9b76a941ae9527b019a78bde0d0e4937"/>
+    <keyword type="function" name="Gsv::operator^=" link="group__gtksourceviewmmEnums.html#ga4ca23d45f81e8de2a6a1c45f848ef8af"/>
+    <keyword type="function" name="Gsv::operator|" link="group__gtksourceviewmmEnums.html#ga3f0b62b71d4ca4d25d0e3027654c20c1"/>
+    <keyword type="function" name="Gsv::operator&amp;" link="group__gtksourceviewmmEnums.html#ga04c5112f0b0d33adf303549dca760d19"/>
+    <keyword type="function" name="Gsv::operator^" link="group__gtksourceviewmmEnums.html#gadec2a626e534de83aeb4c57b93957bc0"/>
+    <keyword type="function" name="Gsv::operator~" link="group__gtksourceviewmmEnums.html#ga85f9cb83d56ebe7fbe6ad8b158030bf8"/>
+    <keyword type="function" name="Gsv::operator|=" link="group__gtksourceviewmmEnums.html#ga6704edc1a78d2c3cebcf18512b3b1032"/>
+    <keyword type="function" name="Gsv::operator&amp;=" link="group__gtksourceviewmmEnums.html#gae9bb6edb79bc4f010b47bac3cd6c90df"/>
+    <keyword type="function" name="Gsv::operator^=" link="group__gtksourceviewmmEnums.html#ga93d40028b47ad55a59e918a574cebbf8"/>
+    <keyword type="function" name="Gsv::operator|" link="group__gtksourceviewmmEnums.html#gadaeb84d211aa98c99bab6c3c86a76e27"/>
+    <keyword type="function" name="Gsv::operator&amp;" link="group__gtksourceviewmmEnums.html#ga4f79797bb03e49a628437d545aa46ef9"/>
+    <keyword type="function" name="Gsv::operator^" link="group__gtksourceviewmmEnums.html#ga1bbcac392a5cd00b9ca1bb46f7e2bd28"/>
+    <keyword type="function" name="Gsv::operator~" link="group__gtksourceviewmmEnums.html#ga8644ae58bbf76a52c9e9f08528c7379b"/>
+    <keyword type="function" name="Gsv::operator|=" link="group__gtksourceviewmmEnums.html#gab2981cbc4058fec90af5b270404e0aab"/>
+    <keyword type="function" name="Gsv::operator&amp;=" link="group__gtksourceviewmmEnums.html#ga3cfce74ed6c4024ecc909905aaeb2aeb"/>
+    <keyword type="function" name="Gsv::operator^=" link="group__gtksourceviewmmEnums.html#ga728599c1f9e53378ce074c9a3a37647f"/>
+    <keyword type="function" name="Gsv::init" link="namespaceGsv.html#adac0ed0f1d0ce9b412f23ee66307e536"/>
+  </functions>
+</book>

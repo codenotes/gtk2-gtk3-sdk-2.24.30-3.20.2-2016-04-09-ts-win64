@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns="http://www.devhelp.net/book" title="pangomm Reference Manual" name="pangomm-1.4" base="/usr/local/share/doc/pangomm-1.4/reference/html" link="index.html" version="2" language="c++">
+  <chapters>
+    <sub name="Modules" link="modules.html">
+      <sub name="Adaptors" link="group__adaptors.html"/>
+      <sub name="Adaptors for pointers to functions" link="a01676.html"/>
+      <sub name="Adaptors for pointers to members" link="a01677.html"/>
+      <sub name="Algorithms" link="a01657.html"/>
+      <sub name="Allocators" link="a01667.html"/>
+      <sub name="Arithmetic Classes" link="a01672.html"/>
+      <sub name="Associative" link="a01638.html"/>
+      <sub name="Atomics" link="a01663.html"/>
+      <sub name="Base64 routines" link="group__Base64.html"/>
+      <sub name="Base and Implementation Classes" link="a01665.html"/>
+      <sub name="Base and Implementation Classes" link="a01669.html"/>
+      <sub name="Base and Policy Classes" link="a01688.html"/>
+      <sub name="Base and Policy Classes" link="a01690.html"/>
+      <sub name="Base and Policy Classes" link="a01694.html"/>
+      <sub name="Bernoulli Distributions" link="a01704.html"/>
+      <sub name="Binary Search" link="a01662.html"/>
+      <sub name="bind(), bind_return()" link="group__bind.html"/>
+      <sub name="Binder Classes" link="a01682.html"/>
+      <sub name="Boolean Operations Classes" link="a01674.html"/>
+      <sub name="Branch-Based" link="a01689.html"/>
+      <sub name="Character Set Conversion" link="group__CharsetConv.html"/>
+      <sub name="Comparison Classes" link="a01673.html"/>
+      <sub name="Complex Numbers" link="a01644.html"/>
+      <sub name="compose()" link="group__compose.html"/>
+      <sub name="Concurrency" link="a01641.html"/>
+      <sub name="Condition Variables" link="a01645.html"/>
+      <sub name="Containers" link="a01636.html"/>
+      <sub name="Containers" link="a01686.html"/>
+      <sub name="Data Structure Type" link="a01698.html"/>
+      <sub name="D-Bus API" link="group__DBus.html"/>
+      <sub name="Decimal Floating-Point Arithmetic" link="a01685.html"/>
+      <sub name="Diagnostics" link="a01640.html"/>
+      <sub name="exception_catch()" link="group__exception__catch.html"/>
+      <sub name="Exceptions" link="a01642.html"/>
+      <sub name="Exceptions" link="a01692.html"/>
+      <sub name="Extensions" link="a01634.html"/>
+      <sub name="File Utilities" link="group__FileUtils.html"/>
+      <sub name="Function Objects" link="a01671.html"/>
+      <sub name="Functors" link="group__sigcfunctors.html"/>
+      <sub name="Futures" link="a01646.html"/>
+      <sub name="Generic container converters" link="group__ContHandles.html"/>
+      <sub name="Generic Values" link="group__glibmmValue.html"/>
+      <sub name="giomm Enums and Flags" link="group__giommEnums.html"/>
+      <sub name="glibmm Enums and Flags" link="group__glibmmEnums.html"/>
+      <sub name="Glob-style Pattern Matching" link="group__PatternMatching.html"/>
+      <sub name="Hash-Based" link="a01687.html"/>
+      <sub name="Hashes" link="a01664.html"/>
+      <sub name="Heap" link="a01678.html"/>
+      <sub name="Heap-Based" link="a01693.html"/>
+      <sub name="Helper classes" link="group__ContHelpers.html"/>
+      <sub name="hide(), hide_return()" link="group__hide.html"/>
+      <sub name="Invalidation Guarantees" link="a01697.html"/>
+      <sub name="I/O" link="a01647.html"/>
+      <sub name="I/O operators for bitsets." link="a01684.html"/>
+      <sub name="Iterators" link="a01679.html"/>
+      <sub name="Iterator Tags" link="a01680.html"/>
+      <sub name="List-Based" link="a01691.html"/>
+      <sub name="Locales" link="a01666.html"/>
+      <sub name="Mathematical Special Functions" link="a01683.html"/>
+      <sub name="mem_fun()" link="group__mem__fun.html"/>
+      <sub name="Memory" link="a01648.html"/>
+      <sub name="Metaprogramming" link="a01654.html"/>
+      <sub name="Miscellaneous Utility Functions" link="group__MiscUtils.html"/>
+      <sub name="Mutating" link="a01658.html"/>
+      <sub name="Mutexes" link="a01650.html"/>
+      <sub name="Negators" link="a01675.html"/>
+      <sub name="Non-Mutating" link="a01659.html"/>
+      <sub name="Normal Distributions" link="a01703.html"/>
+      <sub name="Numeric Arrays" link="a01656.html"/>
+      <sub name="Numerics" link="a01651.html"/>
+      <sub name="pangomm Enums and Flags" link="group__pangommEnums.html"/>
+      <sub name="Platform-specific content typing" link="group__giommContentType.html"/>
+      <sub name="Pointer Abstractions" link="a01649.html"/>
+      <sub name="Poisson Distributions" link="a01705.html"/>
+      <sub name="Policy-Based Data Structures" link="a01695.html"/>
+      <sub name="Portable Network I/O Functionality" link="group__NetworkIO.html"/>
+      <sub name="ptr_fun()" link="group__ptr__fun.html"/>
+      <sub name="Random Number Distributions" link="a01701.html"/>
+      <sub name="Random Number Generation" link="a01668.html"/>
+      <sub name="Random Number Generators" link="a01700.html"/>
+      <sub name="Random Numbers" link="group__Random.html"/>
+      <sub name="Random Number Utilities" link="a01706.html"/>
+      <sub name="Rational Arithmetic" link="a01652.html"/>
+      <sub name="Regular Expressions" link="a01670.html"/>
+      <sub name="retype(), retype_return()" link="group__retype.html"/>
+      <sub name="Sequences" link="a01637.html"/>
+      <sub name="Set Operation" link="a01661.html"/>
+      <sub name="SGI" link="a01635.html"/>
+      <sub name="Shell-related Utilities" link="group__ShellUtils.html"/>
+      <sub name="Signals" link="group__signal.html"/>
+      <sub name="Simple XML Subset Parser" link="group__Markup.html"/>
+      <sub name="Slots" link="group__slot.html"/>
+      <sub name="Sorting" link="a01660.html"/>
+      <sub name="Spawning Processes" link="group__Spawn.html"/>
+      <sub name="Stream Classes" link="group__Streams.html"/>
+      <sub name="Strings" link="a01681.html"/>
+      <sub name="String Utility Functions" link="group__StringUtils.html"/>
+      <sub name="Tags" link="a01696.html"/>
+      <sub name="The Main Event Loop" link="group__MainLoop.html"/>
+      <sub name="Thread Pools" link="group__ThreadPools.html"/>
+      <sub name="Threads" link="group__Threads.html"/>
+      <sub name="Threads" link="a01653.html"/>
+      <sub name="Time" link="a01643.html"/>
+      <sub name="track_obj()" link="group__track__obj.html"/>
+      <sub name="Traits" link="a01699.html"/>
+      <sub name="Unicode Manipulation" link="group__Unicode.html"/>
+      <sub name="Uniform Distributions" link="a01702.html"/>
+      <sub name="Unordered Associative" link="a01639.html"/>
+      <sub name="URI Utilities" link="group__UriUtils.html"/>
+      <sub name="Utilities" link="a01655.html"/>
+      <sub name="Variant Data Types" link="group__Variant.html"/>
+    </sub>
+    <sub name="Namespaces" link="namespaces.html">
+      <sub name="abi" link="a01614.html"/>
+      <sub name="Cairo" link="namespaceCairo.html"/>
+      <sub name="__cxxabiv1" link="a00005.html"/>
+      <sub name="Gio" link="namespaceGio.html"/>
+      <sub name="Gio::DBus" link="namespaceGio_1_1DBus.html"/>
+      <sub name="Gio::DBus::Address" link="namespaceGio_1_1DBus_1_1Address.html"/>
+      <sub name="Gio::DBus::ErrorUtils" link="namespaceGio_1_1DBus_1_1ErrorUtils.html"/>
+      <sub name="Glib" link="namespaceGlib.html"/>
+      <sub name="Glib::Ascii" link="namespaceGlib_1_1Ascii.html"/>
+      <sub name="Glib::Base64" link="namespaceGlib_1_1Base64.html"/>
+      <sub name="Glib::Container_Helpers" link="namespaceGlib_1_1Container__Helpers.html"/>
+      <sub name="Glib::Markup" link="namespaceGlib_1_1Markup.html"/>
+      <sub name="Glib::Threads" link="namespaceGlib_1_1Threads.html"/>
+      <sub name="Glib::Unicode" link="namespaceGlib_1_1Unicode.html"/>
+      <sub name="__gnu_cxx" link="a01601.html"/>
+      <sub name="__gnu_cxx::__detail" link="a01603.html"/>
+      <sub name="__gnu_cxx::typelist" link="a01605.html"/>
+      <sub name="__gnu_debug" link="a01607.html"/>
+      <sub name="__gnu_internal" link="a01608.html"/>
+      <sub name="__gnu_parallel" link="a01609.html"/>
+      <sub name="__gnu_pbds" link="a01610.html"/>
+      <sub name="__gnu_pbds::detail" link="a00213.html"/>
+      <sub name="__gnu_profile" link="a01612.html"/>
+      <sub name="__gnu_sequential" link="a01613.html"/>
+      <sub name="Pango" link="namespacePango.html"/>
+      <sub name="sigc" link="namespacesigc.html"/>
+      <sub name="sigc::internal" link="namespacesigc_1_1internal.html"/>
+      <sub name="std" link="a01616.html"/>
+      <sub name="std::chrono" link="a01623.html"/>
+      <sub name="std::chrono::_V2" link="a00650.html"/>
+      <sub name="std::__debug" link="a01617.html"/>
+      <sub name="std::decimal" link="a01625.html"/>
+      <sub name="std::__detail" link="a01618.html"/>
+      <sub name="std::__exception_ptr" link="a00529.html"/>
+      <sub name="std::__parallel" link="a01620.html"/>
+      <sub name="std::placeholders" link="a01626.html"/>
+      <sub name="std::__profile" link="a01621.html"/>
+      <sub name="std::regex_constants" link="a01627.html"/>
+      <sub name="std::rel_ops" link="a01628.html"/>
+      <sub name="std::this_thread" link="a01629.html"/>
+      <sub name="std::tr1" link="a01630.html"/>
+      <sub name="std::tr1::__detail" link="a01631.html"/>
+      <sub name="std::tr2" link="a01632.html"/>
+      <sub name="std::tr2::__detail" link="a01633.html"/>
+      <sub name="std::_V2" link="a00584.html"/>
+    </sub>
+    <sub name="Classes" link="classes.html">
+      <sub name="abi" link="a01614.html"/>
+      <sub name="Cairo" link="namespaceCairo.html"/>
+      <sub name="__cxxabiv1" link="a00005.html"/>
+      <sub name="Gio" link="namespaceGio.html"/>
+      <sub name="Gio::DBus" link="namespaceGio_1_1DBus.html"/>
+      <sub name="Gio::DBus::Address" link="namespaceGio_1_1DBus_1_1Address.html"/>
+      <sub name="Gio::DBus::ErrorUtils" link="namespaceGio_1_1DBus_1_1ErrorUtils.html"/>
+      <sub name="Glib" link="namespaceGlib.html"/>
+      <sub name="Glib::Ascii" link="namespaceGlib_1_1Ascii.html"/>
+      <sub name="Glib::Base64" link="namespaceGlib_1_1Base64.html"/>
+      <sub name="Glib::Container_Helpers" link="namespaceGlib_1_1Container__Helpers.html"/>
+      <sub name="Glib::Markup" link="namespaceGlib_1_1Markup.html"/>
+      <sub name="Glib::Threads" link="namespaceGlib_1_1Threads.html"/>
+      <sub name="Glib::Unicode" link="namespaceGlib_1_1Unicode.html"/>
+      <sub name="__gnu_cxx" link="a01601.html"/>
+      <sub name="__gnu_cxx::__detail" link="a01603.html"/>
+      <sub name="__gnu_cxx::typelist" link="a01605.html"/>
+      <sub name="__gnu_debug" link="a01607.html"/>
+      <sub name="__gnu_internal" link="a01608.html"/>
+      <sub name="__gnu_parallel" link="a01609.html"/>
+      <sub name="__gnu_pbds" link="a01610.html"/>
+      <sub name="__gnu_pbds::detail" link="a00213.html"/>
+      <sub name="__gnu_profile" link="a01612.html"/>
+      <sub name="__gnu_sequential" link="a01613.html"/>
+      <sub name="Pango" link="namespacePango.html">
+        <sub name="Analysis" link="classPango_1_1Analysis.html"/>
+        <sub name="AttrColor" link="classPango_1_1AttrColor.html"/>
+        <sub name="AttrFloat" link="classPango_1_1AttrFloat.html"/>
+        <sub name="AttrFontDesc" link="classPango_1_1AttrFontDesc.html"/>
+        <sub name="Attribute" link="classPango_1_1Attribute.html"/>
+        <sub name="AttributeTraits" link="structPango_1_1AttributeTraits.html"/>
+        <sub name="AttrInt" link="classPango_1_1AttrInt.html"/>
+        <sub name="AttrIter" link="classPango_1_1AttrIter.html"/>
+        <sub name="AttrLanguage" link="classPango_1_1AttrLanguage.html"/>
+        <sub name="AttrList" link="classPango_1_1AttrList.html"/>
+        <sub name="AttrShape" link="classPango_1_1AttrShape.html"/>
+        <sub name="AttrString" link="classPango_1_1AttrString.html"/>
+        <sub name="CairoFontMap" link="classPango_1_1CairoFontMap.html"/>
+        <sub name="Color" link="classPango_1_1Color.html"/>
+        <sub name="Context" link="classPango_1_1Context.html"/>
+        <sub name="Coverage" link="classPango_1_1Coverage.html"/>
+        <sub name="Font" link="classPango_1_1Font.html"/>
+        <sub name="FontDescription" link="classPango_1_1FontDescription.html"/>
+        <sub name="FontFace" link="classPango_1_1FontFace.html"/>
+        <sub name="FontFamily" link="classPango_1_1FontFamily.html"/>
+        <sub name="FontMap" link="classPango_1_1FontMap.html"/>
+        <sub name="FontMetrics" link="classPango_1_1FontMetrics.html"/>
+        <sub name="Fontset" link="classPango_1_1Fontset.html"/>
+        <sub name="GlyphGeometry" link="classPango_1_1GlyphGeometry.html"/>
+        <sub name="GlyphInfo" link="classPango_1_1GlyphInfo.html"/>
+        <sub name="GlyphString" link="classPango_1_1GlyphString.html"/>
+        <sub name="Item" link="classPango_1_1Item.html"/>
+        <sub name="ItemTraits" link="structPango_1_1ItemTraits.html"/>
+        <sub name="Language" link="classPango_1_1Language.html"/>
+        <sub name="Layout" link="classPango_1_1Layout.html"/>
+        <sub name="LayoutIter" link="classPango_1_1LayoutIter.html"/>
+        <sub name="LayoutLine" link="classPango_1_1LayoutLine.html"/>
+        <sub name="LayoutLineTraits" link="structPango_1_1LayoutLineTraits.html"/>
+        <sub name="LayoutRun" link="classPango_1_1LayoutRun.html"/>
+        <sub name="Rectangle" link="classPango_1_1Rectangle.html"/>
+        <sub name="Renderer" link="classPango_1_1Renderer.html"/>
+        <sub name="TabArray" link="classPango_1_1TabArray.html"/>
+      </sub>
+      <sub name="sigc" link="namespacesigc.html"/>
+      <sub name="sigc::internal" link="namespacesigc_1_1internal.html"/>
+      <sub name="std" link="a01616.html"/>
+      <sub name="std::chrono" link="a01623.html"/>
+      <sub name="std::chrono::_V2" link="a00650.html"/>
+      <sub name="std::__debug" link="a01617.html"/>
+      <sub name="std::decimal" link="a01625.html"/>
+      <sub name="std::__detail" link="a01618.html"/>
+      <sub name="std::__exception_ptr" link="a00529.html"/>
+      <sub name="std::__parallel" link="a01620.html"/>
+      <sub name="std::placeholders" link="a01626.html"/>
+      <sub name="std::__profile" link="a01621.html"/>
+      <sub name="std::regex_constants" link="a01627.html"/>
+      <sub name="std::rel_ops" link="a01628.html"/>
+      <sub name="std::this_thread" link="a01629.html"/>
+      <sub name="std::tr1" link="a01630.html"/>
+      <sub name="std::tr1::__detail" link="a01631.html"/>
+      <sub name="std::tr2" link="a01632.html"/>
+      <sub name="std::tr2::__detail" link="a01633.html"/>
+      <sub name="std::_V2" link="a00584.html"/>
+    </sub>
+  </chapters>
+  <functions>
+    <keyword type="struct" name="Pango::Analysis" link="classPango_1_1Analysis.html"/>
+    <keyword type="function" name="Pango::Analysis::Analysis" link="classPango_1_1Analysis.html#aa0c197ef0585f843500e6a2c5f24a3b9"/>
+    <keyword type="function" name="Pango::Analysis::get_font" link="classPango_1_1Analysis.html#a126f79dcc2851eff9174235487e35c41"/>
+    <keyword type="function" name="Pango::Analysis::get_font" link="classPango_1_1Analysis.html#a7d233686ade834cb868e50674a570451"/>
+    <keyword type="function" name="Pango::Analysis::get_level" link="classPango_1_1Analysis.html#a59d3935eafc6f490fa908abfea613bd0"/>
+    <keyword type="function" name="Pango::Analysis::get_language" link="classPango_1_1Analysis.html#a94d16776df0c6085825cab5239510ad5"/>
+    <keyword type="function" name="Pango::Analysis::get_extra_attrs" link="classPango_1_1Analysis.html#ae37b97a085b4329f77e33cc91d8785a3"/>
+    <keyword type="function" name="Pango::Analysis::gobj" link="classPango_1_1Analysis.html#aa678ee99a2b316a964098c67a574cb0b"/>
+    <keyword type="function" name="Pango::Analysis::gobj" link="classPango_1_1Analysis.html#a9e4c592b8cf273b36774a629d6427ffe"/>
+    <keyword type="function" name="Pango::Analysis::Analysis" link="classPango_1_1Analysis.html#a5d0e8b9f3859d9565b2e83be129fc093"/>
+    <keyword type="function" name="Pango::Analysis::wrap" link="classPango_1_1Analysis.html#a7b888a33ccc7d8c67e11bb293d584f0f"/>
+    <keyword type="function" name="Pango::Analysis::wrap" link="classPango_1_1Analysis.html#a759fa14f166d683e258babe6c8a1e111"/>
+    <keyword type="struct" name="Pango::AttrColor" link="classPango_1_1AttrColor.html"/>
+    <keyword type="function" name="Pango::AttrColor::AttrColor" link="classPango_1_1AttrColor.html#a621a7d9b672738a5d8c1d987411262ec"/>
+    <keyword type="function" name="Pango::AttrColor::AttrColor" link="classPango_1_1AttrColor.html#aeacab08b19e4c3b2bd69a2ad0e74ea0e"/>
+    <keyword type="function" name="Pango::AttrColor::operator=" link="classPango_1_1AttrColor.html#a46deed777a733b1593cf4b1bd81931e0"/>
+    <keyword type="function" name="Pango::AttrColor::get_color" link="classPango_1_1AttrColor.html#a682d17bf0f927aa26a1c6e1372a022d8"/>
+    <keyword type="function" name="Pango::AttrColor::set_color" link="classPango_1_1AttrColor.html#a83768fb0e8ad155728b889703330f414"/>
+    <keyword type="function" name="Pango::AttrColor::gobj" link="classPango_1_1AttrColor.html#a3b72bf8a064e98e158cc05a5052c4bc4"/>
+    <keyword type="function" name="Pango::AttrColor::gobj" link="classPango_1_1AttrColor.html#a6caf0f66dc41ed9381a4cc327d96f8ff"/>
+    <keyword type="function" name="Pango::AttrColor::AttrColor" link="classPango_1_1AttrColor.html#a2e3c03b83d16638018901013d5d4d595"/>
+    <keyword type="function" name="Pango::AttrColor::wrap" link="classPango_1_1AttrColor.html#a04167a70b3288bdf4c5a5e6d94913ca4"/>
+    <keyword type="struct" name="Pango::AttrFloat" link="classPango_1_1AttrFloat.html"/>
+    <keyword type="function" name="Pango::AttrFloat::AttrFloat" link="classPango_1_1AttrFloat.html#acc1a02a20e4875d4ab9188d6814bdb4f"/>
+    <keyword type="function" name="Pango::AttrFloat::AttrFloat" link="classPango_1_1AttrFloat.html#ac82cf882b4f291a091442a415ed2ac2f"/>
+    <keyword type="function" name="Pango::AttrFloat::operator=" link="classPango_1_1AttrFloat.html#a37f442ebce44db31e1daebab9a377829"/>
+    <keyword type="function" name="Pango::AttrFloat::get_value" link="classPango_1_1AttrFloat.html#ae8e1c804bcc070d60fd77b7d5b2400ac"/>
+    <keyword type="function" name="Pango::AttrFloat::set_value" link="classPango_1_1AttrFloat.html#a64dcd58ea79d83e59ed6ad9688656ca4"/>
+    <keyword type="function" name="Pango::AttrFloat::gobj" link="classPango_1_1AttrFloat.html#a3eba8a4245d677b2a8885c1b2e269f2f"/>
+    <keyword type="function" name="Pango::AttrFloat::gobj" link="classPango_1_1AttrFloat.html#a0faa13989cd4a43c1e71157d4c3bf785"/>
+    <keyword type="function" name="Pango::AttrFloat::AttrFloat" link="classPango_1_1AttrFloat.html#aeadf75d34411dff3dcfd77968f40c1e3"/>
+    <keyword type="function" name="Pango::AttrFloat::wrap" link="classPango_1_1AttrFloat.html#acb15795539d788da02e8f7af45056f14"/>
+    <keyword type="struct" name="Pango::AttrFontDesc" link="classPango_1_1AttrFontDesc.html"/>
+    <keyword type="function" name="Pango::AttrFontDesc::AttrFontDesc" link="classPango_1_1AttrFontDesc.html#a357a0fdff5348affc46121fd2e6c8705"/>
+    <keyword type="function" name="Pango::AttrFontDesc::AttrFontDesc" link="classPango_1_1AttrFontDesc.html#a5be860bc6b787bffc90ba75060f6c61a"/>
+    <keyword type="function" name="Pango::AttrFontDesc::operator=" link="classPango_1_1AttrFontDesc.html#a4ad7ed830021a997583b2ffca2caed1d"/>
+    <keyword type="function" name="Pango::AttrFontDesc::get_desc" link="classPango_1_1AttrFontDesc.html#a63b60320dad491cd6b26248d6b0be948"/>
+    <keyword type="function" name="Pango::AttrFontDesc::set_desc" link="classPango_1_1AttrFontDesc.html#aa804d7575a0a2fb944f38c0259898189"/>
+    <keyword type="function" name="Pango::AttrFontDesc::gobj" link="classPango_1_1AttrFontDesc.html#a8279652a238b05e79ff9079156827717"/>
+    <keyword type="function" name="Pango::AttrFontDesc::gobj" link="classPango_1_1AttrFontDesc.html#a897d8fa02488796a1bb412c2e15cb3e1"/>
+    <keyword type="function" name="Pango::AttrFontDesc::AttrFontDesc" link="classPango_1_1AttrFontDesc.html#a277b70caa25a7bf86b20846b96fa12bd"/>
+    <keyword type="function" name="Pango::AttrFontDesc::wrap" link="classPango_1_1AttrFontDesc.html#a4a4f348d04c4fd36ff444f2163dc7949"/>
+    <keyword type="struct" name="Pango::Attribute" link="classPango_1_1Attribute.html"/>
+    <keyword type="function" name="Pango::Attribute::Attribute" link="classPango_1_1Attribute.html#acfed3dea81c4964e736f47317c98ddac"/>
+    <keyword type="function" name="Pango::Attribute::Attribute" link="classPango_1_1Attribute.html#a233634f01036091fa7a574cfbbcb9acf"/>
+    <keyword type="function" name="Pango::Attribute::Attribute" link="classPango_1_1Attribute.html#a502fe12aa7021d04bf3736337dd3ed73"/>
+    <keyword type="function" name="Pango::Attribute::~Attribute" link="classPango_1_1Attribute.html#ae74ad41eee24e264b89683ee900828c8"/>
+    <keyword type="function" name="Pango::Attribute::operator=" link="classPango_1_1Attribute.html#a934936c7fec5f1f65c45b214c77c6062"/>
+    <keyword type="function" name="Pango::Attribute::get_type" link="classPango_1_1Attribute.html#aa71a459c98b5fc844ebaeec966d3d692"/>
+    <keyword type="function" name="Pango::Attribute::get_start_index" link="classPango_1_1Attribute.html#ac47b1c8b3a9b7ab629e0d13bca842de5"/>
+    <keyword type="function" name="Pango::Attribute::get_end_index" link="classPango_1_1Attribute.html#aed830854fbbe4df25bf05fcb91a0c2ad"/>
+    <keyword type="function" name="Pango::Attribute::set_start_index" link="classPango_1_1Attribute.html#a724d3a2f4ff760f7d6e729ea5dacd1f6"/>
+    <keyword type="function" name="Pango::Attribute::set_end_index" link="classPango_1_1Attribute.html#a2aa55309ce126bc16dc80dcb18148cb2"/>
+    <keyword type="function" name="Pango::Attribute::equal" link="classPango_1_1Attribute.html#a7d46665f7ea9cfe808e815519eab2bea"/>
+    <keyword type="function" name="Pango::Attribute::gobj" link="classPango_1_1Attribute.html#a51654a81e9171adde1403e58d06997a3"/>
+    <keyword type="function" name="Pango::Attribute::gobj" link="classPango_1_1Attribute.html#a0501725b34f5ab1239534180b4cd65be"/>
+    <keyword type="function" name="Pango::Attribute::register_type" link="classPango_1_1Attribute.html#a91f49f949d77f1aade6a3e0e66de6ded"/>
+    <keyword type="function" name="Pango::Attribute::create_attr_family" link="classPango_1_1Attribute.html#add54fe0f26c321ef729a41b2712d1cf5"/>
+    <keyword type="function" name="Pango::Attribute::create_attr_language" link="classPango_1_1Attribute.html#a8b466a779083532378ea71a30c510a89"/>
+    <keyword type="function" name="Pango::Attribute::create_attr_foreground" link="classPango_1_1Attribute.html#a0ba3aead2cf968252ccd9d7f3f4cc07f"/>
+    <keyword type="function" name="Pango::Attribute::create_attr_background" link="classPango_1_1Attribute.html#aab6bc57245e2cf5b1c40b747b5624a84"/>
+    <keyword type="function" name="Pango::Attribute::create_attr_foreground_alpha" link="classPango_1_1Attribute.html#a3289593c720ab052f7c5ff3c7b4bb80a"/>
+    <keyword type="function" name="Pango::Attribute::create_attr_background_alpha" link="classPango_1_1Attribute.html#acd75fc206b45bd1508cfcfae8c58d270"/>
+    <keyword type="function" name="Pango::Attribute::create_attr_size" link="classPango_1_1Attribute.html#a3a0416112eb702fbf57af03b5fc09842"/>
+    <keyword type="function" name="Pango::Attribute::create_attr_style" link="classPango_1_1Attribute.html#a0c716d164d3878908debb4d124f992a4"/>
+    <keyword type="function" name="Pango::Attribute::create_attr_weight" link="classPango_1_1Attribute.html#aba12bb3707f48e816ccaab06d0dda5c7"/>
+    <keyword type="function" name="Pango::Attribute::create_attr_variant" link="classPango_1_1Attribute.html#ac311b831fc60e5a4b7971ae1b3fd3076"/>
+    <keyword type="function" name="Pango::Attribute::create_attr_stretch" link="classPango_1_1Attribute.html#a75677acc695b8e5f0c4a6bf02f975e02"/>
+    <keyword type="function" name="Pango::Attribute::create_attr_font_desc" link="classPango_1_1Attribute.html#a95903feb6e5ca76454194eca9f39bc00"/>
+    <keyword type="function" name="Pango::Attribute::create_attr_underline" link="classPango_1_1Attribute.html#a13f81ce6b6eff13dd8874a83877c327b"/>
+    <keyword type="function" name="Pango::Attribute::create_attr_strikethrough" link="classPango_1_1Attribute.html#afbaf26f0523f2342c6e43fcfe9064745"/>
+    <keyword type="function" name="Pango::Attribute::create_attr_rise" link="classPango_1_1Attribute.html#a656f39ee0a626d83ae9411b2bbcddac7"/>
+    <keyword type="function" name="Pango::Attribute::create_attr_scale" link="classPango_1_1Attribute.html#a510b61330d2a731a287b5fc44483a33d"/>
+    <keyword type="function" name="Pango::Attribute::create_attr_shape" link="classPango_1_1Attribute.html#aa2aae2c86fe2afc89f147cbf716d8639"/>
+    <keyword type="function" name="Pango::Attribute::operator==" link="classPango_1_1Attribute.html#a711f619c76985883ade76ee7696092bb"/>
+    <keyword type="function" name="Pango::Attribute::operator!=" link="classPango_1_1Attribute.html#ae7eb3b9471764b1695c10805b32ac8d2"/>
+    <keyword type="function" name="Pango::Attribute::wrap" link="classPango_1_1Attribute.html#ab20bddba50d51d66864de37210fb4c01"/>
+    <keyword type="struct" name="Pango::AttributeTraits" link="structPango_1_1AttributeTraits.html"/>
+    <keyword type="typedef" name="Pango::AttributeTraits::CppType" link="structPango_1_1AttributeTraits.html#a8237aa6093f05e79d3850cffa5f37421"/>
+    <keyword type="typedef" name="Pango::AttributeTraits::CType" link="structPango_1_1AttributeTraits.html#a18f43d59a7d6e666144b5e47d09f3829"/>
+    <keyword type="typedef" name="Pango::AttributeTraits::CTypeNonConst" link="structPango_1_1AttributeTraits.html#a79ecf3c87942b4830cc0505e76cd6beb"/>
+    <keyword type="function" name="Pango::AttributeTraits::to_c_type" link="structPango_1_1AttributeTraits.html#a8de562e8e398d559bc5944ab026d20bb"/>
+    <keyword type="function" name="Pango::AttributeTraits::to_c_type" link="structPango_1_1AttributeTraits.html#af1ee5270a0a3e6e077dcd86755b8dcb3"/>
+    <keyword type="function" name="Pango::AttributeTraits::to_cpp_type" link="structPango_1_1AttributeTraits.html#a97aba1f6c2e1a068170231807cff9e9c"/>
+    <keyword type="function" name="Pango::AttributeTraits::release_c_type" link="structPango_1_1AttributeTraits.html#a5edcac24e556dc103e897620ea82b837"/>
+    <keyword type="struct" name="Pango::AttrInt" link="classPango_1_1AttrInt.html"/>
+    <keyword type="function" name="Pango::AttrInt::AttrInt" link="classPango_1_1AttrInt.html#a1762719e23c1d9eabdeffc64752389bb"/>
+    <keyword type="function" name="Pango::AttrInt::AttrInt" link="classPango_1_1AttrInt.html#a844c598619e102e7274929744484a73c"/>
+    <keyword type="function" name="Pango::AttrInt::operator=" link="classPango_1_1AttrInt.html#af961e951e9876375f62ca37de5defe6a"/>
+    <keyword type="function" name="Pango::AttrInt::get_value" link="classPango_1_1AttrInt.html#a64217914210453c6a21c26fd4c483056"/>
+    <keyword type="function" name="Pango::AttrInt::set_value" link="classPango_1_1AttrInt.html#a03cbceb1900d0d18cbe6e53b4d944887"/>
+    <keyword type="function" name="Pango::AttrInt::gobj" link="classPango_1_1AttrInt.html#a7079905b6ea397d045773699412a60bc"/>
+    <keyword type="function" name="Pango::AttrInt::gobj" link="classPango_1_1AttrInt.html#aeb9102f7db23ac43b5f80679c0a5ae43"/>
+    <keyword type="function" name="Pango::AttrInt::AttrInt" link="classPango_1_1AttrInt.html#ae746c447144d64c17d083931912bcbde"/>
+    <keyword type="function" name="Pango::AttrInt::wrap" link="classPango_1_1AttrInt.html#a1e502b1c69e42baf4c2dc8498fe30d86"/>
+    <keyword type="struct" name="Pango::AttrIter" link="classPango_1_1AttrIter.html"/>
+    <keyword type="typedef" name="Pango::AttrIter::iterator_category" link="classPango_1_1AttrIter.html#a6d6c823c5fac29d865708e66997c996a"/>
+    <keyword type="typedef" name="Pango::AttrIter::difference_type" link="classPango_1_1AttrIter.html#a87f82c1371ac7757aa2b6f9f6b67446e"/>
+    <keyword type="function" name="Pango::AttrIter::AttrIter" link="classPango_1_1AttrIter.html#a8723220b301e69fe28c88451c88afb5e"/>
+    <keyword type="function" name="Pango::AttrIter::AttrIter" link="classPango_1_1AttrIter.html#ab82dc7b7154607fcf919d30a553e7fab"/>
+    <keyword type="function" name="Pango::AttrIter::~AttrIter" link="classPango_1_1AttrIter.html#a004ba5e3d4bf1f7c3aee5e4fed8e6b9a"/>
+    <keyword type="function" name="Pango::AttrIter::operator=" link="classPango_1_1AttrIter.html#adda20c958037fdd53b5fd388dd4d69f4"/>
+    <keyword type="function" name="Pango::AttrIter::operator++" link="classPango_1_1AttrIter.html#a6a8ebeedee84640df1cf3a1b6813db07"/>
+    <keyword type="function" name="Pango::AttrIter::operator++" link="classPango_1_1AttrIter.html#af0fcdefc44225f4c3649c7468f8187fe"/>
+    <keyword type="function" name="Pango::AttrIter::operator bool" link="classPango_1_1AttrIter.html#a256cc9acf01c54ee07b731b685a6c88e"/>
+    <keyword type="function" name="Pango::AttrIter::next" link="classPango_1_1AttrIter.html#a079aaf9a1d391c9e4bdafb29314305fe"/>
+    <keyword type="function" name="Pango::AttrIter::get_range" link="classPango_1_1AttrIter.html#a6e1865b8eeb57eed18e42be60c689df3"/>
+    <keyword type="function" name="Pango::AttrIter::get_attribute" link="classPango_1_1AttrIter.html#a5097e7a13083c23499b5db856581c5f9"/>
+    <keyword type="function" name="Pango::AttrIter::get_font_desc" link="classPango_1_1AttrIter.html#a4b0fcb4609e96c3186e49479d3910fd7"/>
+    <keyword type="function" name="Pango::AttrIter::get_language" link="classPango_1_1AttrIter.html#a5e73eaef3ffd3663885f132cf8f65a30"/>
+    <keyword type="function" name="Pango::AttrIter::get_extra_attrs" link="classPango_1_1AttrIter.html#a4c4c00f7439a0c59c07b6ade3ce1d94d"/>
+    <keyword type="function" name="Pango::AttrIter::get_attrs" link="classPango_1_1AttrIter.html#ab63d785631539378a9d0e0ef7f99fa6a"/>
+    <keyword type="function" name="Pango::AttrIter::gobj" link="classPango_1_1AttrIter.html#aac1096f7b8e4b233ee19bf9eca216a2d"/>
+    <keyword type="function" name="Pango::AttrIter::gobj" link="classPango_1_1AttrIter.html#a2b69e0153f6b0da0f6631ea9df7b5f87"/>
+    <keyword type="function" name="Pango::AttrIter::AttrIter" link="classPango_1_1AttrIter.html#a93dec0933d1bfe9883e2ecae741509b7"/>
+    <keyword type="function" name="Pango::AttrIter::wrap" link="classPango_1_1AttrIter.html#a99bee66a9374e98e50c4a3498bcbf643"/>
+    <keyword type="struct" name="Pango::AttrLanguage" link="classPango_1_1AttrLanguage.html"/>
+    <keyword type="function" name="Pango::AttrLanguage::AttrLanguage" link="classPango_1_1AttrLanguage.html#a136e1f9211c2e47876fa510abaa60d51"/>
+    <keyword type="function" name="Pango::AttrLanguage::AttrLanguage" link="classPango_1_1AttrLanguage.html#a1d43a2773d5e623297a4e3fb1ce24e93"/>
+    <keyword type="function" name="Pango::AttrLanguage::operator=" link="classPango_1_1AttrLanguage.html#a30d7039a9918f6e07a5496905063de16"/>
+    <keyword type="function" name="Pango::AttrLanguage::get_language" link="classPango_1_1AttrLanguage.html#a207f12c5877daf26a257ac5f214cf179"/>
+    <keyword type="function" name="Pango::AttrLanguage::set_language" link="classPango_1_1AttrLanguage.html#aa65565480cc1e4114fffc6caf4d3e762"/>
+    <keyword type="function" name="Pango::AttrLanguage::gobj" link="classPango_1_1AttrLanguage.html#a124dba232ba1e31ee0e79a44d3edf72e"/>
+    <keyword type="function" name="Pango::AttrLanguage::gobj" link="classPango_1_1AttrLanguage.html#a36c30083c6d8fae50f284b85f5b24fee"/>
+    <keyword type="function" name="Pango::AttrLanguage::AttrLanguage" link="classPango_1_1AttrLanguage.html#a102c6736d9abed440ca1bd89b8e1a712"/>
+    <keyword type="function" name="Pango::AttrLanguage::wrap" link="classPango_1_1AttrLanguage.html#a8ca66374ecbb49072f3c5df023ca9269"/>
+    <keyword type="struct" name="Pango::AttrList" link="classPango_1_1AttrList.html"/>
+    <keyword type="function" name="Pango::AttrList::AttrList" link="classPango_1_1AttrList.html#ad2e90f6e8ba5f41069a116d06b0cba27"/>
+    <keyword type="function" name="Pango::AttrList::AttrList" link="classPango_1_1AttrList.html#afa8cc4cdea17168ebe5c3e3a4015fed9"/>
+    <keyword type="function" name="Pango::AttrList::AttrList" link="classPango_1_1AttrList.html#a8b69cd9f9eb7aa16751f74476cf34ed2"/>
+    <keyword type="function" name="Pango::AttrList::operator=" link="classPango_1_1AttrList.html#aa5ae00b0f7117c4d3de2fed2461c2654"/>
+    <keyword type="function" name="Pango::AttrList::AttrList" link="classPango_1_1AttrList.html#ae08c692c22fb6a32d38543fbc3753605"/>
+    <keyword type="function" name="Pango::AttrList::operator=" link="classPango_1_1AttrList.html#a2494f002c2c4f4601306ac77adc420bf"/>
+    <keyword type="function" name="Pango::AttrList::~AttrList" link="classPango_1_1AttrList.html#a1c6de076730c85fa87dee101c4b25c40"/>
+    <keyword type="function" name="Pango::AttrList::swap" link="classPango_1_1AttrList.html#a2dd87dd74c98c86938726a5a8c3fdecd"/>
+    <keyword type="function" name="Pango::AttrList::gobj" link="classPango_1_1AttrList.html#a2bf50400f982c73b8dc58c27fd0061f5"/>
+    <keyword type="function" name="Pango::AttrList::gobj" link="classPango_1_1AttrList.html#aede3d19a8e528aa622a146c0150da5cb"/>
+    <keyword type="function" name="Pango::AttrList::gobj_copy" link="classPango_1_1AttrList.html#a1bd40b783268ec3ccce787f05eccb94b"/>
+    <keyword type="function" name="Pango::AttrList::AttrList" link="classPango_1_1AttrList.html#ae4e9efd77bd212f1833d3d2ffc87a9b0"/>
+    <keyword type="function" name="Pango::AttrList::AttrList" link="classPango_1_1AttrList.html#ace470e8057d48dfd35fb8fa281f5e9f0"/>
+    <keyword type="function" name="Pango::AttrList::operator bool" link="classPango_1_1AttrList.html#a752876b8e4954110eae92f17f0347fdd"/>
+    <keyword type="function" name="Pango::AttrList::operator bool" link="classPango_1_1AttrList.html#a83f07b5a3de9295369b051cb577b9e54"/>
+    <keyword type="function" name="Pango::AttrList::insert" link="classPango_1_1AttrList.html#a65f766ed811132bd1b13580b3df60c53"/>
+    <keyword type="function" name="Pango::AttrList::insert_before" link="classPango_1_1AttrList.html#a8349cd1ba7fb0c73d6ce777e0df37ac6"/>
+    <keyword type="function" name="Pango::AttrList::change" link="classPango_1_1AttrList.html#a5a44a3cdf4ffa20ccfa7bc12b2a28d73"/>
+    <keyword type="function" name="Pango::AttrList::splice" link="classPango_1_1AttrList.html#a42f6abf1419006ddfffdf8834e41db5d"/>
+    <keyword type="function" name="Pango::AttrList::get_iter" link="classPango_1_1AttrList.html#a624a4900d499f6326ee03f26e43ae48b"/>
+    <keyword type="function" name="Pango::AttrList::get_type" link="classPango_1_1AttrList.html#ab01b4364bdec53f4d5a11f9b6f48ca00"/>
+    <keyword type="function" name="Pango::AttrList::swap" link="classPango_1_1AttrList.html#a237e1f0ba948500e61dff17c0dcd3c6f"/>
+    <keyword type="function" name="Pango::AttrList::wrap" link="classPango_1_1AttrList.html#a3a2b309c291bbbd832da6ca496a5648d"/>
+    <keyword type="struct" name="Pango::AttrShape" link="classPango_1_1AttrShape.html"/>
+    <keyword type="function" name="Pango::AttrShape::AttrShape" link="classPango_1_1AttrShape.html#a411decc2b1c5e7844c083f0422436da7"/>
+    <keyword type="function" name="Pango::AttrShape::AttrShape" link="classPango_1_1AttrShape.html#aaa26071ce55509b8d6de37d0c2b67ce9"/>
+    <keyword type="function" name="Pango::AttrShape::operator=" link="classPango_1_1AttrShape.html#a9504d1c7d985e1c222ed1b4ce138e2bb"/>
+    <keyword type="function" name="Pango::AttrShape::get_ink_rect" link="classPango_1_1AttrShape.html#a71ae89bf1fae040c88c0f01ac0e19e8a"/>
+    <keyword type="function" name="Pango::AttrShape::get_logical_rect" link="classPango_1_1AttrShape.html#ac706979205d41802a0a71d912661b43f"/>
+    <keyword type="function" name="Pango::AttrShape::set_ink_rect" link="classPango_1_1AttrShape.html#a910b5c0c06bd77c6862d6fd88e7ce138"/>
+    <keyword type="function" name="Pango::AttrShape::set_logical_rect" link="classPango_1_1AttrShape.html#a724b9573669892d5c3f72b5271573ad1"/>
+    <keyword type="function" name="Pango::AttrShape::gobj" link="classPango_1_1AttrShape.html#a680cbd3c5aa43666328ab15f4686ac39"/>
+    <keyword type="function" name="Pango::AttrShape::gobj" link="classPango_1_1AttrShape.html#ab3bc0cd7cbf84307e9f4101391c1bf2d"/>
+    <keyword type="function" name="Pango::AttrShape::AttrShape" link="classPango_1_1AttrShape.html#a35f85b2a68ac01c51e585c5f96e56769"/>
+    <keyword type="function" name="Pango::AttrShape::wrap" link="classPango_1_1AttrShape.html#af378f9ee7c5b0899589ccaa142eca8d7"/>
+    <keyword type="struct" name="Pango::AttrString" link="classPango_1_1AttrString.html"/>
+    <keyword type="function" name="Pango::AttrString::AttrString" link="classPango_1_1AttrString.html#a86fe973fba1ed3d65f3de4b24ee27cd2"/>
+    <keyword type="function" name="Pango::AttrString::AttrString" link="classPango_1_1AttrString.html#a6c41e5c4dd4eda506293fde301ddb975"/>
+    <keyword type="function" name="Pango::AttrString::operator=" link="classPango_1_1AttrString.html#a53c4efffde28ee515f17f4265cda6332"/>
+    <keyword type="function" name="Pango::AttrString::get_string" link="classPango_1_1AttrString.html#a1bd5a76c29a7dda7b028650c8f588776"/>
+    <keyword type="function" name="Pango::AttrString::set_string" link="classPango_1_1AttrString.html#ab554a86e249bb00a121d185cef1bc410"/>
+    <keyword type="function" name="Pango::AttrString::gobj" link="classPango_1_1AttrString.html#a56a6b2c462c686d25c4fee2dcceda550"/>
+    <keyword type="function" name="Pango::AttrString::gobj" link="classPango_1_1AttrString.html#afcc7988e6dd84e82d0878853d7f4930f"/>
+    <keyword type="function" name="Pango::AttrString::AttrString" link="classPango_1_1AttrString.html#ac71edf57e008b02b7ca92ad24a08baa9"/>
+    <keyword type="function" name="Pango::AttrString::wrap" link="classPango_1_1AttrString.html#a1ced81bbbfd80bb87b5d34a02a8d92ed"/>
+    <keyword type="struct" name="Pango::CairoFontMap" link="classPango_1_1CairoFontMap.html"/>
+    <keyword type="function" name="Pango::CairoFontMap::CairoFontMap" link="classPango_1_1CairoFontMap.html#a4afe8beaac71cc16f75c0e6c84c97436"/>
+    <keyword type="function" name="Pango::CairoFontMap::operator=" link="classPango_1_1CairoFontMap.html#a9f1360352fe9e8bc1ef07a1a45ff9d62"/>
+    <keyword type="function" name="Pango::CairoFontMap::~CairoFontMap" link="classPango_1_1CairoFontMap.html#ac6f4fc2a99278a04c8be2db958b47b0e"/>
+    <keyword type="function" name="Pango::CairoFontMap::gobj" link="classPango_1_1CairoFontMap.html#a8ec7f08e1cad8f3a437efe9ae409b09f"/>
+    <keyword type="function" name="Pango::CairoFontMap::gobj" link="classPango_1_1CairoFontMap.html#a9ae2bf015c3e9553a0786cdc98bf0ad5"/>
+    <keyword type="function" name="Pango::CairoFontMap::set_default" link="classPango_1_1CairoFontMap.html#a732fc8eab64298a2140f913fff674a10"/>
+    <keyword type="function" name="Pango::CairoFontMap::get_font_type" link="classPango_1_1CairoFontMap.html#a3094ca2f5b5065f29e4b5a301067683e"/>
+    <keyword type="function" name="Pango::CairoFontMap::set_resolution" link="classPango_1_1CairoFontMap.html#a27a0dd89e6d3a9553727e161b476db1f"/>
+    <keyword type="function" name="Pango::CairoFontMap::get_resolution" link="classPango_1_1CairoFontMap.html#a190c530d393dd381995e9483be77a50b"/>
+    <keyword type="function" name="Pango::CairoFontMap::create_context" link="classPango_1_1CairoFontMap.html#af0dc38a29a12d73efaf30edcec4aa99d"/>
+    <keyword type="function" name="Pango::CairoFontMap::add_interface" link="classPango_1_1CairoFontMap.html#a88dfb1b29c50a05ac77f888e6158919b"/>
+    <keyword type="function" name="Pango::CairoFontMap::get_type" link="classPango_1_1CairoFontMap.html#a19067ee7493032f1aa933ba293a202ca"/>
+    <keyword type="function" name="Pango::CairoFontMap::CairoFontMap" link="classPango_1_1CairoFontMap.html#a0e1aaeb0365de1747c81118be7a3979c"/>
+    <keyword type="function" name="Pango::CairoFontMap::wrap" link="classPango_1_1CairoFontMap.html#a8e687cea1f76c6d35f023861638cebfd"/>
+    <keyword type="struct" name="Pango::Color" link="classPango_1_1Color.html"/>
+    <keyword type="function" name="Pango::Color::Color" link="classPango_1_1Color.html#a12f95f79866c07c40a940835d07e003e"/>
+    <keyword type="function" name="Pango::Color::operator=" link="classPango_1_1Color.html#acb675e1935cce41db91dffd06e3e0d44"/>
+    <keyword type="function" name="Pango::Color::Color" link="classPango_1_1Color.html#ab84f4a74bac5eec76a6b9fc90e3f0f20"/>
+    <keyword type="function" name="Pango::Color::operator=" link="classPango_1_1Color.html#a8be464f88a3cc745bd9389136ea1732e"/>
+    <keyword type="function" name="Pango::Color::Color" link="classPango_1_1Color.html#aba9add0c20ac33c2e68c3b204e22b94d"/>
+    <keyword type="function" name="Pango::Color::Color" link="classPango_1_1Color.html#a6d246bc3212fdfe1d4782ca4fab9d3c8"/>
+    <keyword type="function" name="Pango::Color::gobj" link="classPango_1_1Color.html#adcfaad17d12c04fd76d38e37124058c4"/>
+    <keyword type="function" name="Pango::Color::gobj" link="classPango_1_1Color.html#aa726c32020299eb047c907076fb50a77"/>
+    <keyword type="function" name="Pango::Color::operator bool" link="classPango_1_1Color.html#a82d3ad96a05beadaa84d374efec4757b"/>
+    <keyword type="function" name="Pango::Color::operator bool" link="classPango_1_1Color.html#ab07705a087ad0ddac653ba7b345e315d"/>
+    <keyword type="function" name="Pango::Color::get_red" link="classPango_1_1Color.html#a474701a8464db98dd1c7d783bdbab5a6"/>
+    <keyword type="function" name="Pango::Color::get_green" link="classPango_1_1Color.html#a0f8e43e280f7c724ae2f8bd73e920206"/>
+    <keyword type="function" name="Pango::Color::get_blue" link="classPango_1_1Color.html#a2cf3699a92cc30b45eb2f2830b3c102a"/>
+    <keyword type="function" name="Pango::Color::set_red" link="classPango_1_1Color.html#a772e0ddc34294b563275328cddef6386"/>
+    <keyword type="function" name="Pango::Color::set_green" link="classPango_1_1Color.html#ae3f87922ab69cc79ab13cf15455be6b8"/>
+    <keyword type="function" name="Pango::Color::set_blue" link="classPango_1_1Color.html#a1fb60c718d3a0f0444b1dc3dc830ad0b"/>
+    <keyword type="function" name="Pango::Color::parse" link="classPango_1_1Color.html#a50ddd2f3bdbe855c0647d608d646e9b7"/>
+    <keyword type="function" name="Pango::Color::to_string" link="classPango_1_1Color.html#a48a7a615c5f10511c9c5eeaffe2b5267"/>
+    <keyword type="function" name="Pango::Color::get_type" link="classPango_1_1Color.html#a3c62b7e11be9573a7abb181911d428ff"/>
+    <keyword type="function" name="Pango::Color::wrap" link="classPango_1_1Color.html#aa585f53d57166edb71812c03458876a9"/>
+    <keyword type="function" name="Pango::Color::wrap" link="classPango_1_1Color.html#ad41a9f5d271ca6604c72355efc473f86"/>
+    <keyword type="struct" name="Pango::Context" link="classPango_1_1Context.html"/>
+    <keyword type="function" name="Pango::Context::Context" link="classPango_1_1Context.html#a58be3855c655ec4c999a33ba56384f69"/>
+    <keyword type="function" name="Pango::Context::operator=" link="classPango_1_1Context.html#a512e17e39331b65e30d177b75cae30f4"/>
+    <keyword type="function" name="Pango::Context::~Context" link="classPango_1_1Context.html#a19c423deda795cd042f966ab5ec25971"/>
+    <keyword type="function" name="Pango::Context::gobj" link="classPango_1_1Context.html#a0be484ab187e1e8fc7be2940ec4cb615"/>
+    <keyword type="function" name="Pango::Context::gobj" link="classPango_1_1Context.html#a32b3e8f9dde426b71ab6e0326f366984"/>
+    <keyword type="function" name="Pango::Context::gobj_copy" link="classPango_1_1Context.html#aa639f1fff0f0197e2f2a74ebe6cfe926"/>
+    <keyword type="function" name="Pango::Context::list_families" link="classPango_1_1Context.html#a588c79d7e4617312c858c90876b7ac84"/>
+    <keyword type="function" name="Pango::Context::set_font_map" link="classPango_1_1Context.html#a1e81f9b89aee5b5cf5f85ffe49806a74"/>
+    <keyword type="function" name="Pango::Context::get_font_map" link="classPango_1_1Context.html#a56eb6d8dde7e58e820aa717214e39345"/>
+    <keyword type="function" name="Pango::Context::get_font_map" link="classPango_1_1Context.html#a6831df777913afadf79ad93dff39468c"/>
+    <keyword type="function" name="Pango::Context::get_serial" link="classPango_1_1Context.html#a94e53afb694ce99032e8cf48b46fcb79"/>
+    <keyword type="function" name="Pango::Context::load_font" link="classPango_1_1Context.html#acb3ec9530b725dadb8fe9b8f75d11183"/>
+    <keyword type="function" name="Pango::Context::load_fontset" link="classPango_1_1Context.html#aaa2b5ba425aead7d84ba55e4443d2131"/>
+    <keyword type="function" name="Pango::Context::get_metrics" link="classPango_1_1Context.html#ad745e50f52d7b5e8ca62695d1f2c0c5e"/>
+    <keyword type="function" name="Pango::Context::get_metrics" link="classPango_1_1Context.html#a60b53d9d194fae14662588f69e8d5f74"/>
+    <keyword type="function" name="Pango::Context::set_font_description" link="classPango_1_1Context.html#a90ba5091c7a3177c4b3e49840b64192a"/>
+    <keyword type="function" name="Pango::Context::get_font_description" link="classPango_1_1Context.html#ad81f2b711295da09c42e4bd10711823c"/>
+    <keyword type="function" name="Pango::Context::get_language" link="classPango_1_1Context.html#a3aa0ee8cb20cf8c3994756e515b4925f"/>
+    <keyword type="function" name="Pango::Context::set_language" link="classPango_1_1Context.html#a20a1d003027b28404ae547118a1d6d80"/>
+    <keyword type="function" name="Pango::Context::set_base_dir" link="classPango_1_1Context.html#a2f2e234bb53c20eff53ed8f1e51e460f"/>
+    <keyword type="function" name="Pango::Context::get_base_dir" link="classPango_1_1Context.html#ac0664d7eb89a45baccac5d483e066f48"/>
+    <keyword type="function" name="Pango::Context::set_base_gravity" link="classPango_1_1Context.html#afc55b428fe56632e44c7d528eb27c037"/>
+    <keyword type="function" name="Pango::Context::get_base_gravity" link="classPango_1_1Context.html#a5e03c7d7171fb3430143ffe1da2487d0"/>
+    <keyword type="function" name="Pango::Context::get_gravity" link="classPango_1_1Context.html#ac31983f5fe9be6d9eeca453846c22a9d"/>
+    <keyword type="function" name="Pango::Context::set_gravity_hint" link="classPango_1_1Context.html#a86b50228ad45a1bb81136519aea95915"/>
+    <keyword type="function" name="Pango::Context::get_gravity_hint" link="classPango_1_1Context.html#ac149c7dc5c906aa2ceb4fe90e75e7060"/>
+    <keyword type="function" name="Pango::Context::set_matrix" link="classPango_1_1Context.html#ae3e16a984e6c1bb2d8066201b4594da5"/>
+    <keyword type="function" name="Pango::Context::get_matrix" link="classPango_1_1Context.html#aeb11495d390bbcd2269bc2acf516b1dc"/>
+    <keyword type="function" name="Pango::Context::itemize" link="classPango_1_1Context.html#ab80e5e65f30473eb4db512fb7eab042c"/>
+    <keyword type="function" name="Pango::Context::itemize" link="classPango_1_1Context.html#a2e5ca907fb9b7a1a5548d965763ab10e"/>
+    <keyword type="function" name="Pango::Context::update_from_cairo_context" link="classPango_1_1Context.html#acc6707edbfcbbe79f6e3c540ddfa6eb1"/>
+    <keyword type="function" name="Pango::Context::set_cairo_font_options" link="classPango_1_1Context.html#a5f80cbc5c97fb4ef0152f559096bea6c"/>
+    <keyword type="function" name="Pango::Context::get_font_options" link="classPango_1_1Context.html#a939161ccc6ad916604662a891dc1bda8"/>
+    <keyword type="function" name="Pango::Context::set_resolution" link="classPango_1_1Context.html#ae912e733915cc5b48124a4aa913c6a7f"/>
+    <keyword type="function" name="Pango::Context::get_resolution" link="classPango_1_1Context.html#af6934055ff3a68acfd85ba22330c318a"/>
+    <keyword type="function" name="Pango::Context::get_type" link="classPango_1_1Context.html#ad3bcc0c918672332eeccbce94f80f5f0"/>
+    <keyword type="function" name="Pango::Context::Context" link="classPango_1_1Context.html#a4cce2632218899d3cc6e04c4c2d860af"/>
+    <keyword type="function" name="Pango::Context::wrap" link="classPango_1_1Context.html#ac61523c7c5af185d2c5ce7ce5706c3b4"/>
+    <keyword type="struct" name="Pango::Coverage" link="classPango_1_1Coverage.html"/>
+    <keyword type="function" name="Pango::Coverage::reference" link="classPango_1_1Coverage.html#a108d32d6ec06aa05595f737a8b97c9b6"/>
+    <keyword type="function" name="Pango::Coverage::unreference" link="classPango_1_1Coverage.html#ac3a270fd6faaca45d7166e5590cd48de"/>
+    <keyword type="function" name="Pango::Coverage::gobj" link="classPango_1_1Coverage.html#a722a12ac294306917c66ef99b05c6e4c"/>
+    <keyword type="function" name="Pango::Coverage::gobj" link="classPango_1_1Coverage.html#a3b7abbb54b3832327c4c737ee13d9a64"/>
+    <keyword type="function" name="Pango::Coverage::gobj_copy" link="classPango_1_1Coverage.html#a11a3bc438ad8efd09369def83824f127"/>
+    <keyword type="function" name="Pango::Coverage::Coverage" link="classPango_1_1Coverage.html#a1867ce20e2fddfbb084219fe52340a24"/>
+    <keyword type="function" name="Pango::Coverage::Coverage" link="classPango_1_1Coverage.html#a6d8557575bc1caafad90c55159dd9fcf"/>
+    <keyword type="function" name="Pango::Coverage::operator=" link="classPango_1_1Coverage.html#ac74184cb5a627d48f7dfead871b2c19b"/>
+    <keyword type="function" name="Pango::Coverage::get" link="classPango_1_1Coverage.html#a76b5d1fac002e45296f12677426006b4"/>
+    <keyword type="function" name="Pango::Coverage::set" link="classPango_1_1Coverage.html#a4f830b83f958856a1671825adfdff7a6"/>
+    <keyword type="function" name="Pango::Coverage::max" link="classPango_1_1Coverage.html#a18bc3866f591ccddac4db6bb1dd17e1b"/>
+    <keyword type="function" name="Pango::Coverage::to_bytes" link="classPango_1_1Coverage.html#a1551a514d863f50d1e6d00e155e314ca"/>
+    <keyword type="function" name="Pango::Coverage::create" link="classPango_1_1Coverage.html#abf6cea85766e365aaba4c1c1c41b108c"/>
+    <keyword type="function" name="Pango::Coverage::create" link="classPango_1_1Coverage.html#a99a561f447eb6afea663110dd83c8764"/>
+    <keyword type="function" name="Pango::Coverage::operator delete" link="classPango_1_1Coverage.html#a7435f50463b1c0b478403066fc8b26e4"/>
+    <keyword type="function" name="Pango::Coverage::wrap" link="classPango_1_1Coverage.html#a318507c833062eacc7da15d204909612"/>
+    <keyword type="struct" name="Pango::Font" link="classPango_1_1Font.html"/>
+    <keyword type="function" name="Pango::Font::Font" link="classPango_1_1Font.html#a9832b79b94aae4df45cb716f9f5918b2"/>
+    <keyword type="function" name="Pango::Font::operator=" link="classPango_1_1Font.html#a19c218bcc2ee4781aea0b10248928faf"/>
+    <keyword type="function" name="Pango::Font::~Font" link="classPango_1_1Font.html#adfaffc7df82ac00901ada4fffc58b439"/>
+    <keyword type="function" name="Pango::Font::gobj" link="classPango_1_1Font.html#a79324708eb9ecc5ac20c7458180028c6"/>
+    <keyword type="function" name="Pango::Font::gobj" link="classPango_1_1Font.html#aa6edf026791465ad4a5c8e398d6b7b74"/>
+    <keyword type="function" name="Pango::Font::gobj_copy" link="classPango_1_1Font.html#a4d9645c3d7731d5f40b30aa19c049d29"/>
+    <keyword type="function" name="Pango::Font::describe" link="classPango_1_1Font.html#ae2f6278e19a7f30e37fa7dc92a0a69bd"/>
+    <keyword type="function" name="Pango::Font::describe_with_absolute_size" link="classPango_1_1Font.html#a6e3095f466db0175b440a7f03f007067"/>
+    <keyword type="function" name="Pango::Font::get_coverage" link="classPango_1_1Font.html#ac9c136ab023386cd3c2fec405d9b1ffb"/>
+    <keyword type="function" name="Pango::Font::get_metrics" link="classPango_1_1Font.html#a40cea3673f1ba22a2d270bdbde7913dd"/>
+    <keyword type="function" name="Pango::Font::get_metrics" link="classPango_1_1Font.html#a5f0571ad3c083e5d871d073bee00b626"/>
+    <keyword type="function" name="Pango::Font::get_glyph_extents" link="classPango_1_1Font.html#a7fc06adf5a1b63a1b97c6b3fe7e417c5"/>
+    <keyword type="function" name="Pango::Font::get_font_map" link="classPango_1_1Font.html#a47d4be49482125119d8547861620597c"/>
+    <keyword type="function" name="Pango::Font::get_font_map" link="classPango_1_1Font.html#a27478176dfb7c8134ecd325efd0c1dee"/>
+    <keyword type="function" name="Pango::Font::get_glyph_ink_extents" link="classPango_1_1Font.html#a171f5072c99849a1fae63c7358244c16"/>
+    <keyword type="function" name="Pango::Font::get_glyph_logical_extents" link="classPango_1_1Font.html#af17475cdeb9d7244966534a05639e47f"/>
+    <keyword type="function" name="Pango::Font::get_type" link="classPango_1_1Font.html#a70eb26a97b3c0bf90230294ee1fb5c91"/>
+    <keyword type="function" name="Pango::Font::wrap" link="classPango_1_1Font.html#a8a2ffe6a7a800882a2430a19360b7c78"/>
+    <keyword type="struct" name="Pango::FontDescription" link="classPango_1_1FontDescription.html"/>
+    <keyword type="function" name="Pango::FontDescription::FontDescription" link="classPango_1_1FontDescription.html#afdb36b4b7c50cb97c12300fe85349533"/>
+    <keyword type="function" name="Pango::FontDescription::FontDescription" link="classPango_1_1FontDescription.html#a16211764b726945ba2d7ddc3d8f74b20"/>
+    <keyword type="function" name="Pango::FontDescription::FontDescription" link="classPango_1_1FontDescription.html#af52b80020f13a446e1a66c07b7a525d0"/>
+    <keyword type="function" name="Pango::FontDescription::operator=" link="classPango_1_1FontDescription.html#a3d7bd8a331801a69058145f3bbc01994"/>
+    <keyword type="function" name="Pango::FontDescription::FontDescription" link="classPango_1_1FontDescription.html#aee4c5619669e6abc5bb7bc12626607af"/>
+    <keyword type="function" name="Pango::FontDescription::operator=" link="classPango_1_1FontDescription.html#a70dea4acc3b22e0daad8374d94d21e60"/>
+    <keyword type="function" name="Pango::FontDescription::~FontDescription" link="classPango_1_1FontDescription.html#af1dc7cbdd91a9e807e64350de4af32fd"/>
+    <keyword type="function" name="Pango::FontDescription::swap" link="classPango_1_1FontDescription.html#a1cd01bd59ed3aa8540f6cfbbf990b7e7"/>
+    <keyword type="function" name="Pango::FontDescription::gobj" link="classPango_1_1FontDescription.html#a7ec35a7accdc8a55eebc9b5dfd4939bb"/>
+    <keyword type="function" name="Pango::FontDescription::gobj" link="classPango_1_1FontDescription.html#ab11803b348ef4da415fc12f99d5ad71a"/>
+    <keyword type="function" name="Pango::FontDescription::gobj_copy" link="classPango_1_1FontDescription.html#a7a7178ac7e2bbefcff35866f5ffd1ceb"/>
+    <keyword type="function" name="Pango::FontDescription::FontDescription" link="classPango_1_1FontDescription.html#af7382a2b612391bfaa9c3f94a6d6028d"/>
+    <keyword type="function" name="Pango::FontDescription::hash" link="classPango_1_1FontDescription.html#ad23386ceb3e3c33d4dcf5ec0f5b0448b"/>
+    <keyword type="function" name="Pango::FontDescription::set_family" link="classPango_1_1FontDescription.html#ad205777ae3b5ea70c02d5563186faca3"/>
+    <keyword type="function" name="Pango::FontDescription::get_family" link="classPango_1_1FontDescription.html#acff7e1b4779e8ed2286f2b8b3a6752b1"/>
+    <keyword type="function" name="Pango::FontDescription::set_style" link="classPango_1_1FontDescription.html#ae3aae73142d165637fd81a8e7853dc75"/>
+    <keyword type="function" name="Pango::FontDescription::get_style" link="classPango_1_1FontDescription.html#a3185cf480eed5c31d5e6ea8166d7f9b2"/>
+    <keyword type="function" name="Pango::FontDescription::set_variant" link="classPango_1_1FontDescription.html#aeb5d904401a98d6461ffc8a441a8380d"/>
+    <keyword type="function" name="Pango::FontDescription::get_variant" link="classPango_1_1FontDescription.html#a4ee40fab911737367bf6816b1e038704"/>
+    <keyword type="function" name="Pango::FontDescription::set_weight" link="classPango_1_1FontDescription.html#a96e12760e3cbb25123bb26172c662864"/>
+    <keyword type="function" name="Pango::FontDescription::get_weight" link="classPango_1_1FontDescription.html#a4ab92ba0daaaf07004eea25d296f7bcc"/>
+    <keyword type="function" name="Pango::FontDescription::set_stretch" link="classPango_1_1FontDescription.html#a50b1fbc40ebc5b321f8994639993b1bf"/>
+    <keyword type="function" name="Pango::FontDescription::get_stretch" link="classPango_1_1FontDescription.html#a99432caf202bfb3cf7b7e8fd1c7521f7"/>
+    <keyword type="function" name="Pango::FontDescription::set_size" link="classPango_1_1FontDescription.html#a4039245dc891fe4db4ea0c6bd01d8a77"/>
+    <keyword type="function" name="Pango::FontDescription::get_size" link="classPango_1_1FontDescription.html#ac507266766f3cadaf0f1d5c6fd5c0c67"/>
+    <keyword type="function" name="Pango::FontDescription::set_absolute_size" link="classPango_1_1FontDescription.html#a804f715f977a8bdabb264a1e3e311352"/>
+    <keyword type="function" name="Pango::FontDescription::get_size_is_absolute" link="classPango_1_1FontDescription.html#a0b85f22cde4e8486501e3fcbd389491c"/>
+    <keyword type="function" name="Pango::FontDescription::set_gravity" link="classPango_1_1FontDescription.html#a850550316001e30d6fa1dc599a14673a"/>
+    <keyword type="function" name="Pango::FontDescription::get_gravity" link="classPango_1_1FontDescription.html#a4ad3ef4d5a7a30e91a3f4a13e4875d33"/>
+    <keyword type="function" name="Pango::FontDescription::get_set_fields" link="classPango_1_1FontDescription.html#aad602107d9de5ac06ce09dab91a1853b"/>
+    <keyword type="function" name="Pango::FontDescription::unset_fields" link="classPango_1_1FontDescription.html#a51e66cb7c205b4e5d3166b3ade218874"/>
+    <keyword type="function" name="Pango::FontDescription::merge" link="classPango_1_1FontDescription.html#a86d14b6b141c6b4f514111dbb6682faf"/>
+    <keyword type="function" name="Pango::FontDescription::better_match" link="classPango_1_1FontDescription.html#af2cd2cc5135124b18439d295bd974ed5"/>
+    <keyword type="function" name="Pango::FontDescription::to_string" link="classPango_1_1FontDescription.html#ad29123a4a8f63dca8c18df97997042c3"/>
+    <keyword type="function" name="Pango::FontDescription::to_filename" link="classPango_1_1FontDescription.html#a29fb64d73738cb49d0100f7fbad73580"/>
+    <keyword type="function" name="Pango::FontDescription::get_type" link="classPango_1_1FontDescription.html#aa072252664133b58aef7577e7e4e3be0"/>
+    <keyword type="function" name="Pango::FontDescription::operator==" link="classPango_1_1FontDescription.html#a1b84b607dabfa870e8e954b5563cafb5"/>
+    <keyword type="function" name="Pango::FontDescription::operator!=" link="classPango_1_1FontDescription.html#a0e916c9c005dc36d5e88fa146c599431"/>
+    <keyword type="function" name="Pango::FontDescription::swap" link="classPango_1_1FontDescription.html#adc0a21951620902d31de28625ab7ce4c"/>
+    <keyword type="function" name="Pango::FontDescription::wrap" link="classPango_1_1FontDescription.html#a92bdca662e7118ea654eb9b34ceead51"/>
+    <keyword type="struct" name="Pango::FontFace" link="classPango_1_1FontFace.html"/>
+    <keyword type="function" name="Pango::FontFace::FontFace" link="classPango_1_1FontFace.html#a01796d6e3f0ea0881aa24324b248e2c5"/>
+    <keyword type="function" name="Pango::FontFace::operator=" link="classPango_1_1FontFace.html#aa469c90d84d34fcb2dd30d9a8e77c790"/>
+    <keyword type="function" name="Pango::FontFace::~FontFace" link="classPango_1_1FontFace.html#af7ae06b555bf25d35b8605075e01f0ef"/>
+    <keyword type="function" name="Pango::FontFace::gobj" link="classPango_1_1FontFace.html#a06d5a3f9d48f7030977ade23c2d56da5"/>
+    <keyword type="function" name="Pango::FontFace::gobj" link="classPango_1_1FontFace.html#ae3234e75a5d717aec2a67080d3a3589a"/>
+    <keyword type="function" name="Pango::FontFace::gobj_copy" link="classPango_1_1FontFace.html#a4cf254caa5a67f611f552a8aa211146d"/>
+    <keyword type="function" name="Pango::FontFace::describe" link="classPango_1_1FontFace.html#ac09284f211a5c6edf6e4a308fec0a38a"/>
+    <keyword type="function" name="Pango::FontFace::get_name" link="classPango_1_1FontFace.html#aff58789dee7e98ca083e6c41441eb5f6"/>
+    <keyword type="function" name="Pango::FontFace::list_sizes" link="classPango_1_1FontFace.html#ab8aacc514f0e0ce1c1e2097daee6f2fe"/>
+    <keyword type="function" name="Pango::FontFace::is_synthesized" link="classPango_1_1FontFace.html#a6f881aaffddf4a1294b0fffcf363a6ac"/>
+    <keyword type="function" name="Pango::FontFace::get_type" link="classPango_1_1FontFace.html#a6bd05dc20885716ab70bde897bb76e4e"/>
+    <keyword type="function" name="Pango::FontFace::wrap" link="classPango_1_1FontFace.html#a1d254030fc582e4340089a7fb9cb49a3"/>
+    <keyword type="struct" name="Pango::FontFamily" link="classPango_1_1FontFamily.html"/>
+    <keyword type="function" name="Pango::FontFamily::FontFamily" link="classPango_1_1FontFamily.html#a44f66fc8373e0adaa6b2820473d8e574"/>
+    <keyword type="function" name="Pango::FontFamily::operator=" link="classPango_1_1FontFamily.html#a733f7336e074c7b4f10dce5bd0d9c332"/>
+    <keyword type="function" name="Pango::FontFamily::~FontFamily" link="classPango_1_1FontFamily.html#a1f26623d354cc67b5028a70fb4b6691d"/>
+    <keyword type="function" name="Pango::FontFamily::gobj" link="classPango_1_1FontFamily.html#ae014c2527a256d8f878e66855d26d45d"/>
+    <keyword type="function" name="Pango::FontFamily::gobj" link="classPango_1_1FontFamily.html#a004d3b770fae08b6ebdc730b1daa78cf"/>
+    <keyword type="function" name="Pango::FontFamily::gobj_copy" link="classPango_1_1FontFamily.html#afb660551882693b2c465338605015774"/>
+    <keyword type="function" name="Pango::FontFamily::list_faces" link="classPango_1_1FontFamily.html#a2431a65e5cb4e1d2edb0e013cdd38ad7"/>
+    <keyword type="function" name="Pango::FontFamily::get_name" link="classPango_1_1FontFamily.html#a0ca683f84aaf11abf9ce70bc508995dd"/>
+    <keyword type="function" name="Pango::FontFamily::is_monospace" link="classPango_1_1FontFamily.html#ac4c0c56d45f33c7b41a7e1e221552548"/>
+    <keyword type="function" name="Pango::FontFamily::get_type" link="classPango_1_1FontFamily.html#af039ea18b57c8751f0d74ac4d3d6b50e"/>
+    <keyword type="function" name="Pango::FontFamily::wrap" link="classPango_1_1FontFamily.html#a69b760bb199fe94cd96dc0bd2741320c"/>
+    <keyword type="struct" name="Pango::FontMap" link="classPango_1_1FontMap.html"/>
+    <keyword type="function" name="Pango::FontMap::FontMap" link="classPango_1_1FontMap.html#af641baa7d976760743db526be7f3a6ff"/>
+    <keyword type="function" name="Pango::FontMap::operator=" link="classPango_1_1FontMap.html#a0aa4703b7a7b6991bf13197782b50cd9"/>
+    <keyword type="function" name="Pango::FontMap::~FontMap" link="classPango_1_1FontMap.html#ace7ffcffd7e05dc14acc05eb6f40c5cb"/>
+    <keyword type="function" name="Pango::FontMap::gobj" link="classPango_1_1FontMap.html#ad9944f6abec1dc54c2a8ad190cba3b41"/>
+    <keyword type="function" name="Pango::FontMap::gobj" link="classPango_1_1FontMap.html#aaf8ae88ea6344bfc04db543b4d8a6c7b"/>
+    <keyword type="function" name="Pango::FontMap::gobj_copy" link="classPango_1_1FontMap.html#a3a42d88278dcbc412cf56ee71a985d12"/>
+    <keyword type="function" name="Pango::FontMap::load_font" link="classPango_1_1FontMap.html#afdd6e2219499d9fa20e1ea29dc699b96"/>
+    <keyword type="function" name="Pango::FontMap::load_fontset" link="classPango_1_1FontMap.html#a729237a53da397615cfe94bea7bd215e"/>
+    <keyword type="function" name="Pango::FontMap::create_context" link="classPango_1_1FontMap.html#aba7b44acf8bd2c34178b1cf27930cf3d"/>
+    <keyword type="function" name="Pango::FontMap::list_families" link="classPango_1_1FontMap.html#a62fa30686397a0c27e6818be0c6b9989"/>
+    <keyword type="function" name="Pango::FontMap::get_serial" link="classPango_1_1FontMap.html#a7c9be649bd10114c8cbb4b5821b00c00"/>
+    <keyword type="function" name="Pango::FontMap::get_type" link="classPango_1_1FontMap.html#a6c07d7645d5fd4ffbaf536a6ec0a2658"/>
+    <keyword type="function" name="Pango::FontMap::wrap" link="classPango_1_1FontMap.html#a9026fe42381ba2ac182ad9c660671370"/>
+    <keyword type="struct" name="Pango::FontMetrics" link="classPango_1_1FontMetrics.html"/>
+    <keyword type="function" name="Pango::FontMetrics::FontMetrics" link="classPango_1_1FontMetrics.html#a6fd7ee8f4106528d46bcde312c1fd622"/>
+    <keyword type="function" name="Pango::FontMetrics::FontMetrics" link="classPango_1_1FontMetrics.html#ab5b61288c4ff511e0d4fab41150a610b"/>
+    <keyword type="function" name="Pango::FontMetrics::FontMetrics" link="classPango_1_1FontMetrics.html#aa69e7495caf2bac9b52eeeb18b5d324e"/>
+    <keyword type="function" name="Pango::FontMetrics::operator=" link="classPango_1_1FontMetrics.html#afb01206891a912a21d339fb944bb5e60"/>
+    <keyword type="function" name="Pango::FontMetrics::FontMetrics" link="classPango_1_1FontMetrics.html#ad3e24990a978f35863c26d09ee8bb47a"/>
+    <keyword type="function" name="Pango::FontMetrics::operator=" link="classPango_1_1FontMetrics.html#a4189cf88cad97780d0d842001ec24eab"/>
+    <keyword type="function" name="Pango::FontMetrics::~FontMetrics" link="classPango_1_1FontMetrics.html#aa2092d552aaaaf6a5a1ee3a5e9820dd9"/>
+    <keyword type="function" name="Pango::FontMetrics::swap" link="classPango_1_1FontMetrics.html#a61cebf108bb653dd302f6758844c656d"/>
+    <keyword type="function" name="Pango::FontMetrics::gobj" link="classPango_1_1FontMetrics.html#a5c503c2c736cb45cac23e4fa8ef69647"/>
+    <keyword type="function" name="Pango::FontMetrics::gobj" link="classPango_1_1FontMetrics.html#ae9a1fc1a28648a45d1da56afe1da632a"/>
+    <keyword type="function" name="Pango::FontMetrics::gobj_copy" link="classPango_1_1FontMetrics.html#a841ba11d8c483655fd2fa61de297b52f"/>
+    <keyword type="function" name="Pango::FontMetrics::get_ascent" link="classPango_1_1FontMetrics.html#afc963dec98937e512963fa62d5b167f6"/>
+    <keyword type="function" name="Pango::FontMetrics::get_descent" link="classPango_1_1FontMetrics.html#a1f37fa508b18385c92f54452965cf610"/>
+    <keyword type="function" name="Pango::FontMetrics::get_approximate_char_width" link="classPango_1_1FontMetrics.html#adbbf4e1d0ea75553fdf7fee1624a5a1d"/>
+    <keyword type="function" name="Pango::FontMetrics::get_approximate_digit_width" link="classPango_1_1FontMetrics.html#a2e824dae652a8b70c2641752fa3c2fe4"/>
+    <keyword type="function" name="Pango::FontMetrics::get_underline_position" link="classPango_1_1FontMetrics.html#aa80c460e67a0bdb7f2430d20933cdc4f"/>
+    <keyword type="function" name="Pango::FontMetrics::get_underline_thickness" link="classPango_1_1FontMetrics.html#a3beede4f726f0b23c5646117b071fa7d"/>
+    <keyword type="function" name="Pango::FontMetrics::get_strikethrough_position" link="classPango_1_1FontMetrics.html#ab4efbba69b50a7f0ea2afbf62e21d34a"/>
+    <keyword type="function" name="Pango::FontMetrics::get_strikethrough_thickness" link="classPango_1_1FontMetrics.html#abe0ae62effadb3a7adf1f44993dc85a9"/>
+    <keyword type="function" name="Pango::FontMetrics::get_type" link="classPango_1_1FontMetrics.html#ac65058873bd0d25b316fef8729564c28"/>
+    <keyword type="function" name="Pango::FontMetrics::swap" link="classPango_1_1FontMetrics.html#a095cddfee0c25928f2303171e6250926"/>
+    <keyword type="function" name="Pango::FontMetrics::wrap" link="classPango_1_1FontMetrics.html#ab302b8cc7745eb3e95aa87e7720b57c6"/>
+    <keyword type="struct" name="Pango::Fontset" link="classPango_1_1Fontset.html"/>
+    <keyword type="typedef" name="Pango::Fontset::ForeachSlot" link="classPango_1_1Fontset.html#a9f05fc57fe5beca2af590c7c94d2b9ca"/>
+    <keyword type="function" name="Pango::Fontset::Fontset" link="classPango_1_1Fontset.html#ae58e970229a6ef62586dbcc6aad09214"/>
+    <keyword type="function" name="Pango::Fontset::operator=" link="classPango_1_1Fontset.html#aacc2ac71dbb2e0a46a6e9df6572e944d"/>
+    <keyword type="function" name="Pango::Fontset::~Fontset" link="classPango_1_1Fontset.html#a8e840fb4fa53791c68c1673f233d0fb3"/>
+    <keyword type="function" name="Pango::Fontset::gobj" link="classPango_1_1Fontset.html#a3d86b32a0670c5787fa380b2cc272056"/>
+    <keyword type="function" name="Pango::Fontset::gobj" link="classPango_1_1Fontset.html#a3610f9975cd4ea67790557b7840db803"/>
+    <keyword type="function" name="Pango::Fontset::gobj_copy" link="classPango_1_1Fontset.html#acc58fe637f90937481e21fd852df8b33"/>
+    <keyword type="function" name="Pango::Fontset::get_font" link="classPango_1_1Fontset.html#a77113b4175bce10ec3a6a5e12a107e7f"/>
+    <keyword type="function" name="Pango::Fontset::get_metrics" link="classPango_1_1Fontset.html#aa28274ba98f093e332654ef29ae91c4a"/>
+    <keyword type="function" name="Pango::Fontset::foreach" link="classPango_1_1Fontset.html#ac835e92535fd078ade242cfc55275431"/>
+    <keyword type="function" name="Pango::Fontset::get_type" link="classPango_1_1Fontset.html#a237de4417d46abc7f9b29a9cae24ad04"/>
+    <keyword type="function" name="Pango::Fontset::wrap" link="classPango_1_1Fontset.html#aea3ff383e93a74444266ebe8e6c317f6"/>
+    <keyword type="struct" name="Pango::GlyphGeometry" link="classPango_1_1GlyphGeometry.html"/>
+    <keyword type="function" name="Pango::GlyphGeometry::GlyphGeometry" link="classPango_1_1GlyphGeometry.html#a5c4ebaf2caa32ad520dcc1344fab5915"/>
+    <keyword type="function" name="Pango::GlyphGeometry::GlyphGeometry" link="classPango_1_1GlyphGeometry.html#aa60869d610f24b3e361f9180eb92309a"/>
+    <keyword type="function" name="Pango::GlyphGeometry::get_width" link="classPango_1_1GlyphGeometry.html#a3f2ab8028a054c0a276fc6c1ecf818ce"/>
+    <keyword type="function" name="Pango::GlyphGeometry::get_x_offset" link="classPango_1_1GlyphGeometry.html#a7782145cba33eb09d9bd4cbd4cd50ab0"/>
+    <keyword type="function" name="Pango::GlyphGeometry::get_y_offset" link="classPango_1_1GlyphGeometry.html#a67c531c7db47b6deefbb07fc11a7b0cd"/>
+    <keyword type="function" name="Pango::GlyphGeometry::gobj" link="classPango_1_1GlyphGeometry.html#acdbde9bfc602504266ad2d07a560133f"/>
+    <keyword type="function" name="Pango::GlyphGeometry::gobj" link="classPango_1_1GlyphGeometry.html#a7b023e9327bae5def3cb8367b28724bd"/>
+    <keyword type="function" name="Pango::GlyphGeometry::wrap" link="classPango_1_1GlyphGeometry.html#a4af2be7893a5390d8edfadab6ca3f3aa"/>
+    <keyword type="function" name="Pango::GlyphGeometry::wrap" link="classPango_1_1GlyphGeometry.html#a379a41e653c55f8027d5fb9114fc69cd"/>
+    <keyword type="struct" name="Pango::GlyphInfo" link="classPango_1_1GlyphInfo.html"/>
+    <keyword type="function" name="Pango::GlyphInfo::GlyphInfo" link="classPango_1_1GlyphInfo.html#a1f5ef98d84338c15a3d1e833c56660f6"/>
+    <keyword type="function" name="Pango::GlyphInfo::get_glyph" link="classPango_1_1GlyphInfo.html#a4c8f327fd4cc52e52cd21da1c64222ff"/>
+    <keyword type="function" name="Pango::GlyphInfo::get_geometry" link="classPango_1_1GlyphInfo.html#ad6daa2532d9d5a702b9c878281bc7bf3"/>
+    <keyword type="function" name="Pango::GlyphInfo::get_attr" link="classPango_1_1GlyphInfo.html#a95430e7e3fe9725caa4e44ec3c5cb463"/>
+    <keyword type="function" name="Pango::GlyphInfo::gobj" link="classPango_1_1GlyphInfo.html#aaf96b50504a91f1f691328185d7fbf4e"/>
+    <keyword type="function" name="Pango::GlyphInfo::gobj" link="classPango_1_1GlyphInfo.html#ac0c11f23667294e81a9473e0085b29bc"/>
+    <keyword type="function" name="Pango::GlyphInfo::wrap" link="classPango_1_1GlyphInfo.html#a9624d2f1c6ac65c6faf3587db97d3999"/>
+    <keyword type="function" name="Pango::GlyphInfo::wrap" link="classPango_1_1GlyphInfo.html#a072ac96ee2fc363e39e1c3f482f094a0"/>
+    <keyword type="struct" name="Pango::GlyphString" link="classPango_1_1GlyphString.html"/>
+    <keyword type="function" name="Pango::GlyphString::GlyphString" link="classPango_1_1GlyphString.html#ac29d6a3ce00449605ff8c6e72fbcca46"/>
+    <keyword type="function" name="Pango::GlyphString::GlyphString" link="classPango_1_1GlyphString.html#a8879d0a1fc961914d2a18bf4ed92c576"/>
+    <keyword type="function" name="Pango::GlyphString::GlyphString" link="classPango_1_1GlyphString.html#a03f6d2972ae4a4259fc119d145479422"/>
+    <keyword type="function" name="Pango::GlyphString::operator=" link="classPango_1_1GlyphString.html#a25cbfce685aa2f084ab69f748ee14b62"/>
+    <keyword type="function" name="Pango::GlyphString::GlyphString" link="classPango_1_1GlyphString.html#a6456a0d69a6bb2e6b71988fb363288d8"/>
+    <keyword type="function" name="Pango::GlyphString::operator=" link="classPango_1_1GlyphString.html#a25453d45da3c07d40e353c61dd5cab09"/>
+    <keyword type="function" name="Pango::GlyphString::~GlyphString" link="classPango_1_1GlyphString.html#a2af991b12d9dd9b8cb80b3e4a11470ad"/>
+    <keyword type="function" name="Pango::GlyphString::swap" link="classPango_1_1GlyphString.html#af3523eea50b135aa284f1d3cf2b1048b"/>
+    <keyword type="function" name="Pango::GlyphString::gobj" link="classPango_1_1GlyphString.html#af7e830ec66e6cb9aa330869777aea160"/>
+    <keyword type="function" name="Pango::GlyphString::gobj" link="classPango_1_1GlyphString.html#ad4f860a4d37735f5887149ec16d2e6e3"/>
+    <keyword type="function" name="Pango::GlyphString::gobj_copy" link="classPango_1_1GlyphString.html#a6b2e13e864bf32139953fef7fc2fd258"/>
+    <keyword type="function" name="Pango::GlyphString::GlyphString" link="classPango_1_1GlyphString.html#a06f9871e9c2793b46c809825baa7295a"/>
+    <keyword type="function" name="Pango::GlyphString::set_size" link="classPango_1_1GlyphString.html#a446ec301b0bf0c3d514b59ba510388e8"/>
+    <keyword type="function" name="Pango::GlyphString::get_extents" link="classPango_1_1GlyphString.html#a945c47efcda68e432af2df3d01e997cd"/>
+    <keyword type="function" name="Pango::GlyphString::get_extents" link="classPango_1_1GlyphString.html#a2f62adbdf08166a47fe7c928bb358d6b"/>
+    <keyword type="function" name="Pango::GlyphString::get_width" link="classPango_1_1GlyphString.html#a9dc40d79a0ab939aadfc32ecf48cd20b"/>
+    <keyword type="function" name="Pango::GlyphString::get_ink_extents" link="classPango_1_1GlyphString.html#ab0d91082aeae16b939573d8588f30834"/>
+    <keyword type="function" name="Pango::GlyphString::get_ink_extents" link="classPango_1_1GlyphString.html#af498e0b501b28fdc3248b05377f196aa"/>
+    <keyword type="function" name="Pango::GlyphString::get_logical_extents" link="classPango_1_1GlyphString.html#a4a5f048d2107d216222a2b820b1200e5"/>
+    <keyword type="function" name="Pango::GlyphString::get_logical_extents" link="classPango_1_1GlyphString.html#a9e9ad8895efeefeac889be88b259dc06"/>
+    <keyword type="function" name="Pango::GlyphString::get_logical_widths" link="classPango_1_1GlyphString.html#a093fb31945a639510d314e990a347cee"/>
+    <keyword type="function" name="Pango::GlyphString::index_to_x" link="classPango_1_1GlyphString.html#a0c0e3b8f357ac1c3cc090522c8ad69d2"/>
+    <keyword type="function" name="Pango::GlyphString::x_to_index" link="classPango_1_1GlyphString.html#ac443c47d3718ffd24f3ce2dd7364ddc6"/>
+    <keyword type="function" name="Pango::GlyphString::get_glyphs" link="classPango_1_1GlyphString.html#a7b817f9587cfe74b59b3df6f5493194f"/>
+    <keyword type="function" name="Pango::GlyphString::get_type" link="classPango_1_1GlyphString.html#a245faf2053d231e416d3a5c812e0d6ec"/>
+    <keyword type="function" name="Pango::GlyphString::swap" link="classPango_1_1GlyphString.html#a7d6dbfa25ef865ba316af86a9067f054"/>
+    <keyword type="function" name="Pango::GlyphString::wrap" link="classPango_1_1GlyphString.html#a38d43ebbd3017f3c304cec5b0eebc818"/>
+    <keyword type="struct" name="Pango::Item" link="classPango_1_1Item.html"/>
+    <keyword type="function" name="Pango::Item::Item" link="classPango_1_1Item.html#a7ff3040861b1c2ef264dae5fa41b0a74"/>
+    <keyword type="function" name="Pango::Item::Item" link="classPango_1_1Item.html#a7f865d28fec2317d19c2b0a9b702dda5"/>
+    <keyword type="function" name="Pango::Item::operator=" link="classPango_1_1Item.html#a763c8d9b1941e1809a61d5e1ed7acea5"/>
+    <keyword type="function" name="Pango::Item::~Item" link="classPango_1_1Item.html#ace0c5a723379b901bb84050f7f04b634"/>
+    <keyword type="function" name="Pango::Item::gobj_copy" link="classPango_1_1Item.html#a798fe6542c0fe91339aae8b7c0dd064e"/>
+    <keyword type="function" name="Pango::Item::split" link="classPango_1_1Item.html#ad2ef5f06db85d880c3364435e882c2eb"/>
+    <keyword type="function" name="Pango::Item::get_offset" link="classPango_1_1Item.html#a8dddd9eab0622cc2648d9ccbffe5bfd4"/>
+    <keyword type="function" name="Pango::Item::get_length" link="classPango_1_1Item.html#a75f33d0905301c1002060fbccb3ca642"/>
+    <keyword type="function" name="Pango::Item::get_num_chars" link="classPango_1_1Item.html#afeabaf3536b62cc0928b60476190bd3f"/>
+    <keyword type="function" name="Pango::Item::get_analysis" link="classPango_1_1Item.html#ae82eafebde284407501321973cfcdc93"/>
+    <keyword type="function" name="Pango::Item::get_segment" link="classPango_1_1Item.html#ad9f9e82370ea93a82dc187f6901b1598"/>
+    <keyword type="function" name="Pango::Item::shape" link="classPango_1_1Item.html#a6128734fbdbbe38eda90733048720901"/>
+    <keyword type="function" name="Pango::Item::gobj" link="classPango_1_1Item.html#a1140aa02f7f8cbd0940c499cafa000bc"/>
+    <keyword type="function" name="Pango::Item::gobj" link="classPango_1_1Item.html#ad47b94db2ef84fa14312809ce87e1f75"/>
+    <keyword type="function" name="Pango::Item::wrap" link="classPango_1_1Item.html#a012951ae7481f7683f79b56c13df50c2"/>
+    <keyword type="struct" name="Pango::ItemTraits" link="structPango_1_1ItemTraits.html"/>
+    <keyword type="typedef" name="Pango::ItemTraits::CppType" link="structPango_1_1ItemTraits.html#a84ad7f8f3c38d47ec5e708b8e3091a4d"/>
+    <keyword type="typedef" name="Pango::ItemTraits::CType" link="structPango_1_1ItemTraits.html#a1fa8b6d9c4e2b7e2ba7b4a6d43d251af"/>
+    <keyword type="typedef" name="Pango::ItemTraits::CTypeNonConst" link="structPango_1_1ItemTraits.html#ad893fdd35145dfa5b8d589a759f077e9"/>
+    <keyword type="function" name="Pango::ItemTraits::to_c_type" link="structPango_1_1ItemTraits.html#af38d645a8946fdb89caf5471f17fdfae"/>
+    <keyword type="function" name="Pango::ItemTraits::to_c_type" link="structPango_1_1ItemTraits.html#aaef81485f2de80b8ec38760bf5401a3f"/>
+    <keyword type="function" name="Pango::ItemTraits::to_cpp_type" link="structPango_1_1ItemTraits.html#a4fba49f4b79fec2a7358ee8fef88269a"/>
+    <keyword type="function" name="Pango::ItemTraits::release_c_type" link="structPango_1_1ItemTraits.html#a5c631a87500f32cb943cca4c5f9028be"/>
+    <keyword type="struct" name="Pango::Language" link="classPango_1_1Language.html"/>
+    <keyword type="function" name="Pango::Language::Language" link="classPango_1_1Language.html#a1ba6893f21e4eef6d4bf76bf976f5841"/>
+    <keyword type="function" name="Pango::Language::Language" link="classPango_1_1Language.html#acfd6360445ed2a20e693c293bc3dca39"/>
+    <keyword type="function" name="Pango::Language::operator=" link="classPango_1_1Language.html#a37b49e87a3123c8e3f5112941b34e7fc"/>
+    <keyword type="function" name="Pango::Language::Language" link="classPango_1_1Language.html#aa60aff54ec765a9158d0ec3ce200b55c"/>
+    <keyword type="function" name="Pango::Language::operator=" link="classPango_1_1Language.html#ac1fc6bd801e52b1f3abd9bc198eb609e"/>
+    <keyword type="function" name="Pango::Language::~Language" link="classPango_1_1Language.html#ad1fe9928679585f6398c6fb67fa390e2"/>
+    <keyword type="function" name="Pango::Language::swap" link="classPango_1_1Language.html#a36cef6bcc17e26d2351c5dde319bbbe2"/>
+    <keyword type="function" name="Pango::Language::gobj" link="classPango_1_1Language.html#a5f4f2531ac07ffedd1f201417bdc438c"/>
+    <keyword type="function" name="Pango::Language::gobj" link="classPango_1_1Language.html#ad9badf78b09687b8b9b11862c4394084"/>
+    <keyword type="function" name="Pango::Language::gobj_copy" link="classPango_1_1Language.html#a5d8d5029fe243de41a947f5ea2c81527"/>
+    <keyword type="function" name="Pango::Language::Language" link="classPango_1_1Language.html#a267cc607cbbd4b6ba5feca3722088e9b"/>
+    <keyword type="function" name="Pango::Language::Language" link="classPango_1_1Language.html#af31f3241327260ef55c1c24dcee339e7"/>
+    <keyword type="function" name="Pango::Language::get_string" link="classPango_1_1Language.html#a6bff6c4915896d04e0d913e2e0a6f6b3"/>
+    <keyword type="function" name="Pango::Language::matches" link="classPango_1_1Language.html#a35ccd9495e671323246b4a3190569497"/>
+    <keyword type="function" name="Pango::Language::includes_script" link="classPango_1_1Language.html#ad20c1c562e1f3f839a6ae3fd6b47ef48"/>
+    <keyword type="function" name="Pango::Language::get_scripts" link="classPango_1_1Language.html#ad8add73eb8c22d3887198f9d5ed3779e"/>
+    <keyword type="function" name="Pango::Language::get_type" link="classPango_1_1Language.html#aadff4d93d69ecf01b9e83a49a529fa56"/>
+    <keyword type="function" name="Pango::Language::swap" link="classPango_1_1Language.html#a5b03a2427f0b28b80c461db2d6dce6d3"/>
+    <keyword type="function" name="Pango::Language::wrap" link="classPango_1_1Language.html#ad6dbe3ae958dd5c92f0c71265c74f989"/>
+    <keyword type="struct" name="Pango::Layout" link="classPango_1_1Layout.html"/>
+    <keyword type="function" name="Pango::Layout::Layout" link="classPango_1_1Layout.html#a1221e6e10f8996dfe0377b628bfeee4b"/>
+    <keyword type="function" name="Pango::Layout::operator=" link="classPango_1_1Layout.html#a44227b8056bbe19769157d32c0c8d709"/>
+    <keyword type="function" name="Pango::Layout::~Layout" link="classPango_1_1Layout.html#a8cdc8bd805021e9c694f0f367a6bc320"/>
+    <keyword type="function" name="Pango::Layout::gobj" link="classPango_1_1Layout.html#a3cf520f31292a32b7bd00fb70c6711fc"/>
+    <keyword type="function" name="Pango::Layout::gobj" link="classPango_1_1Layout.html#ab0f2b726ce4d783fd127aa42de3e255d"/>
+    <keyword type="function" name="Pango::Layout::gobj_copy" link="classPango_1_1Layout.html#af2ed59d8031ce7df4b2592fe996bb2be"/>
+    <keyword type="function" name="Pango::Layout::update_from_cairo_context" link="classPango_1_1Layout.html#a6706a92463a0df36eb3f86f8203413d7"/>
+    <keyword type="function" name="Pango::Layout::copy" link="classPango_1_1Layout.html#a0a01b7f479ddd32145f54ada48f37147"/>
+    <keyword type="function" name="Pango::Layout::get_context" link="classPango_1_1Layout.html#a93f926aa835611d1a3d3555271737d0e"/>
+    <keyword type="function" name="Pango::Layout::set_attributes" link="classPango_1_1Layout.html#a6b3292c3eff18aa061c4e9a6f5fa8d1a"/>
+    <keyword type="function" name="Pango::Layout::get_attributes" link="classPango_1_1Layout.html#a0d71716a2760d1f70810712aff139b9d"/>
+    <keyword type="function" name="Pango::Layout::set_text" link="classPango_1_1Layout.html#a981012a0af40936591f8d39aa169a6fd"/>
+    <keyword type="function" name="Pango::Layout::get_text" link="classPango_1_1Layout.html#afe9e63119d19a3f9c6c786495137bc4a"/>
+    <keyword type="function" name="Pango::Layout::get_character_count" link="classPango_1_1Layout.html#a91e24eb0fb1d8c42b6ac935186b9939c"/>
+    <keyword type="function" name="Pango::Layout::set_markup" link="classPango_1_1Layout.html#af49842ef1724ac0e7a8afcb860e6bb1f"/>
+    <keyword type="function" name="Pango::Layout::set_markup" link="classPango_1_1Layout.html#a466e0638cb285d7a38fe6ee79267bd89"/>
+    <keyword type="function" name="Pango::Layout::set_font_description" link="classPango_1_1Layout.html#ac2193bc15c036f7322da333ddddef4be"/>
+    <keyword type="function" name="Pango::Layout::unset_font_description" link="classPango_1_1Layout.html#ad808c80347d1a4b9d9d5836b6c92e4d0"/>
+    <keyword type="function" name="Pango::Layout::get_font_description" link="classPango_1_1Layout.html#a35294f71c289402beeffaa72b277c93e"/>
+    <keyword type="function" name="Pango::Layout::set_width" link="classPango_1_1Layout.html#abb0b47950f32da332d6043c9de9b2b07"/>
+    <keyword type="function" name="Pango::Layout::get_width" link="classPango_1_1Layout.html#ab91e3097bcbff2882f2341cf35338dd2"/>
+    <keyword type="function" name="Pango::Layout::set_height" link="classPango_1_1Layout.html#a70af01986a0a16fe1b2d29297949a161"/>
+    <keyword type="function" name="Pango::Layout::get_height" link="classPango_1_1Layout.html#ad744e2727889fa2fbf7adbd78429fe0e"/>
+    <keyword type="function" name="Pango::Layout::set_wrap" link="classPango_1_1Layout.html#acf55858919f4dffd56f41d936f9d3bfb"/>
+    <keyword type="function" name="Pango::Layout::get_wrap" link="classPango_1_1Layout.html#a0a3b9c241952bba854750471f91f983e"/>
+    <keyword type="function" name="Pango::Layout::is_wrapped" link="classPango_1_1Layout.html#acc23cec27d04c9683e2838c51cf36cbd"/>
+    <keyword type="function" name="Pango::Layout::set_indent" link="classPango_1_1Layout.html#ad7e4ea552c0f5d6f3dd3744afde174c6"/>
+    <keyword type="function" name="Pango::Layout::get_indent" link="classPango_1_1Layout.html#aaf39e2d8d0473c08d47874dad90262b4"/>
+    <keyword type="function" name="Pango::Layout::set_spacing" link="classPango_1_1Layout.html#aa1d2006bc368b82e577f6afa97ae009a"/>
+    <keyword type="function" name="Pango::Layout::get_spacing" link="classPango_1_1Layout.html#acda5c0346b9a8de857f99769895a172c"/>
+    <keyword type="function" name="Pango::Layout::set_justify" link="classPango_1_1Layout.html#acd2bc770cfd32ce24c4a1ab8425ae22b"/>
+    <keyword type="function" name="Pango::Layout::get_justify" link="classPango_1_1Layout.html#a3321506b4252dec1eea17e31d6db2c4f"/>
+    <keyword type="function" name="Pango::Layout::get_auto_dir" link="classPango_1_1Layout.html#a77974dec0c584dac925186d69dfd24b3"/>
+    <keyword type="function" name="Pango::Layout::set_auto_dir" link="classPango_1_1Layout.html#ad69dbf5d3c9657f6c5030d0e33afb70f"/>
+    <keyword type="function" name="Pango::Layout::set_alignment" link="classPango_1_1Layout.html#a716f87fa132357a35cc003c349e2dc54"/>
+    <keyword type="function" name="Pango::Layout::get_alignment" link="classPango_1_1Layout.html#a336b72587ce6af123db71ebddd975ab5"/>
+    <keyword type="function" name="Pango::Layout::set_tabs" link="classPango_1_1Layout.html#abef27924517817fbbf8dd2fc16af153d"/>
+    <keyword type="function" name="Pango::Layout::get_tabs" link="classPango_1_1Layout.html#aef4c2311178427785ae176a77808e51f"/>
+    <keyword type="function" name="Pango::Layout::set_single_paragraph_mode" link="classPango_1_1Layout.html#a2e8b65d80e72b668112dc6e9d242bd30"/>
+    <keyword type="function" name="Pango::Layout::get_single_paragraph_mode" link="classPango_1_1Layout.html#a240e2b2f08a7328a3e411aa9f66d43a4"/>
+    <keyword type="function" name="Pango::Layout::set_ellipsize" link="classPango_1_1Layout.html#aec7d3c98d1b364b335aae67fa6cb144c"/>
+    <keyword type="function" name="Pango::Layout::get_ellipsize" link="classPango_1_1Layout.html#adb91426e44e7f3c788d885d3ec6bdc52"/>
+    <keyword type="function" name="Pango::Layout::is_ellipsized" link="classPango_1_1Layout.html#aa4f9979faf774b502095cefafd5c7dd5"/>
+    <keyword type="function" name="Pango::Layout::get_unknown_glyphs_count" link="classPango_1_1Layout.html#a5d471d494007d78a8409bbdf0f1e9616"/>
+    <keyword type="function" name="Pango::Layout::context_changed" link="classPango_1_1Layout.html#ab78ccca32cb57798beb743ae6778e7a8"/>
+    <keyword type="function" name="Pango::Layout::get_serial" link="classPango_1_1Layout.html#a014c042ee0ed2e9a72c3a23b1faa54fa"/>
+    <keyword type="function" name="Pango::Layout::get_log_attrs" link="classPango_1_1Layout.html#a7ebb87d469baffe9bbfe9a0cb2ab9bec"/>
+    <keyword type="function" name="Pango::Layout::index_to_pos" link="classPango_1_1Layout.html#adb188980ffa5191efc3f09db7ed364fb"/>
+    <keyword type="function" name="Pango::Layout::index_to_line_x" link="classPango_1_1Layout.html#ab922db9bbe6a863a159d0ad40932145c"/>
+    <keyword type="function" name="Pango::Layout::get_cursor_pos" link="classPango_1_1Layout.html#ac07d471345f868e9c115af24e93bf4fb"/>
+    <keyword type="function" name="Pango::Layout::get_cursor_strong_pos" link="classPango_1_1Layout.html#ad7da5d1aeec5d9141b572d4a853771d1"/>
+    <keyword type="function" name="Pango::Layout::get_cursor_weak_pos" link="classPango_1_1Layout.html#a1594bf5c94185ad06c3e675e1594b3ef"/>
+    <keyword type="function" name="Pango::Layout::move_cursor_visually" link="classPango_1_1Layout.html#abb90721eddfadabdd10d84b49248284a"/>
+    <keyword type="function" name="Pango::Layout::xy_to_index" link="classPango_1_1Layout.html#a7281fe2d705ba6f60d8b5d7a04a324f3"/>
+    <keyword type="function" name="Pango::Layout::get_extents" link="classPango_1_1Layout.html#a7abfd3c4e4e655255923e819426cd47d"/>
+    <keyword type="function" name="Pango::Layout::get_ink_extents" link="classPango_1_1Layout.html#ac9271540fa4663d4cc65bfca1767edf1"/>
+    <keyword type="function" name="Pango::Layout::get_logical_extents" link="classPango_1_1Layout.html#afeea1e256a22ae1cdb31760572ecee62"/>
+    <keyword type="function" name="Pango::Layout::get_pixel_extents" link="classPango_1_1Layout.html#a5aed2806ab714f655b46326a69924e3d"/>
+    <keyword type="function" name="Pango::Layout::get_pixel_ink_extents" link="classPango_1_1Layout.html#ab578209672c171c60b2e6bb5ce062570"/>
+    <keyword type="function" name="Pango::Layout::get_pixel_logical_extents" link="classPango_1_1Layout.html#a1b97e487748a9221025c2d76a59d205a"/>
+    <keyword type="function" name="Pango::Layout::get_size" link="classPango_1_1Layout.html#a568ce34e36d831764f5f66b223bd0f0b"/>
+    <keyword type="function" name="Pango::Layout::get_pixel_size" link="classPango_1_1Layout.html#a655927f6258a67b1dcfea770baee4703"/>
+    <keyword type="function" name="Pango::Layout::get_baseline" link="classPango_1_1Layout.html#a701fa3a4a90cb9ca00144ad2054dee7b"/>
+    <keyword type="function" name="Pango::Layout::get_line_count" link="classPango_1_1Layout.html#a0c89a9842b8e814815a4bac25350f8df"/>
+    <keyword type="function" name="Pango::Layout::get_line" link="classPango_1_1Layout.html#a5326ffecf052eaed930287f060d7407c"/>
+    <keyword type="function" name="Pango::Layout::get_line" link="classPango_1_1Layout.html#a23bb10058921b4c7cb9e09477037720b"/>
+    <keyword type="function" name="Pango::Layout::get_lines" link="classPango_1_1Layout.html#a2c0558852daeeec3bce52b905f4fdb9f"/>
+    <keyword type="function" name="Pango::Layout::get_lines" link="classPango_1_1Layout.html#a1813059dc4f5c95e15618921c2777915"/>
+    <keyword type="function" name="Pango::Layout::get_iter" link="classPango_1_1Layout.html#ab1bc0ca79b30c8f9f08255f9381726d2"/>
+    <keyword type="function" name="Pango::Layout::get_iter" link="classPango_1_1Layout.html#a646f263f04eadb88db99351e102660a7"/>
+    <keyword type="function" name="Pango::Layout::add_to_cairo_context" link="classPango_1_1Layout.html#a712ff9c7e17b28c9a691992aa072cc4d"/>
+    <keyword type="function" name="Pango::Layout::show_in_cairo_context" link="classPango_1_1Layout.html#a4594ac585d306b6cf013e640184d5e89"/>
+    <keyword type="function" name="Pango::Layout::get_type" link="classPango_1_1Layout.html#a50715204eb8db84101bb623c6978f7c3"/>
+    <keyword type="function" name="Pango::Layout::create" link="classPango_1_1Layout.html#a563434509d35cab69c4e85b7549a7bf9"/>
+    <keyword type="function" name="Pango::Layout::create" link="classPango_1_1Layout.html#ae0e8a32e79465fa38d2c59d0cbe482ae"/>
+    <keyword type="function" name="Pango::Layout::Layout" link="classPango_1_1Layout.html#a1886b8440b86d45845e9155e94081d15"/>
+    <keyword type="function" name="Pango::Layout::wrap" link="classPango_1_1Layout.html#a2f16e9892cb8734c93056d6089af173b"/>
+    <keyword type="struct" name="Pango::LayoutIter" link="classPango_1_1LayoutIter.html"/>
+    <keyword type="function" name="Pango::LayoutIter::LayoutIter" link="classPango_1_1LayoutIter.html#a80c0e71ba4b847fea69b676659832993"/>
+    <keyword type="function" name="Pango::LayoutIter::LayoutIter" link="classPango_1_1LayoutIter.html#a6b798211cfd9b5757f785cc8a24a13ee"/>
+    <keyword type="function" name="Pango::LayoutIter::LayoutIter" link="classPango_1_1LayoutIter.html#ab40cc29d5b4f807dd26e4f1096d3b662"/>
+    <keyword type="function" name="Pango::LayoutIter::operator=" link="classPango_1_1LayoutIter.html#ad17d5cab5bd7b8104db6f6abbd9f1217"/>
+    <keyword type="function" name="Pango::LayoutIter::LayoutIter" link="classPango_1_1LayoutIter.html#ac6bf1365a5b640fcdbb96853d7d72d3f"/>
+    <keyword type="function" name="Pango::LayoutIter::operator=" link="classPango_1_1LayoutIter.html#a4ce63901b524cbb2273cb1135c5c2c94"/>
+    <keyword type="function" name="Pango::LayoutIter::~LayoutIter" link="classPango_1_1LayoutIter.html#ad92c980e52cac33d09740def8a6420ea"/>
+    <keyword type="function" name="Pango::LayoutIter::swap" link="classPango_1_1LayoutIter.html#a730b038e4ac43186128d7da3f51f2562"/>
+    <keyword type="function" name="Pango::LayoutIter::gobj" link="classPango_1_1LayoutIter.html#a69b4e89ddf1468bda0aa6735c1d85304"/>
+    <keyword type="function" name="Pango::LayoutIter::gobj" link="classPango_1_1LayoutIter.html#a5aa5f7db63d466e4f2b17af110db0c24"/>
+    <keyword type="function" name="Pango::LayoutIter::gobj_copy" link="classPango_1_1LayoutIter.html#ab94ad810ca526b7f7e67931b748df034"/>
+    <keyword type="function" name="Pango::LayoutIter::get_index" link="classPango_1_1LayoutIter.html#ac15c8a922d72485968554c6d2faeb4a2"/>
+    <keyword type="function" name="Pango::LayoutIter::get_run" link="classPango_1_1LayoutIter.html#ad9f9e7d2db99df49b751033251c6805f"/>
+    <keyword type="function" name="Pango::LayoutIter::get_line" link="classPango_1_1LayoutIter.html#afa8f3e27b09f782868eb92feaecb309a"/>
+    <keyword type="function" name="Pango::LayoutIter::at_last_line" link="classPango_1_1LayoutIter.html#a477d46ddaa6338aa44fe8d86bb085578"/>
+    <keyword type="function" name="Pango::LayoutIter::get_layout" link="classPango_1_1LayoutIter.html#a19fe1f7e3d39dd7999f4e40c6e0b7ef6"/>
+    <keyword type="function" name="Pango::LayoutIter::get_layout" link="classPango_1_1LayoutIter.html#a24876dfcee0654964b72923dbd652560"/>
+    <keyword type="function" name="Pango::LayoutIter::next_char" link="classPango_1_1LayoutIter.html#a5cb391775311312ff6ef0f9aeda98fe3"/>
+    <keyword type="function" name="Pango::LayoutIter::next_cluster" link="classPango_1_1LayoutIter.html#a4308dd03691b9a69fdbedd0d26956f6d"/>
+    <keyword type="function" name="Pango::LayoutIter::next_run" link="classPango_1_1LayoutIter.html#a71868813375bb744856f0b1181fc5cec"/>
+    <keyword type="function" name="Pango::LayoutIter::next_line" link="classPango_1_1LayoutIter.html#abf0a39622c9379bdf381dab0cb1c11c1"/>
+    <keyword type="function" name="Pango::LayoutIter::get_char_extents" link="classPango_1_1LayoutIter.html#ac10c613bc4c27fcd05b559cb64654784"/>
+    <keyword type="function" name="Pango::LayoutIter::get_cluster_extents" link="classPango_1_1LayoutIter.html#a22236d82b52f8ef7a7d9096b6544e921"/>
+    <keyword type="function" name="Pango::LayoutIter::get_cluster_ink_extents" link="classPango_1_1LayoutIter.html#aed3b66096650cff9ba397d2ac7a98dcf"/>
+    <keyword type="function" name="Pango::LayoutIter::get_cluster_logical_extents" link="classPango_1_1LayoutIter.html#ae83a30bd63ab617b109406dfcbea71c4"/>
+    <keyword type="function" name="Pango::LayoutIter::get_run_extents" link="classPango_1_1LayoutIter.html#ae48a6d60c12f74bb0aca5ad15e7a5b0a"/>
+    <keyword type="function" name="Pango::LayoutIter::get_run_ink_extents" link="classPango_1_1LayoutIter.html#a06ceac340d27c1e012b65e50f8611b1a"/>
+    <keyword type="function" name="Pango::LayoutIter::get_run_logical_extents" link="classPango_1_1LayoutIter.html#ae8aac012a6754c28b959eddb55a2e9ab"/>
+    <keyword type="function" name="Pango::LayoutIter::get_line_extents" link="classPango_1_1LayoutIter.html#a5e07d70b6c0eeddd3b9b8a20a37b9306"/>
+    <keyword type="function" name="Pango::LayoutIter::get_line_ink_extents" link="classPango_1_1LayoutIter.html#ad60c3c284c1d5ceb368a073e555cb982"/>
+    <keyword type="function" name="Pango::LayoutIter::get_line_logical_extents" link="classPango_1_1LayoutIter.html#a0d04a72834307c125ae33022ddeb2e03"/>
+    <keyword type="function" name="Pango::LayoutIter::get_line_yrange" link="classPango_1_1LayoutIter.html#ab396e9e8c415fc133d41e6564d11b4a3"/>
+    <keyword type="function" name="Pango::LayoutIter::get_layout_extents" link="classPango_1_1LayoutIter.html#a79c82fc537f04a5b9c93a4d2c9efb67c"/>
+    <keyword type="function" name="Pango::LayoutIter::get_layout_ink_extents" link="classPango_1_1LayoutIter.html#a3c0f7e1f7794bff170ced7c0f4ce7807"/>
+    <keyword type="function" name="Pango::LayoutIter::get_layout_logical_extents" link="classPango_1_1LayoutIter.html#a50f1cabe50dc41d930def0f98a0ce053"/>
+    <keyword type="function" name="Pango::LayoutIter::get_baseline" link="classPango_1_1LayoutIter.html#a8449b01b38d8a23902fa662459334cc1"/>
+    <keyword type="function" name="Pango::LayoutIter::get_type" link="classPango_1_1LayoutIter.html#aff1bb6f6eb942a0daf5b112e9de84b60"/>
+    <keyword type="function" name="Pango::LayoutIter::swap" link="classPango_1_1LayoutIter.html#a8d281a3a31e49c381ad8e628eb7e4128"/>
+    <keyword type="function" name="Pango::LayoutIter::wrap" link="classPango_1_1LayoutIter.html#aa90db99efe9f917ca2413b011078048a"/>
+    <keyword type="struct" name="Pango::LayoutLine" link="classPango_1_1LayoutLine.html"/>
+    <keyword type="function" name="Pango::LayoutLine::reference" link="classPango_1_1LayoutLine.html#a51618ce64e333dc8b55f0c588a914917"/>
+    <keyword type="function" name="Pango::LayoutLine::unreference" link="classPango_1_1LayoutLine.html#a40d1aab5b7a26a47ae2fe3ead5092a8b"/>
+    <keyword type="function" name="Pango::LayoutLine::gobj" link="classPango_1_1LayoutLine.html#a5ee5d864ea3ccdf8e76c464ffd684f45"/>
+    <keyword type="function" name="Pango::LayoutLine::gobj" link="classPango_1_1LayoutLine.html#afacb30f2eaf99842a592c8fc1d5a2f30"/>
+    <keyword type="function" name="Pango::LayoutLine::gobj_copy" link="classPango_1_1LayoutLine.html#ad6833385e9b4c11d8da09e83af006943"/>
+    <keyword type="function" name="Pango::LayoutLine::LayoutLine" link="classPango_1_1LayoutLine.html#a0bec00071cfe3d99312adecea02c598c"/>
+    <keyword type="function" name="Pango::LayoutLine::LayoutLine" link="classPango_1_1LayoutLine.html#a7b682c0f2c79a8cc2c64c97e117bcb00"/>
+    <keyword type="function" name="Pango::LayoutLine::operator=" link="classPango_1_1LayoutLine.html#afcda02cb308ac0a0fe46526e486ff294"/>
+    <keyword type="function" name="Pango::LayoutLine::x_to_index" link="classPango_1_1LayoutLine.html#af77f966e3d31f3ab51b9e70b394f48db"/>
+    <keyword type="function" name="Pango::LayoutLine::index_to_x" link="classPango_1_1LayoutLine.html#a1de6ad107210fe4baa8d0337829fbc5a"/>
+    <keyword type="function" name="Pango::LayoutLine::get_x_ranges" link="classPango_1_1LayoutLine.html#aeaae1724a7869060362dc74f09fc2a84"/>
+    <keyword type="function" name="Pango::LayoutLine::get_extents" link="classPango_1_1LayoutLine.html#a885841dbd749caf36743efb7522058c7"/>
+    <keyword type="function" name="Pango::LayoutLine::get_ink_extents" link="classPango_1_1LayoutLine.html#aa4bf703ce2d452be39a3c0de24b5170e"/>
+    <keyword type="function" name="Pango::LayoutLine::get_logical_extents" link="classPango_1_1LayoutLine.html#a7e717f4ff9452a20a16c7b0fda5378bb"/>
+    <keyword type="function" name="Pango::LayoutLine::get_pixel_extents" link="classPango_1_1LayoutLine.html#a6d408d04af088e25da6d352fcedcfbc6"/>
+    <keyword type="function" name="Pango::LayoutLine::get_pixel_ink_extents" link="classPango_1_1LayoutLine.html#a3b0ddfd8ff3967e1888d3369e017748a"/>
+    <keyword type="function" name="Pango::LayoutLine::get_pixel_logical_extents" link="classPango_1_1LayoutLine.html#a5a1af2c6e8b46e3c1b2b169afb7d68a2"/>
+    <keyword type="function" name="Pango::LayoutLine::show_in_cairo_context" link="classPango_1_1LayoutLine.html#a52843d39eddd6f654b610309fff871a9"/>
+    <keyword type="function" name="Pango::LayoutLine::add_to_cairo_context" link="classPango_1_1LayoutLine.html#abb1cb484c44661364df684d14a7e884d"/>
+    <keyword type="function" name="Pango::LayoutLine::get_layout" link="classPango_1_1LayoutLine.html#ae3e8851e5e2481bf4559958338e01d1a"/>
+    <keyword type="function" name="Pango::LayoutLine::get_layout" link="classPango_1_1LayoutLine.html#a82cb8f97313369fcbbaf0244d1d81f75"/>
+    <keyword type="function" name="Pango::LayoutLine::get_length" link="classPango_1_1LayoutLine.html#a50a51d9afd8cad40f16336221b810a0b"/>
+    <keyword type="function" name="Pango::LayoutLine::get_start_index" link="classPango_1_1LayoutLine.html#a72a04c99b420f18a61778ebcbdaf6998"/>
+    <keyword type="function" name="Pango::LayoutLine::operator delete" link="classPango_1_1LayoutLine.html#a65833ffd409701b3af4955748bebcbcb"/>
+    <keyword type="function" name="Pango::LayoutLine::wrap" link="classPango_1_1LayoutLine.html#a1c22164b9cc710ab83b82a8833f403d6"/>
+    <keyword type="struct" name="Pango::LayoutLineTraits" link="structPango_1_1LayoutLineTraits.html"/>
+    <keyword type="typedef" name="Pango::LayoutLineTraits::CppType" link="structPango_1_1LayoutLineTraits.html#a0a4dc9d06c14818fa8f98f9537a7909c"/>
+    <keyword type="typedef" name="Pango::LayoutLineTraits::CType" link="structPango_1_1LayoutLineTraits.html#aa69c4fd05703fe13885b4d755413293f"/>
+    <keyword type="typedef" name="Pango::LayoutLineTraits::CTypeNonConst" link="structPango_1_1LayoutLineTraits.html#ad368f52221aa89c1622033187535daa0"/>
+    <keyword type="function" name="Pango::LayoutLineTraits::to_c_type" link="structPango_1_1LayoutLineTraits.html#a3960d390db1097e6decb89d9b9845ba8"/>
+    <keyword type="function" name="Pango::LayoutLineTraits::to_c_type" link="structPango_1_1LayoutLineTraits.html#aca013b289b7415e4ad93d7096e5621f6"/>
+    <keyword type="function" name="Pango::LayoutLineTraits::to_cpp_type" link="structPango_1_1LayoutLineTraits.html#aa8ab274cd6be1fd67ce596bbf7bc5a44"/>
+    <keyword type="function" name="Pango::LayoutLineTraits::release_c_type" link="structPango_1_1LayoutLineTraits.html#a3d6eb60a2c490aceb69cd7b212681b0e"/>
+    <keyword type="struct" name="Pango::LayoutRun" link="classPango_1_1LayoutRun.html"/>
+    <keyword type="function" name="Pango::LayoutRun::LayoutRun" link="classPango_1_1LayoutRun.html#a64cd91adeb1fba1efc02a8b1d297fe66"/>
+    <keyword type="function" name="Pango::LayoutRun::LayoutRun" link="classPango_1_1LayoutRun.html#abe7ac5c119f545f1f512ea4ba85c3ab0"/>
+    <keyword type="function" name="Pango::LayoutRun::LayoutRun" link="classPango_1_1LayoutRun.html#a5941090b4634dc06674450f891d7f1b4"/>
+    <keyword type="function" name="Pango::LayoutRun::operator=" link="classPango_1_1LayoutRun.html#ae2070613096b038cbbd876f2b1e05ed9"/>
+    <keyword type="function" name="Pango::LayoutRun::LayoutRun" link="classPango_1_1LayoutRun.html#ad6fe7323f7bd7c4e6e295ffa3b182225"/>
+    <keyword type="function" name="Pango::LayoutRun::operator=" link="classPango_1_1LayoutRun.html#a74d76aad3f8167e19bdf1e7f75a8d219"/>
+    <keyword type="function" name="Pango::LayoutRun::~LayoutRun" link="classPango_1_1LayoutRun.html#aeafad39567502855f7518805f11cc227"/>
+    <keyword type="function" name="Pango::LayoutRun::swap" link="classPango_1_1LayoutRun.html#a54daf4c413dc333757fb2bcd4a890e8b"/>
+    <keyword type="function" name="Pango::LayoutRun::gobj" link="classPango_1_1LayoutRun.html#a4487d4e9f6d7ae8600770c075296fbd6"/>
+    <keyword type="function" name="Pango::LayoutRun::gobj" link="classPango_1_1LayoutRun.html#a7be3d046511af77266c650d8cb5ba75a"/>
+    <keyword type="function" name="Pango::LayoutRun::gobj_copy" link="classPango_1_1LayoutRun.html#a95c8d1f5ff033491bced7858fcc1ee05"/>
+    <keyword type="function" name="Pango::LayoutRun::get_type" link="classPango_1_1LayoutRun.html#a2fa1eea95e6010a67a766812d6cac5d7"/>
+    <keyword type="function" name="Pango::LayoutRun::swap" link="classPango_1_1LayoutRun.html#a0b86b92be9f075cdefd2b8e2b46c9c42"/>
+    <keyword type="function" name="Pango::LayoutRun::wrap" link="classPango_1_1LayoutRun.html#a733a9384d14e18f6262060e29a7a182d"/>
+    <keyword type="struct" name="Pango::Rectangle" link="classPango_1_1Rectangle.html"/>
+    <keyword type="function" name="Pango::Rectangle::Rectangle" link="classPango_1_1Rectangle.html#a0cd6ca53607a895953f891eed13c0cc3"/>
+    <keyword type="function" name="Pango::Rectangle::Rectangle" link="classPango_1_1Rectangle.html#a29b5e133f9693e5f9b8a111f4ed3a2f1"/>
+    <keyword type="function" name="Pango::Rectangle::Rectangle" link="classPango_1_1Rectangle.html#a7a59cf722b8458c93a5046500e78841b"/>
+    <keyword type="function" name="Pango::Rectangle::set_x" link="classPango_1_1Rectangle.html#a35bcd9f759a6b10360214c5a62acee85"/>
+    <keyword type="function" name="Pango::Rectangle::set_y" link="classPango_1_1Rectangle.html#a78150db0769e7efdcb844b8c4120156f"/>
+    <keyword type="function" name="Pango::Rectangle::set_width" link="classPango_1_1Rectangle.html#aaf32fdb284d28c5f9ec8c2441e8c36fb"/>
+    <keyword type="function" name="Pango::Rectangle::set_height" link="classPango_1_1Rectangle.html#a8461f50b432118ced8405e335bc10e76"/>
+    <keyword type="function" name="Pango::Rectangle::get_x" link="classPango_1_1Rectangle.html#a93f1bbd0f5f634bad7299cd296eaa4b2"/>
+    <keyword type="function" name="Pango::Rectangle::get_y" link="classPango_1_1Rectangle.html#ae077f3e70ad62788df648953341523d3"/>
+    <keyword type="function" name="Pango::Rectangle::get_width" link="classPango_1_1Rectangle.html#aa55beb49d0ac70e64728919a77052a53"/>
+    <keyword type="function" name="Pango::Rectangle::get_height" link="classPango_1_1Rectangle.html#a359508a985d5ccbddd3b857f4890e5bb"/>
+    <keyword type="function" name="Pango::Rectangle::get_ascent" link="classPango_1_1Rectangle.html#a8138d6b20460b4a6952043982f02f2ee"/>
+    <keyword type="function" name="Pango::Rectangle::get_descent" link="classPango_1_1Rectangle.html#a0167c887cf4567e0aebfcff85cb87631"/>
+    <keyword type="function" name="Pango::Rectangle::get_lbearing" link="classPango_1_1Rectangle.html#aba42563d229dedbecd23932909f9eb55"/>
+    <keyword type="function" name="Pango::Rectangle::get_rbearing" link="classPango_1_1Rectangle.html#acd4a30450b190f84e10931864fe111ad"/>
+    <keyword type="function" name="Pango::Rectangle::equal" link="classPango_1_1Rectangle.html#a4056c9f398ae224f7f7f09802c8adad4"/>
+    <keyword type="function" name="Pango::Rectangle::gobj" link="classPango_1_1Rectangle.html#a8994a2806f267bfa0602453fdf83697e"/>
+    <keyword type="function" name="Pango::Rectangle::gobj" link="classPango_1_1Rectangle.html#a91cce9e066d6735dbd50fcc9fbfb7ac6"/>
+    <keyword type="function" name="Pango::Rectangle::operator==" link="classPango_1_1Rectangle.html#a09abfed52b7865bf069edadf2905ad86"/>
+    <keyword type="function" name="Pango::Rectangle::operator!=" link="classPango_1_1Rectangle.html#a888f0ec4c91e085c42ea8c7a72d45dbe"/>
+    <keyword type="function" name="Pango::Rectangle::wrap" link="classPango_1_1Rectangle.html#a6ff94b931b4d1ecb9d42296b0973fb69"/>
+    <keyword type="function" name="Pango::Rectangle::wrap" link="classPango_1_1Rectangle.html#a92bbf3009397ad205adb28c1053707fc"/>
+    <keyword type="struct" name="Pango::Renderer" link="classPango_1_1Renderer.html"/>
+    <keyword type="function" name="Pango::Renderer::Renderer" link="classPango_1_1Renderer.html#a37b1dde7bd5f2d286879fad86a2ad1fd"/>
+    <keyword type="function" name="Pango::Renderer::operator=" link="classPango_1_1Renderer.html#a5b916b03dd027d48d88318deb6d15414"/>
+    <keyword type="function" name="Pango::Renderer::~Renderer" link="classPango_1_1Renderer.html#affeac8a7ad93f1ed502481909e84b99d"/>
+    <keyword type="function" name="Pango::Renderer::gobj" link="classPango_1_1Renderer.html#a933338b41e007340cb3edae9ffc53f54"/>
+    <keyword type="function" name="Pango::Renderer::gobj" link="classPango_1_1Renderer.html#a01a305ece1d31941286b06e57ffbf8e0"/>
+    <keyword type="function" name="Pango::Renderer::gobj_copy" link="classPango_1_1Renderer.html#a615fd36f1a3c8d02fe4284973ea67e5c"/>
+    <keyword type="function" name="Pango::Renderer::draw_layout" link="classPango_1_1Renderer.html#a54819e67fc6ee2a111889412f0ff6106"/>
+    <keyword type="function" name="Pango::Renderer::draw_layout_line" link="classPango_1_1Renderer.html#a201270274aacb8b2c5305da6752d2469"/>
+    <keyword type="function" name="Pango::Renderer::draw_glyphs" link="classPango_1_1Renderer.html#aa7a711ddbc243f79812dbc6a39142c56"/>
+    <keyword type="function" name="Pango::Renderer::draw_glyph_item" link="classPango_1_1Renderer.html#a800432ff5472dfdf6d9efc90df16c8ce"/>
+    <keyword type="function" name="Pango::Renderer::draw_rectangle" link="classPango_1_1Renderer.html#ab52a92011268f7dbd9d004632f5098c0"/>
+    <keyword type="function" name="Pango::Renderer::draw_error_underline" link="classPango_1_1Renderer.html#ab4b66f57b1fafd6745bc0472d1badc0d"/>
+    <keyword type="function" name="Pango::Renderer::draw_trapezoid" link="classPango_1_1Renderer.html#a6350b687c6f747ef858a0e3bf939eb86"/>
+    <keyword type="function" name="Pango::Renderer::draw_glyph" link="classPango_1_1Renderer.html#aa225011a731fa2e488197e365071d00a"/>
+    <keyword type="function" name="Pango::Renderer::activate" link="classPango_1_1Renderer.html#a423811649e82820fd411217ed8f38f9a"/>
+    <keyword type="function" name="Pango::Renderer::deactivate" link="classPango_1_1Renderer.html#a72abda278e55b7853354769a27992eca"/>
+    <keyword type="function" name="Pango::Renderer::part_changed" link="classPango_1_1Renderer.html#a1724ca84c38e266e2d575a7b0f3c14af"/>
+    <keyword type="function" name="Pango::Renderer::set_color" link="classPango_1_1Renderer.html#ae5e40ad7b42657331d3a1235390154ce"/>
+    <keyword type="function" name="Pango::Renderer::get_color" link="classPango_1_1Renderer.html#aea6a3d9892de777f5f11cfdbf8fee661"/>
+    <keyword type="function" name="Pango::Renderer::set_alpha" link="classPango_1_1Renderer.html#af92b1a55873d988d41daa87b10929a84"/>
+    <keyword type="function" name="Pango::Renderer::get_alpha" link="classPango_1_1Renderer.html#aea9e92a471bbfffe7d555d4a5b2203a8"/>
+    <keyword type="function" name="Pango::Renderer::set_matrix" link="classPango_1_1Renderer.html#a511eb830c60162cb96095aaa32d726d6"/>
+    <keyword type="function" name="Pango::Renderer::get_matrix" link="classPango_1_1Renderer.html#a7f1bf54ec972cce8331fb8fbd91ccede"/>
+    <keyword type="function" name="Pango::Renderer::get_layout" link="classPango_1_1Renderer.html#a79877e7c24d31049bce33da662690804"/>
+    <keyword type="function" name="Pango::Renderer::get_layout" link="classPango_1_1Renderer.html#a5968c09ba459e2b28840fa9d366cd44b"/>
+    <keyword type="function" name="Pango::Renderer::get_layout_line" link="classPango_1_1Renderer.html#a6ad21c9bb8d4d93183bba17811b9310c"/>
+    <keyword type="function" name="Pango::Renderer::get_layout_line" link="classPango_1_1Renderer.html#a0304dc942d6728bdefc9d9d7a3e7c55e"/>
+    <keyword type="function" name="Pango::Renderer::get_type" link="classPango_1_1Renderer.html#ab47019c701a6e05145f8ec1b4f87914a"/>
+    <keyword type="function" name="Pango::Renderer::wrap" link="classPango_1_1Renderer.html#afe4144e972be166db349ad1924a39942"/>
+    <keyword type="struct" name="Pango::TabArray" link="classPango_1_1TabArray.html"/>
+    <keyword type="function" name="Pango::TabArray::TabArray" link="classPango_1_1TabArray.html#aece7134b5b5ff8c4f5b1d94bf89e6102"/>
+    <keyword type="function" name="Pango::TabArray::TabArray" link="classPango_1_1TabArray.html#a2b70b287ce29e6db1379faa545ccf2d7"/>
+    <keyword type="function" name="Pango::TabArray::TabArray" link="classPango_1_1TabArray.html#a87bfd572d0a42d64f8b4cb9610531c7a"/>
+    <keyword type="function" name="Pango::TabArray::operator=" link="classPango_1_1TabArray.html#a1bb6c511108e06de82f463ae9291f6c8"/>
+    <keyword type="function" name="Pango::TabArray::TabArray" link="classPango_1_1TabArray.html#a018152143987d59a8ca7b4c1e4c85b35"/>
+    <keyword type="function" name="Pango::TabArray::operator=" link="classPango_1_1TabArray.html#a13bc9d7ba8bce38bc8813289dfcccba6"/>
+    <keyword type="function" name="Pango::TabArray::~TabArray" link="classPango_1_1TabArray.html#a714c10af4be3440ffcfbe5d22469b4f1"/>
+    <keyword type="function" name="Pango::TabArray::swap" link="classPango_1_1TabArray.html#a02d3cd9b997a07af7c00d88338377803"/>
+    <keyword type="function" name="Pango::TabArray::gobj" link="classPango_1_1TabArray.html#a1fe1498c89f2276e46ce1874888880f8"/>
+    <keyword type="function" name="Pango::TabArray::gobj" link="classPango_1_1TabArray.html#ac1e941056777302ccd88dd159b0773b9"/>
+    <keyword type="function" name="Pango::TabArray::gobj_copy" link="classPango_1_1TabArray.html#ab51830761b532f593552650f73f6e570"/>
+    <keyword type="function" name="Pango::TabArray::TabArray" link="classPango_1_1TabArray.html#ad3c96700e03d68f01e115b8b067c0b39"/>
+    <keyword type="function" name="Pango::TabArray::get_size" link="classPango_1_1TabArray.html#ac48079400485d66a71d059e86b0191c3"/>
+    <keyword type="function" name="Pango::TabArray::resize" link="classPango_1_1TabArray.html#a4db8d1c376e1f818b0872dd3e9e54921"/>
+    <keyword type="function" name="Pango::TabArray::set_tab" link="classPango_1_1TabArray.html#a1b413f6842f4c282da206b8f5f353ef9"/>
+    <keyword type="function" name="Pango::TabArray::get_tab" link="classPango_1_1TabArray.html#a9e91b4dbdc26d3cfee69ec78580275c1"/>
+    <keyword type="function" name="Pango::TabArray::get_tabs" link="classPango_1_1TabArray.html#ad81336c0d4981a537fc1e5f654623a3e"/>
+    <keyword type="function" name="Pango::TabArray::get_positions_in_pixels" link="classPango_1_1TabArray.html#a177070aaabb095a991f2cb3e91738fe6"/>
+    <keyword type="function" name="Pango::TabArray::get_type" link="classPango_1_1TabArray.html#a3438e58a7029202207699d1b58217367"/>
+    <keyword type="function" name="Pango::TabArray::swap" link="classPango_1_1TabArray.html#a6595e7d1149d1709ffc30bd6ed4b4214"/>
+    <keyword type="function" name="Pango::TabArray::wrap" link="classPango_1_1TabArray.html#a6f4a9f4dc51e9c28e2cb67eaf7594ecb"/>
+    <keyword type="typedef" name="Pango::LogAttr" link="namespacePango.html#ab0b3468a9efcaec7022885d46fd43d09"/>
+    <keyword type="typedef" name="Pango::SListHandle_Attribute" link="namespacePango.html#a4f48f6fb710f160141407363d5c4a516"/>
+    <keyword type="typedef" name="Pango::Glyph" link="namespacePango.html#af6dc8c4b054d52aede51e2a2bb63522c"/>
+    <keyword type="typedef" name="Pango::GlyphUnit" link="namespacePango.html#a33c766aed1dc1cb78f701d1da6f4b79d"/>
+    <keyword type="typedef" name="Pango::GlyphVisAttr" link="namespacePango.html#a0afb1954a4e13b6b081956f7710050dd"/>
+    <keyword type="typedef" name="Pango::ListHandle_Item" link="namespacePango.html#a9a90ec8e7f92d7477d179910e6176455"/>
+    <keyword type="typedef" name="Pango::SListHandle_LayoutLine" link="namespacePango.html#a1f636822a058f6e5da81377e7f8f6cc7"/>
+    <keyword type="typedef" name="Pango::SListHandle_ConstLayoutLine" link="namespacePango.html#a0bbb7ae1485076ce063b20b7994275c3"/>
+    <keyword type="typedef" name="Pango::GlyphItem" link="namespacePango.html#a907825453575e7e417c1ce075492fd64"/>
+    <keyword type="typedef" name="Pango::Matrix" link="namespacePango.html#a5565a2f93d4fb8f943cc2d1fb2d476e1"/>
+    <keyword type="enum" name="Pango::AttrType" link="group__pangommEnums.html#ga7b189818298629d43d4f2ee7ef5b52e1"/>
+    <keyword type="enum" name="Pango::Underline" link="group__pangommEnums.html#gabbd069e35161c1ad698b7f1fe70aec57"/>
+    <keyword type="enum" name="Pango::Direction" link="group__pangommEnums.html#ga8fa031ece55a28777a84d0115829f601"/>
+    <keyword type="enum" name="Pango::GravityHint" link="group__pangommEnums.html#ga405d1530ab8ac4993a0921a27fe035dd"/>
+    <keyword type="enum" name="Pango::CoverageLevel" link="group__pangommEnums.html#ga6f0781af106b8955ec880670c9ac512d"/>
+    <keyword type="enum" name="Pango::Style" link="group__pangommEnums.html#ga0a57bd35d5acd409367672e19b67e2f5"/>
+    <keyword type="enum" name="Pango::Variant" link="group__pangommEnums.html#ga30ba1457cecb545a04d1f029ca0e86ed"/>
+    <keyword type="enum" name="Pango::Stretch" link="group__pangommEnums.html#gac2df3c6939d06e2cd565e9c943428ad3"/>
+    <keyword type="enum" name="Pango::Weight" link="group__pangommEnums.html#ga12a1faf309bdcddde041a732070970f4"/>
+    <keyword type="enum" name="Pango::FontMask" link="group__pangommEnums.html#ga1c0868659f2899d822c5c600ee57db74"/>
+    <keyword type="enum" name="Pango::Gravity" link="group__pangommEnums.html#ga64db2216c86f2ce624b9ef0489bf1df4"/>
+    <keyword type="enum" name="Pango::Script" link="group__pangommEnums.html#gaa65c27f81d16430babc5180859e630c4"/>
+    <keyword type="enum" name="Pango::Alignment" link="group__pangommEnums.html#gaf6b8926663368e305380e01f8858caca"/>
+    <keyword type="enum" name="Pango::WrapMode" link="group__pangommEnums.html#gad57530f0324d4fd9e8a2fcec904ab240"/>
+    <keyword type="enum" name="Pango::EllipsizeMode" link="group__pangommEnums.html#ga982cbecf0c4ee56766aab816a7f5ed0b"/>
+    <keyword type="enum" name="Pango::RenderPart" link="group__pangommEnums.html#ga4693406cc96d2a394dbe67f895d5323c"/>
+    <keyword type="enum" name="Pango::TabAlign" link="group__pangommEnums.html#ga0d01fa409cf9416e032cfc6a2aa7855a"/>
+    <keyword type="function" name="Pango::operator|" link="group__pangommEnums.html#gad7d87b79cb39a2ceadc8998472ccaaab"/>
+    <keyword type="function" name="Pango::operator&amp;" link="group__pangommEnums.html#ga7886cc2239703df4614cf1f888a914a0"/>
+    <keyword type="function" name="Pango::operator^" link="group__pangommEnums.html#ga790ad85872df0908099ba01eb053ad66"/>
+    <keyword type="function" name="Pango::operator~" link="group__pangommEnums.html#ga98948c0f251990b9d736625aebb07e53"/>
+    <keyword type="function" name="Pango::operator|=" link="group__pangommEnums.html#ga5fa501aad98b4851172b36c922145862"/>
+    <keyword type="function" name="Pango::operator&amp;=" link="group__pangommEnums.html#gad0bec3490c4fdbc874813de94e5236e3"/>
+    <keyword type="function" name="Pango::operator^=" link="group__pangommEnums.html#ga9f6518348fb00f936c1dbb5bbe882863"/>
+    <keyword type="function" name="Pango::init" link="namespacePango.html#a55f7c71f1f5641566e0333820494dcdf"/>
+  </functions>
+</book>
